@@ -122,12 +122,12 @@ jobs:
         if: github.event_name != 'push' && github.event.inputs.skip_update != 'true' && github.event.inputs.cleanup_only != 'true'
         env:
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
-          ARK_API_BASE_URL: ${{ secrets.ARK_API_BASE_URL || 'https://ark.cn-beijing.volces.com/api/coding/v3' }}
-          ARK_MODEL_NAME: ${{ secrets.ARK_MODEL_NAME || 'deepseek-v4-flash' }}
+          ARK_API_BASE_URL: ${{ secrets.ARK_API_BASE_URL || 'https://api.deepseek.com/v1' }}
+          ARK_MODEL_NAME: ${{ secrets.ARK_MODEL_NAME || 'deepseek-flash' }}
           SMART_MODEL_NAME: ${{ secrets.SMART_MODEL_NAME || secrets.ARK_MODEL_NAME || 'deepseek-v4-pro' }}
-          ARK_TIMEOUT_SECONDS: ${{ vars.ARK_TIMEOUT_SECONDS || '60' }}
-          ARK_SURVEY_TIMEOUT_SECONDS: ${{ vars.ARK_SURVEY_TIMEOUT_SECONDS || '180' }}
-          ARK_SURVEY_MAX_TOKENS: ${{ vars.ARK_SURVEY_MAX_TOKENS || '8192' }}
+          ARK_TIMEOUT_SECONDS: ${{ vars.ARK_TIMEOUT_SECONDS || '180' }}
+          ARK_SURVEY_TIMEOUT_SECONDS: ${{ vars.ARK_SURVEY_TIMEOUT_SECONDS || '300' }}
+          ARK_SURVEY_MAX_TOKENS: ${{ vars.ARK_SURVEY_MAX_TOKENS || '16384' }}
           MINERU_API_KEY: ${{ secrets.MINERU_API_KEY }}
           MINERU_BASE_URL: https://mineru.net/api/v4
           MINERU_API_MODE: official
