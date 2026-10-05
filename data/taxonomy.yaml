@@ -1,0 +1,34 @@
+schema_version: awesome-hub.taxonomy.v1
+generated_at: '2026-10-05T14:14:26Z'
+mode: propose
+nodes:
+- id: method
+  label: method
+  description: 新模型、算法、训练或推理方法
+  keywords:
+  - method
+- id: benchmark
+  label: benchmark
+  description: 数据集、评测任务、指标和基准测试
+  keywords:
+  - benchmark
+- id: system
+  label: system
+  description: 系统、框架、平台和工具（含 agent framework、toolchain、工业软件集成）
+  keywords:
+  - system
+- id: theory
+  label: theory
+  description: 理论推导、证明、误差或收敛性分析
+  keywords:
+  - theory
+- id: survey
+  label: survey
+  description: 综述、分类体系和观点总结
+  keywords:
+  - survey
+- id: application
+  label: application
+  description: 面向具体工程场景的应用研究（翼型/机翼/叶轮/整车等）
+  keywords:
+  - application

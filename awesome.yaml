@@ -1,0 +1,326 @@
+project:
+  name: Awesome AI4CAE Hub
+  slug: awesome-ai4cae-hub
+  description: 'A curated hub for AI-driven CAE: airfoil aerodynamic design agents,
+    tool-using LLM agents, aerodynamic parameter optimization, self-evolving agents,
+    and CFD data-driven solvers.'
+  description_zh: 面向 AI 驱动 CAE 的精选 hub：翼型气动设计智能体、LLM 工具调用、气动参数优化、智能体自进化与 CFD 数据驱动求解。
+  github_url: https://github.com/leewww-code/awesome-ai4cae-hub
+  site_url: https://leewww-code.github.io/awesome-ai4cae-hub
+  generator_repo: jin-s13/awesome-hub-generator
+research:
+  keywords:
+  - airfoil
+  - airfoil design
+  - airfoil optimization
+  - aerodynamic shape optimization
+  - aerodynamic design
+  - wing design
+  - computational fluid dynamics
+  - CFD surrogate
+  - turbulence modeling
+  - Reynolds-averaged Navier-Stokes
+  - LLM agent
+  - tool use
+  - tool calling
+  - engineering design agent
+  - scientific agent
+  - agentic workflow
+  - multi-agent system
+  - self-evolving agent
+  - self-improving agent
+  - self-refine
+  - automated algorithm discovery
+  - automated machine learning
+  - LLM-driven optimization
+  - Bayesian optimization
+  - surrogate model
+  - design space exploration
+  - constrained optimization
+  - evolutionary optimization
+  - gradient-based shape optimization
+  - adjoint method
+  - neural operator
+  - physics-informed neural network
+  - PINN
+  - graph neural network simulation
+  - operator learning
+  - reduced order model
+  - deep learning solver
+  - differentiable simulation
+  - mesh generation
+  taxonomy:
+    paper_types:
+    - label: method
+      description: 新模型、算法、训练或推理方法
+    - label: benchmark
+      description: 数据集、评测任务、指标和基准测试
+    - label: system
+      description: 系统、框架、平台和工具（含 agent framework、toolchain、工业软件集成）
+    - label: theory
+      description: 理论推导、证明、误差或收敛性分析
+    - label: survey
+      description: 综述、分类体系和观点总结
+    - label: application
+      description: 面向具体工程场景的应用研究（翼型/机翼/叶轮/整车等）
+    dimensions:
+    - name: agent_role
+      description: 'agent capability focus: tool-invocation, planning, memory, self-evolution,
+        multi-agent collaboration'
+    - name: cae_task
+      description: 'CAE task: shape design, mesh generation, CFD solving, surrogate
+        modeling, optimization, uncertainty quantification'
+    - name: optimization_method
+      description: 'optimization or search method: Bayesian optimization, evolutionary
+        algorithm, gradient/adjoint, reinforcement learning, LLM-driven search'
+    - name: solver_technique
+      description: 'physical/ML solver technique: PINN, neural operator, GNN, transformer,
+        ROM/POD, differentiable solver, fine-tuning'
+    - name: geometry_representation
+      description: 'geometry parameterization: CST, B-spline/NURBS, Bezier, free-form
+        deformation, point cloud, mesh, CAD/CSG'
+    - name: tooling
+      description: external tools, solvers or simulators invoked (OpenFOAM, SU2, ANSYS
+        Fluent, XFOIL, Abaqus, custom CFD)
+  taxonomy_discovery:
+    enabled: true
+    update_mode: propose
+    max_depth: 3
+    max_children_per_node: 8
+    nodes: []
+    source_headings: []
+  relevance_criteria:
+    include:
+    - LLM/agent systems that design, optimize, or analyze aerodynamic or fluid-dynamic
+      geometries (airfoil, wing, blade, duct, vehicle)
+    - Agent frameworks with tool invocation, code execution, solver calling, or simulation-in-the-loop
+      for engineering/CAE tasks
+    - Self-evolving / self-improving agents, automated algorithm or workflow discovery,
+      LLM-driven optimization loops
+    - Aerodynamic shape optimization, airfoil/wing design optimization, adjoint or
+      gradient-based shape design, multi-objective aerodynamic trade studies
+    - Surrogate models and reduced-order models for aerodynamics or fluid flows (Kriging,
+      Gaussian process, deep surrogate, POD/ROM)
+    - 'Data-driven CFD: neural operators, PINNs, GNN-based flow solvers, differentiable
+      CFD, ML turbulence/closure models, learned mesh generation'
+    - Design-space exploration, Bayesian optimization, evolutionary or RL-based optimization
+      applied to fluid/thermal/structural CAE problems
+    - CAE datasets, benchmarks, and open-source toolchains supporting AI-for-simulation
+      workflows
+    exclude:
+    - General LLM/NLP research without engineering design, simulation, or CAE grounding
+      (prompting, RAG, chat, code assistant benchmarks)
+    - 'General computer vision: detection, segmentation, image generation, video understanding'
+    - Medical imaging, bioinformatics, drug discovery, protein folding, clinical applications
+    - Finance, trading, time-series forecasting, recommendation systems
+    - Robotics manipulation, locomotion, embodied navigation, autonomous driving perception
+      (unless a CAE design loop is central)
+    - Pure mathematical or numerical analysis with no fluid/CAE or learning-for-simulation
+      contribution
+    - Structural topology optimization or materials discovery with no aerodynamic/fluid
+      or agentic angle
+    - Climate, weather forecasting, ocean or geophysical modeling at global scale
+    - Power systems, wireless networks, chip design, electronic design automation
+  llm:
+    workers: 4
+    survey_workers: 2
+  negative_keywords:
+  - medical imaging
+  - protein folding
+  - drug discovery
+  - cancer
+  - clinical
+  - radiology
+  - EEG
+  - ECG
+  - stock market
+  - cryptocurr
+  - trading strategy
+  - weather forecast
+  - climate model
+  - ocean circulation
+  - sentiment analysis
+  - machine translation
+  - speech recognition
+  - recommendation system
+  - image classification
+  - object detection
+  - image generation
+  - video generation
+  domain_boost_keywords:
+  - airfoil
+  - aerodynamic
+  - CFD
+  - computational fluid dynamics
+  - turbulence
+  - Reynolds
+  - surrogate model
+  - neural operator
+  - physics-informed
+  - shape optimization
+  - tool use
+  - self-evolving
+  arxiv_categories:
+  - cs.AI
+  - cs.LG
+  - cs.CE
+  - cs.MS
+  - cs.RO
+  - cs.CV
+  - cs.GR
+  - math.NA
+  - physics.flu-dyn
+  - physics.comp-ph
+  date_from: '2021-01-01'
+  huggingface_daily_max_days: 7
+  daily_search_days: 7
+  sources:
+    arxiv: true
+    huggingface_daily: true
+    huggingface_trending: true
+    huggingface_datasets: true
+    upstream_awesome: true
+    alphaxiv: false
+  datasets:
+    huggingface: true
+    huggingface_max_keywords: 5
+    huggingface_limit_per_keyword: 20
+    derive_from_papers: true
+  alphaxiv:
+    enabled: false
+    endpoint: ''
+  upstream_awesome:
+    repos:
+    - BunnySoCrazy/Awesome-Neural-CAD
+    - eosphoros-ai/Awesome-LLM-Agents
+    - wojzaremba/awesome-self-evolving-agents
+    auto_discover: true
+  auto_discover:
+    enabled: true
+    min_stars: 5
+    max_sources: 10
+    max_search_terms: 2
+    max_repos_to_fetch: 5
+    request_timeout_seconds: 10
+    max_rate_limit_sleep_seconds: 30
+    query_expansion:
+    - airfoil optimization
+    - aerodynamic design
+    - CFD machine learning
+    - engineering agent
+    - self-evolving agent
+    - tool learning
+  seed_discovery:
+    enabled: true
+    api: semantic_scholar
+    max_references_per_paper: 50
+    max_seeds_per_run: 10
+    initial_seed_arxiv_ids:
+    - '1710.10387'
+    - '2010.12973'
+    - '2108.04918'
+    - '1711.10561'
+    - '2302.04761'
+    - '2210.03629'
+    - '2303.11366'
+    - '2308.00352'
+  candidate_pool:
+    enabled: true
+    db_path: data/candidates.db
+    promote_batch_size: 100
+  overrides:
+    enabled: true
+    file: data/papers.overrides.yaml
+  scoring:
+    base_score: 1.5
+    weight_coefficient: 2.5
+    max_score_per_keyword: 10
+    filter_min_score: 5.0
+    author_bonus:
+      enabled: false
+      bonus_points: 5.0
+      expert_authors: []
+  ranking:
+    enabled: true
+    weights:
+      topical_relevance: 0.25
+      citation_impact: 0.15
+      graph_prestige: 0.15
+      citation_velocity: 0.1
+      methodology_quality: 0.15
+      reproducibility: 0.15
+      recency: 0.05
+    citation_graph:
+      enabled: true
+      fetch_openalex: false
+      timeout: 20
+      workers: 6
+      api_key: ''
+      mailto: ''
+  deep_analysis:
+    enabled: false
+    min_score: 30
+    pdf_parser: pymupdf
+    max_papers_per_run: 10
+  interpretations:
+    enabled: true
+    workers: 8
+    daily_limit: 0
+    checkpoint_interval: 5
+    force_analysis: false
+    sleep: 0.0
+  teasers:
+    workers: 4
+    retry_fallbacks: true
+  deep_research:
+    enabled: true
+    min_read_first_score: 70
+    max_papers_per_run: 10
+  enrichment:
+    enabled: true
+    max_concurrent: 10
+    request_timeout: 30
+    progress_interval_seconds: 15
+    use_mineru_pdf_fallback: false
+    mineru_poll_timeout: 180
+    extract_affiliations: true
+    extract_figures: true
+    extract_methods: true
+  grading:
+    enabled: true
+    must_read_min_score: 40
+    worth_reading_min_score: 20
+  history:
+    enabled: true
+    retention_days: 30
+    min_papers_per_run: 20
+    weekend_mode: true
+  image_localization:
+    enabled: true
+    check_reachability: true
+    download_fallback: true
+    pdf_extract_fallback: true
+  keyword_tracking:
+    enabled: true
+    report_frequency: weekly
+website:
+  sections:
+    papers: true
+    surveys: true
+    analysis: true
+    trends: true
+    datasets: true
+    projects: true
+    resources: false
+  nav:
+  - label: Home
+    href: /
+  - label: Papers
+    href: /papers
+  - label: Datasets
+    href: /datasets
+  - label: Projects
+    href: /projects
+  footer: 'Built with <a href="https://github.com/jin-s13/awesome-hub-generator">awesome-hub-generator</a>.
+
+    '

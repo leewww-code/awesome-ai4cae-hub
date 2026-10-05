@@ -1,0 +1,694 @@
+schema_version: awesome-hub.paperTaxonomy.v1
+generated_at: '2026-10-05T14:14:29Z'
+assignments:
+- paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: a-massively-parallel-hybridizable-discontinuous-galerkin-sol-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: a-new-paradigm-for-3d-turbomachinery-design-generative-diff-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  - application
+  confidence: 0.68
+  evidence: system
+- paper_id: a-physics-driven-framework-for-parametric-periodic-flow-mode-2026
+  primary: system
+  secondary:
+  - benchmark
+  confidence: 0.68
+  evidence: system
+- paper_id: a-physics-informed-fourier-wavelet-transformer-for-multiscal-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: a-residual-learning-approach-for-unsteady-aerodynamic-load-p-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: a-shortcut-to-statistically-steady-state-turbulence-with-flo-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: a-learning-based-joint-flow-and-kinematic-state-estimation-f-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: a-new-formulation-of-discontinuous-galerkin-method-for-inter-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: a-physics-constrained-machine-learning-sub-grid-scale-modeli-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: aerodynamic-shape-design-space-exploration-with-deep-latent-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: airfoil2vec-spectral-geometry-conditioned-neural-surrogate-2026
+  primary: method
+  secondary:
+  - system
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: assessment-of-wind-energy-potential-of-buildings-by-cfd-simu-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: blade-secondary-vortex-interaction-noise-in-hovering-rotors-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: coral-auv-cfd-oriented-reinforcement-learning-for-autonomou-2026
+  primary: method
+  secondary:
+  - survey
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: cluster-attention-neural-operators-for-solving-parametric-pa-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: cofinn-conservation-flux-informed-neural-networks-for-physi-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: compflowlab-a-python-code-to-develop-and-prototype-new-data-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: dd-rno-a-domain-decomposed-routed-neural-operator-for-airfo-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: data-assimilation-of-flow-mri-data-into-rans-models-with-alg-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: data-driven-impeller-model-for-efficient-large-eddy-simulati-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: data-driven-linear-analysis-of-turbulent-flows-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: deep-probabilistic-indoor-gas-source-localization-via-physic-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: developing-machine-learning-models-of-subgrid-turbulent-tran-2026
+  primary: application
+  secondary: []
+  confidence: 0.65
+  evidence: application
+- paper_id: dimension-bridging-for-3d-rans-with-neural-network-accelerat-2026
+  primary: application
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: application
+- paper_id: do-better-scores-mean-better-physics-physics-grounded-expla-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: domain-grounded-tool-orchestration-for-llm-guided-scientific-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: dynamics-of-fluid-fluid-displacements-in-a-model-rough-fract-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: efficient-treatment-of-non-linearity-in-quantum-computationa-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  confidence: 0.68
+  evidence: system
+- paper_id: efficient-wall-modeled-high-order-compact-gas-kinetic-scheme-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: efficient-three-dimensional-variational-data-assimilation-of-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: egocentric-station-holding-of-robotic-fish-in-unknown-turbul-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: estimating-hierarchically-rank-structured-covariance-matrice-2026
+  primary: method
+  secondary:
+  - system
+  - theory
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: evaluation-of-state-of-the-art-deep-learning-architectures-f-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: extracting-informative-vortical-structures-of-turbulent-wake-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: float-drone-for-physical-interaction-lateral-airflow-reduct-2026
+  primary: system
+  secondary: []
+  confidence: 0.38
+  evidence: system
+- paper_id: fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: gaia-geometry-adaptive-operator-learning-for-forward-and-in-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: generalizable-turbulence-closures-across-bluff-body-shapes-b-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: generating-synthetic-evolution-of-turbulent-flames-with-an-e-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: geowind2plan-mission-time-3d-urban-wind-prediction-for-ener-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: geometry-parameterisation-via-a-structural-modal-basis-for-a-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: geometry-driven-passive-fluid-transport-in-paper-based-micro-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: goal-oriented-weighting-of-reynolds-stress-data-for-learning-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: hgptrans-hierarchical-graph-pooling-transolver-for-automoti-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: harnessing-machine-learning-for-hybrid-constitutive-modellin-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: how-does-distribution-shift-shape-pretraining-gains-in-neura-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: how-do-flapping-avian-wings-exhibit-superior-aerodynamic-per-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: identifying-parameter-couplings-and-uncertainties-of-mixed-n-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: impact-of-a-resonator-on-vortex-induced-vibrations-of-a-wind-2026
+  primary: system
+  secondary:
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: information-geometric-regularization-for-computing-sensitivi-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: iterasim-rag-a-multi-stage-retrieval-augmented-agentic-back-2026
+  primary: system
+  secondary:
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: knowledge-constrained-shape-optimization-with-a-mixture-of-e-2026
+  primary: system
+  secondary: []
+  confidence: 0.38
+  evidence: system
+- paper_id: kolmogorov-arnold-networks-kan-for-aerodynamic-prediction-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: kriging-and-neural-network-models-for-pressure-losses-across-2026
+  primary: application
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: application
+- paper_id: llt-local-linear-transformer-for-pde-operator-learning-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: label-free-finite-volume-residual-training-of-attention-grap-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: lattice-boltzmann-methods-for-navier-stokes-equations-in-gen-2026
+  primary: method
+  secondary:
+  - benchmark
+  - theory
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: learnable-composition-for-neural-operators-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: learning-turbulence-closures-with-physics-informed-neural-ne-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: low-dimensional-structure-and-online-tracking-of-pod-subspac-2026
+  primary: benchmark
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: massively-parallel-numerical-simulations-with-julia-2026
+  primary: benchmark
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: matrix-free-moment-matching-method-for-reduced-order-modelin-2026
+  primary: method
+  secondary:
+  - system
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: mean-flow-adjoint-sensitivity-analysis-of-unsteady-flow-arou-2026
+  primary: system
+  secondary:
+  - method
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: mesh-adaptation-on-hybrid-unstructured-meshes-for-immersed-b-2026
+  primary: method
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: modeling-equations-in-wave-particle-turbulence-simulation-2026
+  primary: method
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: modelling-non-linear-aeroelastic-loads-in-long-span-bridges-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: modelling-platelet-dynamics-in-blood-flow-an-unresolved-dem-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: mollified-sharp-decomposition-a-probabilistic-regularizatio-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: multi-granularity-conformal-prediction-for-reliable-neural-o-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: neural-differential-equations-for-oscillatory-flows-in-aeroe-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: neural-field-ensembles-for-aerodynamic-surface-prediction-w-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: neural-network-and-reduced-order-modeling-workflows-for-ai-d-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: neuralflownet-towards-data-free-physics-informed-neural-net-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: neuroforge-self-auditing-neural-cfd-surrogates-with-calibra-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: one-cylinder-a-benchmark-for-graph-based-surrogate-modeling-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: offline-reinforcement-learning-for-fluid-controls-data-base-2026
+  primary: system
+  secondary:
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: optimizing-sensor-placement-for-hydrogen-leak-detection-in-e-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: outpainting-spatially-extending-aero-optic-phase-screens-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: patagium-and-tail-morphology-shape-aerodynamic-performance-a-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: periodic-neural-mapping-for-unsteady-rotor-blade-pressure-an-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: physminer-an-agentic-ai-framework-for-automated-flow-compon-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: physically-consistent-formulation-for-the-bound-vortex-sheet-2026
+  primary: method
+  secondary:
+  - theory
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: physics-and-data-driven-transformer-mamba-framework-for-flow-2026
+  primary: method
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: physics-informed-latent-neural-operator-for-three-dimensiona-2026
+  primary: method
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: physics-preserving-latent-compression-for-zero-shot-resoluti-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: physics-informed-neural-networks-for-shock-capturing-in-invi-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: preferential-and-differential-diffusion-in-rans-simulation-o-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: quantum-frozen-oseen-homotopy-analysis-method-with-lchs-for-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  confidence: 0.68
+  evidence: system
+- paper_id: quantum-inspired-computational-fluid-dynamics-for-transient-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: reliable-and-efficient-steady-cfd-from-surrogate-predictions-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: roles-of-vortices-and-turbulent-eddies-in-particle-preferent-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: sa-ai-spalart-allmaras-with-autogenous-inception-technical-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: shift-truck-a-high-fidelity-aerodynamics-dataset-and-benchm-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: stco-conditional-neural-operators-for-time-dependent-pdes-2026
+  primary: system
+  secondary:
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: scattered-data-interpolation-on-the-torus-by-compactly-suppo-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: semi-automated-reconstruction-of-indoor-geometry-from-360-de-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: solver-in-the-loop-training-of-deep-learning-closures-for-la-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: spatio-temporal-prediction-of-unsteady-airfoil-aerodynamics-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: stable-and-interpretable-multi-mode-rheological-universal-di-2026
+  primary: system
+  secondary: []
+  confidence: 0.38
+  evidence: system
+- paper_id: stable-compact-and-direct-ghost-cell-reconstruction-a-non-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: strain-rate-consistent-varepsilon-based-non-premixed-flam-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: three-dimensional-global-stability-analysis-of-turbulent-scr-2026
+  primary: system
+  secondary: []
+  confidence: 0.68
+  evidence: system
+- paper_id: towards-heterogeneous-exascale-cfd-with-a-single-fortran-cod-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: transferable-inference-of-turbulence-models-for-urban-flows-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: turbulent-microscale-flow-field-prediction-in-porous-media-u-2026
+  primary: method
+  secondary:
+  - system
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: u3dwind-a-low-altitude-wind-field-dataset-and-benchmark-for-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  confidence: 0.68
+  evidence: system
+- paper_id: vfnet-multi-view-spatio-temporal-model-for-void-fraction-es-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: variable-lattice-density-optimization-of-pin-fin-heat-sinks-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: variational-parameter-calibration-with-physics-aware-latent-2026
+  primary: system
+  secondary:
+  - method
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: verified-residual-specific-explicit-derivative-kernels-for-p-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: wind-farms-as-sensor-arrays-of-turbulent-boundary-layer-spat-2026
+  primary: method
+  secondary:
+  - theory
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: wing-rotor-aerodynamic-interactions-in-small-uavs-during-hov-2026
+  primary: system
+  secondary: []
+  confidence: 0.38
+  evidence: system
+- paper_id: pydof-a-python-library-for-the-design-of-discrete-forward-a-2026
+  primary: benchmark
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: benchmark

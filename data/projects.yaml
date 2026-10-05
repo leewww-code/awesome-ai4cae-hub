@@ -1,0 +1,142 @@
+- id: github-awesome-selfhosted-awesome-selfhosted
+  name: awesome-selfhosted
+  type: GitHub
+  category: GitHub project
+  description: A list of Free Software network services and web applications which
+    can be hosted on your own servers
+  tags:
+  - awesome
+  - awesome-list
+  - cloud
+  - free-software
+  - hosting
+  - privacy
+  - self-hosted
+  - selfhosted
+  stars: 324018
+  links:
+    github: https://github.com/awesome-selfhosted/awesome-selfhosted
+  sources:
+  - repo: awesome-selfhosted/awesome-selfhosted
+    category: github_project
+- id: github-f-prompts-chat
+  name: prompts.chat
+  type: GitHub
+  category: GitHub project
+  description: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts
+    from the community. Free and open source — self-host for your organization with
+    complete privacy.
+  tags:
+  - ai
+  - artificial-intelligence
+  - awesome-list
+  - chatgpt
+  - chatgpt-prompts
+  - claude
+  - gemini
+  - gpt
+  - gpt-4
+  - llm
+  - machine-learning
+  - nextjs
+  - open-source
+  - openai
+  - prompt-engineering
+  - prompts
+  - prompts-chat
+  - typescript
+  stars: 172067
+  links:
+    github: https://github.com/f/prompts.chat
+  sources:
+  - repo: f/prompts.chat
+    category: github_project
+- id: github-zymrael-awesome-neural-ode
+  name: awesome-neural-ode
+  type: GitHub
+  category: GitHub project
+  description: A collection of resources regarding the interplay between differential
+    equations, deep learning, dynamical systems, control and numerical methods.
+  tags:
+  - deep-learning
+  - dynamical-modeling
+  - dynamical-systems
+  - hamiltonian-dynamics
+  - implicit-models
+  - ode
+  - ode-solver
+  - ordinary-differential-equations
+  - root-finding
+  stars: 1548
+  links:
+    github: https://github.com/Zymrael/awesome-neural-ode
+  sources:
+  - repo: Zymrael/awesome-neural-ode
+    category: github_project
+- id: github-willdreamer-awesome-ai4cfd
+  name: Awesome-AI4CFD
+  type: GitHub
+  category: GitHub project
+  description: 'Recent Advances on Machine Learning for Computational Fluid Dynamics:
+    A Survey'
+  tags: []
+  stars: 370
+  links:
+    github: https://github.com/WillDreamer/Awesome-AI4CFD
+  sources:
+  - repo: WillDreamer/Awesome-AI4CFD
+    category: github_project
+- id: github-bunnysocrazy-awesome-neural-cad
+  name: Awesome-Neural-CAD
+  type: GitHub
+  category: GitHub project
+  description: A curated list of awesome Neural Computer-Aided Design (CAD) papers.
+  tags:
+  - 3d-models
+  - aigc
+  - awesome-list
+  - cad
+  - computer-graphics
+  - deep-neural-networks
+  stars: 206
+  links:
+    github: https://github.com/BunnySoCrazy/Awesome-Neural-CAD
+  sources:
+  - repo: BunnySoCrazy/Awesome-Neural-CAD
+    category: github_project
+- id: github-thw1021-code4cfd
+  name: Code4CFD
+  type: GitHub
+  category: GitHub project
+  description: A curated list of repositories related to fluid dynamics.
+  tags: []
+  stars: 206
+  links:
+    github: https://github.com/thw1021/Code4CFD
+  sources:
+  - repo: thw1021/Code4CFD
+    category: github_project
+- id: github-eosphoros-ai-awesome-llm-agents
+  name: Awesome-LLM-Agents
+  type: GitHub
+  category: GitHub project
+  description: GitHub project related to eosphoros-ai/Awesome-LLM-Agents.
+  tags: []
+  stars: 0
+  links:
+    github: https://github.com/eosphoros-ai/Awesome-LLM-Agents
+  sources:
+  - repo: eosphoros-ai/Awesome-LLM-Agents
+    category: github_project
+- id: github-wojzaremba-awesome-self-evolving-agents
+  name: awesome-self-evolving-agents
+  type: GitHub
+  category: GitHub project
+  description: GitHub project related to wojzaremba/awesome-self-evolving-agents.
+  tags: []
+  stars: 0
+  links:
+    github: https://github.com/wojzaremba/awesome-self-evolving-agents
+  sources:
+  - repo: wojzaremba/awesome-self-evolving-agents
+    category: github_project
