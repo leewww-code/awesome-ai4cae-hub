@@ -1,12 +1,12 @@
 schema_version: awesome-hub.surveys.v1
-generated_at: '2026-10-05T14:14:31Z'
+generated_at: '2026-10-06T04:48:50Z'
 topics:
 - id: method
   label: method
   label_zh: ''
   description: 新模型、算法、训练或推理方法
   description_zh: ''
-  paper_count: 71
+  paper_count: 100
   top_tags:
   - flu-dyn
   - LG
@@ -20,10 +20,10 @@ topics:
     citation_impact: 0.0
     citation_velocity: 0.0
     graph_prestige: 0.0
-    methodology_quality: 48.9
-    recency: 100.0
-    reproducibility: 33.4
-    topical_relevance: 11.0
+    methodology_quality: 35.6
+    recency: 87.9
+    reproducibility: 39.5
+    topical_relevance: 9.6
   top_papers:
   - id: domain-grounded-tool-orchestration-for-llm-guided-scientific-2026
     title: Domain-Grounded Tool Orchestration for LLM-Guided Scientific Analysis
@@ -70,128 +70,123 @@ topics:
     score: 43.7
     url: https://arxiv.org/abs/2608.10303v1
   related_work_outline:
-  - 'Mainstream direction: Neural surrogate methods for aerodynamic and fluid prediction,
-    combined with LLM-agent or domain-grounded orchestration for scientific analysis
-    workflows.'
-  - 'Shared research pattern: Structured domain knowledge such as spectral geometry,
-    flow-state assignment, triple decomposition, ontology constraints, or RANS closure
-    structure is used to constrain learned models or tool execution.'
-  - 'Key differences: Representations and interaction modes diverge across point-cloud
-    attention, spectral geometry, graph neural ODE, ontology plus deterministic tools,
-    and modified RANS closure, with evaluation targets spanning field error, tool
-    interpretation, turbulence model discovery, measurement validation, and architecture
-    benchmarking.'
-  - 'Trend evolution: The available year span is 2026 only, so temporal trends cannot
-    be established; within this frontier, the evidence shifts from isolated surrogate
-    accuracy toward hybrid physics, tool, and agentic system design.'
-  - 'Open questions: Cross-regime generalization, attribution of gains to model versus
-    planner or system choices, scaling of ontology-grounded orchestration, and missing
-    quantitative or reproducibility evidence remain unresolved.'
+  - 'Mainstream direction: Within the bounded evidence, the dominant direction is
+    fluid and aerodynamic AI methods, including geometry-conditioned neural surrogates,
+    LLM-agent/tool-orchestrated analysis, and validated CFD/RANS methods for faster
+    or automated flow prediction.'
+  - 'Shared research pattern: Methods encode physical or geometric structure into
+    representations or workflow constraints, evaluate on CFD simulation datasets or
+    benchmarks, and report accuracy gains, speedups, or automated analysis quality
+    over conventional solvers or baselines.'
+  - 'Key differences: Representations diverge among spectral geometry, flow-state
+    attention, graph neural ODEs, and RANS closure variables; interaction modes differ
+    among direct surrogate prediction, agentic tool orchestration, and measurement-calibrated
+    CFD design.'
+  - 'Trend evolution: Although the packet spans 2017-2026, the provided top papers
+    are all 2026, so only a current-frontier trend can be inferred: structured surrogate
+    learning, benchmark/dataset construction, and agentic automation are converging.'
+  - 'Open questions: Transfer beyond reported flow regimes and geometries, isolation
+    of representation versus training/data effects, agent robustness across domains,
+    and quantitative closure-model evidence remain open.'
   related_work_outline_zh:
-  - 主流方向：以气动与流体问题为核心，构建几何/流动条件化的神经代理模型，并将LLM智能体或领域知识集成到分析工作流。
-  - 研究共性：用结构化表示，如谱几何、流态分配、三重分解、本体或RANS变量，约束学习过程，并与确定性工具或物理结构结合以提升精度、稳定性或可解释性。
-  - 关键差异：表示层级与交互模式不同；评测目标覆盖场误差、工具解释准确率、湍流建模建议、测量验证和架构对比；部署场景从二维稳态翼型到三维、非定常及城市环境。
-  - 趋势演进：证据集中于2026年，属于当前前沿，难以观察年度跨度；可见从单一代理精度转向物理、工具或智能体协同的混合架构设计。
-  - 开放问题：跨几何与流态泛化、模型与规划器或工具先验的收益归因、本体编排规模化、缺失的量化与复现证据边界仍未解决。
+  - 主流方向：在限定证据内，主流方向是流体与气动AI方法，包括几何条件神经代理、LLM智能体/工具编排分析，以及面向更快或自动化流动预测的CFD/RANS验证方法。
+  - 研究共性：方法将物理或几何结构编码到表示或工作流约束中，以CFD仿真数据集或基准评估，并报告相较传统求解器或基线的精度提升、加速或自动化分析质量。
+  - 关键差异：表示方式涵盖谱几何、流态注意力、图神经常微分方程和RANS闭合变量；交互模式涵盖直接代理预测、智能体工具编排和实测校准CFD设计。
+  - 趋势演进：虽然数据包时间跨度为2017-2026，但所给高排名论文均为2026年，因此只能推断当前前沿趋势：结构化代理学习、基准/数据集构建与智能体自动化正在汇合。
+  - 开放问题：向报告之外的流动状态与几何迁移、区分表示与训练/数据效应、智能体跨领域鲁棒性，以及闭合模型的定量证据仍待解决。
   literature_review:
     line_of_work_matrix:
-    - line: Aerodynamic surrogate model architectures
-      what_it_solves: Fast prediction of pressure, velocity, or surface force fields
-        from geometry and flow conditions, replacing or accelerating CFD in aerodynamic
-        evaluation.
-      what_remains_open: Reported evidence mostly covers steady, incompressible, two-dimensional
-        or specific airfoil/aircraft configurations; wider geometric and flow-regime
-        generalization remains only partially tested.
-    - line: Graph and continuous-time latent dynamics methods
-      what_it_solves: Temporal stability and spatial smoothness for unsteady surface
-        force prediction with exogenous controls by combining graph operators and
-        neural ODE-style latent evolution.
-      what_remains_open: Comparison is mainly against limited autoregressive baselines;
-        the contribution of augmented latent dimensions, history effects, and surrounding
-        system choices is not fully isolated.
-    - line: LLM-agent and ontology-grounded orchestration methods
-      what_it_solves: Separating intent interpretation, deterministic tool execution,
-        and explanation to reduce invalid tool calls, API hallucination, and missing
-        pipeline stages in scientific analysis.
-      what_remains_open: Strategic errors remain; the ontology benefit is conditional
-        on scoped retrieval and is demonstrated in only two domains.
-    - line: Physics-grounded modeling and measurement-validated CFD design frameworks
-      what_it_solves: Urban wind-energy siting and transition prediction through measurement-calibrated
-        RANS or by repurposing an existing RANS working variable as a transition indicator.
-      what_remains_open: Spatial error detail, transition-specific quantitative metrics,
-        and generalization beyond the reported urban blocks or validation cases are
-        not established.
-    - line: Benchmarking and ablation evidence protocols for surrogate methods
-      what_it_solves: Comparing architecture behavior on shock capture, scalability,
-        and data scarcity, and using ablations to separate method contribution from
-        tool or retrieval choices.
-      what_remains_open: Several works omit explicit limitations or quantitative metrics,
-        and code/data/artifact reproducibility signals are inconsistent across the
-        packet.
+    - line: Method representation and objective design for fluid and aerodynamic learning
+      what_it_solves: 'Converts physical simulation tasks into concrete representations,
+        losses, and architectures: spectral geometry encoding in Airfoil2Vec, flow-state
+        attention in FSAN, augmented graph neural ODEs in GNODE, and SA-AI''s closure-variable
+        transition indicator.'
+      what_remains_open: Unclear which choices transfer beyond reported flow regimes
+        or benchmark geometries; FSAN's accuracy costs more compute; SA-AI lacks quantitative
+        error metrics in the abstract.
+    - line: Planning, tool orchestration, and design-interface methods
+      what_it_solves: Connects learned or CFD-based analysis to decisions and actions
+        through LLM agents, deterministic tools, ontologies, or design frameworks;
+        examples include ontology-grounded MCP orchestration, PhysMiner's multi-agent
+        decomposition, and an urban wind turbine dendrogram framework.
+      what_remains_open: Strategic errors persist; ontology benefit depends on scoped
+        retrieval; generalization beyond two domains or five benchmarks and site-specific
+        Parisian validation is unverified.
+    - line: Method evidence and ablation protocol for aerodynamic learning methods
+      what_it_solves: Separates method contribution from dataset, baseline, metric,
+        and implementation effects via architecture benchmarks on shock capture, scalability,
+        and data scarcity, or ablations of ontology and retrieval choices.
+      what_remains_open: Benchmark rankings may still be confounded by training recipes
+        or hyperparameter tuning; reproducibility signals such as code, dataset, and
+        artifact availability are incomplete; several limitations are not quantified.
     consensus:
-    - Learned models are increasingly combined with structured domain information
-      such as spectral geometry, flow-state assignment, triple decomposition, ontology
-      constraints, or RANS closure structure.
-    - Aerodynamic and fluid prediction is the dominant evaluation arena, with success
-      measured through field error, speedup, physical plausibility, or validation
-      acceptance.
-    - Most works report improvement over one or more baselines on specific cases,
-      but not all provide quantitative metrics, explicit limitations, or reproducible
-      artifacts.
-    - Hybrid execution, whether neural surrogate plus physical variable or LLM plus
-      deterministic tools, is used to reduce failure modes and improve stability.
+    - Methods generally embed physical or geometric structure as a representational
+      prior or workflow constraint rather than treating simulation as purely generic
+      regression.
+    - Evaluation is dominated by CFD-derived benchmarks, simulation datasets, and
+      baseline or physical-criteria comparisons such as relative L2 error, MAPE, and
+      FAC2.
+    - A recurring goal is replacing or accelerating conventional CFD/RANS analysis
+      while maintaining physical fidelity for aerodynamic or energy yield decisions.
+    - Recent agentic methods share a pattern of constraining LLM reasoning with deterministic
+      tools, domain ontologies, or review loops.
+    - 'Reproducibility evidence is uneven: several papers report methodology and ablation
+      detail, but code, dataset, and artifact availability remain unverified.'
     disagreements:
-    - 'Representation choice differs: spectral geometry encoding versus learnable
-      point-cloud flow states versus graph neural ODE versus LLM/tool ontology versus
-      modified RANS transition closure.'
-    - 'Evaluation targets differ: aerodynamic field error, tool interpretation accuracy,
-      turbulence model recommendation, measurement validation, or architecture comparison.'
-    - 'Deployment regimes differ: steady two-dimensional airfoils, three-dimensional
-      industrial aircraft, unsteady pitching transonic airfoils, dense urban buildings,
-      and transition validation cases.'
-    - The accuracy-cost tradeoff is unresolved, with some methods reporting orders-of-magnitude
-      speedups while another reports higher computational cost for improved accuracy.
+    - 'Representation choices differ: spectral geometry encoders, point-cloud flow-state
+      attention, augmented graph neural ODEs, and a RANS closure variable used as
+      a transition indicator.'
+    - 'Interaction modes differ: direct learned surrogate prediction, LLM-guided tool
+      execution, and measurement-calibrated CFD digital twin design.'
+    - 'Evaluation targets differ: continuous velocity/pressure fields, surface pressure/forces,
+      turbulence transition, tool selection and interpretation accuracy, and urban
+      wind energy yield.'
+    - 'Flow regimes and controls differ: steady incompressible 2D subsonic flow, transient
+      pitching with exogenous controls, industrial 3D aircraft configurations, and
+      urban atmospheric flow.'
+    - 'Evidence isolation differs: some studies use ablations to isolate ontology
+      or retrieval effects, while others rely on benchmark comparisons or physical
+      validation without quantitative error metrics.'
     open_questions:
-    - Do the reported surrogates transfer beyond evaluated geometries and flow regimes,
-      such as unseen non-NACA shapes, compressible flows, or non-aerodynamic configurations?
-    - How much of each gain is attributable to the proposed representation or decomposition
-      versus the surrounding model, planner, baseline, retrieval, or training setup?
-    - Can LLM-agent design reduce strategic errors without scoped ontology retrieval,
-      and does it scale beyond two scientific domains?
-    - Which missing quantitative transition metrics, absent limitation statements,
-      and absent code/data artifacts are most material to reproducibility and comparison?
+    - How well do learned surrogates generalize to unseen non-NACA airfoils, unsteady
+      or compressible regimes, and industrial 3D cases beyond reported tests?
+    - Does the flow-state attention surrogate retain its accuracy advantage under
+      matched computational budget, given that it is reported to cost more than baselines?
+    - Can ontology- and tool-orchestrated LLM workflows maintain correctness beyond
+      the two domains or five benchmarks in the evidence?
+    - What quantitative transition-prediction improvement does SA-AI provide relative
+      to existing transition models?
+    - Are reported architecture rankings confounded by dataset composition, training
+      recipe, or baseline hyperparameter choices?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 气动代理模型架构
-      解决的问题: 从几何与流动条件快速预测压力、速度或表面力，替代或加速CFD。
-      尚未覆盖: 证据主要覆盖稳态、不可压缩、二维或特定翼型与飞机构型；更广泛几何与流态的泛化未充分验证。
-    - 路线: 图与连续时间潜变量动力学方法
-      解决的问题: 在图算子与神经ODE式潜变量演化中提升非定常表面力预测的时间稳定性与空间平滑性，并处理外生控制。
-      尚未覆盖: 主要与有限的自回归基线比较；增广潜维度、历史效应与周边系统选择的贡献未完全隔离。
-    - 路线: LLM智能体与本体约束的工作流编排
-      解决的问题: 分离意图解释、确定性工具执行与解释，减少无效工具调用、API幻觉和流水线缺失阶段。
-      尚未覆盖: 策略性错误仍然存在；本体收益依赖限定范围检索，且仅在两个领域得到验证。
-    - 路线: 物理接地建模与测量验证的CFD设计框架
-      解决的问题: 通过测量校准的RANS或改写现有RANS工作变量作为转捩指示，改进城市风能选址与转捩预测。
-      尚未覆盖: 空间误差细节、转捩量化指标以及报告街区或验证案例之外的迁移证据尚未建立。
-    - 路线: 代理方法的基准与消融证据协议
-      解决的问题: 比较架构在激波捕捉、可扩展性和数据稀缺下的表现，并通过消融区分方法贡献与工具或检索选择。
-      尚未覆盖: 若干工作未给出显式局限或量化结果，代码、数据与工件的复现信号在整个证据包中不一致。
+    - 路线: 流体与气动学习中的方法表示与目标设计
+      解决的问题: 将物理仿真任务转化为具体表示、损失和架构，例如Airfoil2Vec的谱几何编码、FSAN的流态注意力、GNODE的图神经常微分方程，以及SA-AI的闭合变量转捩指示量。
+      尚未覆盖: 尚不清楚哪些选择能迁移到报告之外流动状态或基准几何；FSAN的精度伴随更高计算成本；SA-AI在摘要中缺少定量误差。
+    - 路线: 规划、工具编排与设计接口方法
+      解决的问题: 通过LLM智能体、确定性工具、本体或设计框架，将学习或CFD分析连接到决策与行动；例如本体约束的MCP编排、PhysMiner多智能体分解和城市风电树状图框架。
+      尚未覆盖: 策略性错误仍存在；本体收益依赖限定范围检索；两个领域或五个基准之外及巴黎场址特异的泛化性尚未验证。
+    - 路线: 气动学习中的方法证据与消融协议
+      解决的问题: 通过在激波捕捉、可扩展性和数据稀缺下的架构基准，或本体与检索选择的消融，将方法贡献与数据集、基线、指标和实现因素分离。
+      尚未覆盖: 基准排名仍可能受训练配方或超参数调优混淆；代码、数据集和工件等可复现信号不完整；若干局限性未量化。
     共识:
-    - 学习模型普遍与结构化领域信息结合，如谱几何、流态分配、三重分解、本体约束或RANS闭包结构。
-    - 气动与流体预测是主要评测场景，成功标准包括场误差、加速比、物理合理性或验证接受度。
-    - 多数工作报告相对特定基线的提升，但并非都给出量化指标、显式局限或可复现工件。
-    - 混合执行，无论是神经代理与物理变量，还是LLM与确定性工具，都被用于降低失败模式或提升稳定性。
+    - 方法普遍将物理或几何结构作为表示先验或工作流约束，而不是把仿真视为纯通用回归。
+    - 评估主要依赖CFD派生的基准、仿真数据集以及与基线或物理准则的比较，如相对L2误差、MAPE和FAC2。
+    - 常见目标是替代或加速传统CFD/RANS分析，同时保持气动或风能产量决策所需的物理保真度。
+    - 近期智能体方法形成共识模式：用确定性工具、领域本体或审查回路约束LLM推理。
+    - 复现证据不均衡：多篇报告了方法和消融细节，但代码、数据集和工件可得性尚未验证。
     分歧:
-    - 表示选择不同：谱几何编码、可学习点云流态、图神经ODE、LLM/工具本体、修改后的RANS转捩闭包。
-    - 评测目标不同：气动场误差、工具解释准确率、湍流建模建议、测量验证或架构对比。
-    - 部署流态不同：二维稳态翼型、三维工业飞机、非定常俯仰跨声速翼型、密集城市建筑与转捩验证案例。
-    - 精度与代价关系未决：有的方法报告数量级加速，另有方法指出更高精度需要更高计算成本。
+    - 表示方式不同：谱几何编码、点云流态注意力、增广图神经常微分方程，以及作为转捩指示量的RANS闭合变量。
+    - 交互模式不同：直接学习代理预测、LLM引导工具执行、实测校准CFD数字孪生设计。
+    - 评测目标不同：连续速度/压力场、表面压力/力、湍流转捩、工具选择与解释准确率、城市风能产量。
+    - 流动状态与控制不同：稳态不可压缩二维亚音速、带外源控制的瞬态俯仰、工业三维飞机配置、城市大气流动。
+    - 证据隔离不同：部分研究通过消融分离本体或检索效应，另一些依赖基准比较或物理验证但缺少定量误差指标。
     开放问题:
-    - 报告中的代理模型能否跨出已评估的几何与流态，如未见非NACA翼型、可压缩流动或非气动构型？
-    - 所提表示或分解的收益有多少来自模型本身，多少来自检索、规划器、基线或训练系统选择？
-    - LLM智能体方法能否在不依赖限定范围本体检索时减少策略性错误，并扩展到两个以上科学领域？
-    - 缺失的转捩量化指标、局限声明与代码/数据工件，哪些最影响复现与比较结论？
+    - 学习代理在未见非NACA翼型、非定常或可压缩流动以及工业三维场景上如何泛化？
+    - 流态注意力代理被报告计算成本高于基线时，在匹配计算预算下是否仍保持精度优势？
+    - 本体与工具编排的LLM工作流能否在两个领域或五个基准之外保持正确性？
+    - SA-AI相较现有转捩模型的定量预测改进是多少？
+    - 报告中的架构排名是否被数据集构成、训练配方或基线超参数选择所混淆？
   synthesis_status: llm
   generation_notes: []
 - id: benchmark
@@ -264,128 +259,118 @@ topics:
     score: 46.9
     url: https://arxiv.org/abs/2607.20346v1
   related_work_outline:
-  - 'Mainstream direction: The 2026 frontier is consolidating aerodynamic neural-surrogate
-    benchmarks around shared CFD-derived datasets and error metrics, while adding
-    stress tests for distribution shift, solver correction, and physical diagnostics.'
-  - 'Shared research pattern: Papers introduce or use a shared task, compare against
-    the strongest available baseline, report field and force errors, and often emphasize
-    speed, robustness, or explainability beyond a single aggregate score.'
-  - 'Key differences: They differ in evaluation target, including velocity/pressure
-    fields, drag coefficient, solver residual, flow-component statistics, retrieval
-    coverage, and case completion; reference data spans CFD/RANS/DES, PIV, and OpenFOAM
-    logs; interaction mode spans standalone surrogates, solver-coupled correction,
-    and LLM-agent automation.'
-  - 'Trend evolution: Within the visible 2026 evidence, evaluation is moving from
-    in-distribution accuracy toward distribution-shift robustness, physical-consistency
-    checks, solver-coupled reliability, and agentic benchmark workflows.'
-  - 'Open questions: Whether better benchmark scores translate to better physics and
-    downstream decisions, whether datasets cover realistic geometric and operating
-    regimes, and whether conclusions remain stable without shared code and reporting
-    conventions.'
+  - 'Mainstream direction: Building and evaluating neural aerodynamic surrogates on
+    shared CFD benchmarks, with increasing attention to distribution-shift stress
+    tests, physics-grounded metrics, and solver-coupled correction.'
+  - 'Shared research pattern: Papers compare models on fixed datasets or tasks, report
+    field and force errors, and use explicit baselines to isolate architecture or
+    metric effects.'
+  - 'Key differences: Contributions split between dataset/benchmark construction,
+    metric validity probes, solver-coupled correction, agentic CFD workflows, and
+    architecture improvements; evaluation targets vary from surface pressure and velocity
+    fields to force coefficients and workflow completion.'
+  - 'Trend evolution: The year-2026 evidence moves from static accuracy leaderboards
+    toward generalization stress testing, physical interpretability, and automated
+    CFD benchmarking workflows.'
+  - 'Open questions: Whether better benchmark scores imply better physical predictions,
+    how rankings generalize across operating conditions and geometries, and which
+    metrics align with downstream decision utility remain unresolved.'
   related_work_outline_zh:
-  - 主流方向：2026年前沿集中在空气动力学神经代理的共享基准上，使用CFD衍生数据集和误差指标，并加入分布偏移、求解器校正和物理诊断。
-  - 研究共性：论文引入或使用共享任务，与最强基线比较，报告流场和力误差，并强调超越单一分数之外的速度、鲁棒性或可解释性。
-  - 关键差异：评测目标不同，包括速度/压力场、阻力系数、求解器残差、流动分量统计、检索覆盖率和算例完成情况；参考数据涵盖CFD/RANS/DES、PIV和OpenFOAM日志；交互模式涵盖独立代理、求解器耦合和LLM智能体自动化。
-  - 趋势演进：在可见的2026年证据内，评测从分布内精度转向分布偏移鲁棒性、物理一致性、求解器耦合可靠性和智能体化基准流程。
-  - 开放问题：更好的基准分数能否转化为更好的物理和下游决策；数据集是否覆盖真实几何和工况；缺少共享代码和报告规范时结论是否稳定。
+  - 主流方向：构建并评估气动神经代理模型，围绕共享CFD基准，向分布偏移压力测试、物理一致性指标和求解器耦合校正推进。
+  - 研究共性：在固定数据集或任务上比较模型，报告流场/气动力误差，并用基线区分架构与指标影响。
+  - 关键差异：工作分为数据集与基准构建、指标有效性检验、求解器耦合校正、智能体流程和架构改进；评测目标覆盖表面压力、速度场、力系数及CFD工作流完成度。
+  - 趋势演进：2026年证据显示从静态精度排行榜转向泛化压力测试、物理可解释诊断与基准工作流自动化。
+  - 开放问题：更好分数是否意味着更好物理预测、跨工况/几何排名是否稳定、哪些指标与下游决策效用一致尚不明确。
   literature_review:
     line_of_work_matrix:
-    - line: Aerodynamic benchmark task and dataset construction
-      what_it_solves: Provides shared geometry-to-flow prediction tasks and datasets,
-        such as pickup-truck, airfoil, aircraft, and periodic-hill benchmarks, so
-        neural surrogates can be compared on identical inputs and metrics.
-      what_remains_open: Whether the geometry families and operating conditions cover
-        the real deployment settings where surrogates are expected to generalize;
-        current shifts already expose failures in speed dependence and cross-vehicle
-        transfer.
-    - line: Metric and physical stress-test design
-      what_it_solves: Moves beyond aggregate field error by probing distribution shift,
-        force prediction quality, shock/scalability/data-scarcity behavior, and physics-grounded
-        input interventions.
-      what_remains_open: Whether proxy metrics align with downstream decisions and
-        physical correctness; intervention masks and single-benchmark evidence limit
-        causal claims about better scores meaning better physics.
-    - line: Comparable baselines and reporting conventions
-      what_it_solves: Creates common strongest-baseline comparisons and architecture
-        evaluations across shared CFD datasets, making model strengths and weaknesses
-        auditable.
-      what_remains_open: Stability across implementations and compute budgets is underexplored;
-        several sources omit explicit limitations, and code, dataset, and artifact
-        evidence remains incomplete.
-    - line: Automated benchmark-case generation and physical discovery workflows
-      what_it_solves: Uses LLM agents or retrieval pipelines to generate, diagnose,
-        or analyze CFD cases and turbulence components, offering evaluation targets
-        such as retrieval coverage, completion, and modeling recommendations.
-      what_remains_open: Validation remains bounded to a small case set or synthetic
-        corruptions, and the end-to-end physical validity of agent-generated recommendations
-        or cases is not yet established.
+    - line: High-fidelity aerodynamic dataset and benchmark construction
+      what_it_solves: Provides shared geometry-flow datasets with controlled splits
+        and distribution-shift settings for comparing surrogate generalization.
+      what_remains_open: Whether single-vehicle or single-fidelity datasets cover
+        realistic operating variability and experimental uncertainty; strong in-distribution
+        performance remains fragile.
+    - line: Cross-architecture surrogate benchmarking on shared CFD tasks
+      what_it_solves: Makes neural operator and graph/transformer-style surrogates
+        comparable on surface-field prediction, shock capture, scalability, and data
+        scarcity.
+      what_remains_open: Rankings are not yet shown to be stable across tessellation,
+        Reynolds extrapolation, or cross-vehicle transfer.
+    - line: Physics-grounded metric and stress-test design
+      what_it_solves: Probes whether aggregate field-error metrics track physically
+        meaningful flow statistics and where models are sensitive to energetic input
+        regions.
+      what_remains_open: Evidence is based on a single case, and intervention masks
+        are not energy-matched, so the causal link between scores and physical correctness
+        remains open.
+    - line: Solver-coupled correction and reliability evaluation
+      what_it_solves: Uses surrogate predictions as initial guesses for Newton-Krylov
+        iteration to improve CFD reliability and speed.
+      what_remains_open: Evidence covers transonic airfoil optimization and one 3D
+        flying-wing case; broader geometry and flow regimes need verification.
+    - line: Automated CFD workflow and physics-discovery benchmarks
+      what_it_solves: Evaluates retrieval, generation, and multi-agent systems for
+        OpenFOAM case setup and turbulence component analysis.
+      what_remains_open: Benchmarks are relatively small or specialized, and the physical
+        validity of automated recommendations is not yet fully bounded.
     consensus:
-    - Shared CFD-derived benchmark tasks and error metrics are the default basis for
-      comparing aerodynamic surrogates; papers report strongest-baseline comparisons
-      and multiple error views.
-    - In-distribution accuracy is treated as insufficient; evaluation is expanding
-      toward distribution shifts, force metrics, solver residuals, and physical diagnostics.
-    - Solver coupling or residual correction is emerging as a way to make neural surrogate
-      predictions reliable enough for CFD workflows.
-    - 'Reproducibility varies: code, dataset, artifact, and limitation reporting are
-      often missing, so some conclusions are verification gaps rather than established
-      differences.'
+    - Aerodynamic surrogate evaluation is converging on shared field-prediction and
+      force-coefficient tasks, with explicit baselines and numeric error metrics.
+    - Strong in-distribution accuracy does not imply robustness; controlled distribution-shift
+      and physics-grounded checks are recognized as necessary additions.
+    - Architectural choices matter for representing shocks, boundary layers, and wakes,
+      but no single architecture is universally superior.
+    - 'Reproducibility evidence is mixed: datasets, baselines, and metrics are often
+      reported, while code artifacts and limitation statements are frequently incomplete.'
     disagreements:
-    - 'Evaluation target varies: velocity or pressure field error, drag force and
-      rank correlation, solver residual reduction, flow-component statistics, retrieval
-      coverage, and OpenFOAM completion.'
-    - 'Reference data and supervision vary: CFD/RANS/DES simulations, experimental
-      PIV, and solver logs change what errors are measurable.'
-    - 'Interaction mode varies: standalone surrogate prediction, surrogate initial
-      guesses corrected by Newton-Krylov, and LLM-agent or retrieval-automated workflows.'
-    - 'Representation choices differ: attention over point-cloud flow states, domain
-      routing and learned quadrature, spectral geometry encoding, and retrieval ranking
-      over documents.'
-    - 'Deployment setting varies: 2D airfoils, 3D aircraft, pickup trucks, periodic
-      hill, transonic airfoil optimization, and OpenFOAM case configuration.'
+    - Some works treat aggregate field error as the primary target, while others show
+      it can misalign with physically relevant fluctuation-energy statistics.
+    - Pure neural prediction is contrasted with solver-coupled correction, which adds
+      terminal numerical convergence instead of relying on surrogate output alone.
+    - 'Evaluation targets differ: surface pressure, velocity fields, aerodynamic forces,
+      retrieval coverage, and workflow completion are all used as primary measures.'
+    - Some benchmarks introduce controlled distribution shifts, while others evaluate
+      only in-distribution or fixed datasets, making generalization claims uneven.
     open_questions:
-    - Do lower aggregate benchmark errors correspond to better physical predictions
-      for the downstream decisions users care about?
-    - Can benchmark datasets cover realistic geometric, operating-condition, tessellation,
-      and cross-vehicle shifts without becoming prohibitively expensive?
-    - Are benchmark conclusions stable across different implementations, compute budgets,
-      and reference data sources?
-    - What additional diagnostics are needed to make force prediction and physical
-      consistency less sensitive to integration and intervention-mask choices?
-    - How should LLM-agent-generated CFD cases or turbulence-model recommendations
-      be validated beyond retrieval coverage and completion on small or synthetic
-      benchmarks?
+    - Which metrics beyond relative L2/MSE best reflect aerodynamic decision utility
+      and physical correctness?
+    - How stable are benchmark rankings under operating-condition change, tessellation,
+      cross-vehicle transfer, and Reynolds extrapolation?
+    - Can solver-coupled correction and agentic CFD automation scale to broader physical
+      regimes without hiding model failures?
+    - What artifact and limitation details are missing, and how would their release
+      change reproducibility or ranking conclusions?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 空气动力学基准任务与数据集构建
-      解决的问题: 提供共享的几何到流场预测任务和数据集，如皮卡、翼型、飞机和周期山等基准，使模型可在相同输入和指标下比较。
-      尚未覆盖: 几何族与工况是否覆盖真实部署环境仍不确定；当前位移已暴露速度依赖和跨车型迁移等泛化失败。
-    - 路线: 指标与物理压力测试设计
-      解决的问题: 在聚合误差之外，检验分布偏移、阻力预测质量、激波/规模/数据稀缺表现，以及基于物理的输入干预。
-      尚未覆盖: 代理指标是否与下游决策和物理正确性一致；干预掩码和单一基准限制了“分数更好即物理更好”的因果结论。
-    - 路线: 可比基线与报告规范
-      解决的问题: 在共享CFD数据集上建立最强基线对比和架构评测，使模型优劣可审计。
-      尚未覆盖: 不同实现和算力预算下的结论稳定性未充分研究；部分工作缺少明确局限性，代码、数据集和工件证据不完整。
-    - 路线: 自动化基准算例生成与物理发现流程
-      解决的问题: 使用LLM智能体或检索流水线生成、诊断或分析CFD算例和湍流分量，提供检索覆盖率、完成率和建模建议等评测目标。
-      尚未覆盖: 验证仍局限于小规模或合成损坏，智能体生成的算例或湍流建模建议的端到端物理有效性尚未建立。
+    - 路线: 高保真气动数据集与基准构建
+      解决的问题: 提供共享几何-流动数据集、受控划分和分布偏移设置，使代理模型泛化能力可比较。
+      尚未覆盖: 单一车型或单一保真度数据是否覆盖实际运行变异与实验不确定性；分布内强性能仍显脆弱。
+    - 路线: 共享CFD任务上的跨架构代理基准
+      解决的问题: 让神经算子、图网络/transformer型代理在表面场预测、激波捕捉、可扩展性与数据稀缺下可比较。
+      尚未覆盖: 排名尚未被证明在网格离散、Reynolds外推或跨车型迁移下稳定。
+    - 路线: 物理一致性指标与压力测试设计
+      解决的问题: 检验聚合场误差指标是否跟踪有物理意义的流动统计，以及模型对高能输入区域的敏感性。
+      尚未覆盖: 证据基于单一案例，干预掩码未做能量匹配，分数与物理正确性的因果联系仍开放。
+    - 路线: 求解器耦合校正与可靠性评估
+      解决的问题: 将代理预测作为Newton-Krylov迭代初值，提高CFD可靠性与速度。
+      尚未覆盖: 证据集中在跨音速翼型优化和flying-wing三维案例，更广几何与流动工况需验证。
+    - 路线: 自动化CFD工作流与物理发现基准
+      解决的问题: 评测OpenFOAM算例自动生成/检索和湍流分量分析中的检索、生成与多智能体系统。
+      尚未覆盖: 基准较小或专门化；自动化建议的物理有效性与边界尚未完全闭合。
     共识:
-    - 共享的CFD派生基准任务和误差指标是气动代理比较的默认基础；论文报告最强基线对比和多种误差视图。
-    - 分布内精度被认为不足；评测正在扩展至分布偏移、力指标、求解器残差和物理诊断。
-    - 求解器耦合或残差校正正在成为使神经代理预测可靠到可用于CFD工作流的方式。
-    - 可复现性不均衡：代码、数据集、工件和局限性报告常缺失，因此某些结论属于验证缺口而非已证实的差异。
+    - 气动代理评测正在向共享的流场预测与力系数任务汇聚，并普遍使用明确基线与数值误差指标。
+    - 分布内强精度不等于鲁棒性；受控分布偏移和物理一致性检查被认为是必要补充。
+    - 架构选择对激波、边界层和尾迹表示有影响，但没有一个架构在所有设置下占优。
+    - 可复现性证据不一：数据集、基线与指标常被报告，但代码工件与局限性陈述常不完整。
     分歧:
-    - 评测目标不同：速度或压力场误差、阻力和秩相关、求解器残差降低、流动分量统计、检索覆盖率和OpenFOAM完成情况。
-    - 参考数据与监督不同：CFD/RANS/DES模拟、实验PIV和求解器日志，导致可测量的误差不同。
-    - 交互模式不同：独立代理预测、由Newton-Krylov校正的代理初值，以及LLM智能体或检索自动化流程。
-    - 表示选择不同：点云流态注意力、域路由和学习求积、谱几何编码，以及文档检索排序。
-    - 部署设置不同：二维翼型、三维飞机、皮卡、周期山、跨音速翼型优化和OpenFOAM算例配置。
+    - 部分工作将聚合场误差作为主要目标，另有工作显示其可能与物理相关的脉动能量统计不一致。
+    - 纯神经预测与求解器耦合校正形成对比：后者加入终端数值收敛，而非仅依赖代理输出。
+    - 评测目标不同：表面压力、速度场、气动力、检索覆盖率与工作流完成度均有使用。
+    - 一些基准引入受控分布偏移，另一些仅在分布内或固定数据集上评测，泛化结论不均衡。
     开放问题:
-    - 更低的聚合基准误差能否转化为用户关心的下游决策中更好的物理预测？
-    - 基准数据集能否覆盖真实几何、工况、网格和跨车型位移，而不过度增加成本？
-    - 基准结论在不同实现、算力预算和参考数据源下是否稳定？
-    - 需要哪些额外诊断，使力预测和物理一致性对积分与干预掩码选择不敏感？
-    - LLM智能体生成的CFD算例或湍流建模建议，如何超越小规模或合成基准上的检索覆盖率和完成率进行验证？
+    - 除相对L2/MSE外，哪些指标更能反映气动决策效用与物理正确性？
+    - 在运行条件变化、网格离散、跨车型迁移和Reynolds外推下，基准排名是否稳定？
+    - 求解器耦合校正与智能体CFD自动化能否扩展到更广物理工况，而不掩盖模型失效？
+    - 缺失的工件和局限性细节有哪些，它们会如何改变可复现性或排名结论？
   synthesis_status: llm
   generation_notes: []
 - id: system
@@ -459,123 +444,120 @@ topics:
     score: 47.1
     url: https://arxiv.org/abs/2610.00415v1
   related_work_outline:
-  - 'Mainstream direction: 2026 work centers on neural aerodynamic surrogates and
-    supporting datasets/benchmarks rather than broad generic system platforms; systems
-    are organized around CFD replacement, shape optimization, and physics-grounded
-    evaluation.'
-  - 'Shared research pattern: papers convert expensive CFD into learned models or
-    automated workflows, then validate accuracy against simulations or wind tunnel
-    data, often using error metrics and generalization tests.'
-  - 'Key differences: approaches split between standalone fast predictors, solver-coupled
-    correction loops, and LLM-agent analysis; evaluation targets include field error,
-    drag reduction, benchmark robustness, and physical diagnostic consistency.'
-  - 'Trend evolution: the available year span is narrow, so the trend is within the
-    current 2026 frontier: from point accuracy toward out-of-distribution robustness,
-    solver feedback, and automated knowledge-producing pipelines.'
-  - 'Open questions: independent reproduction, generalization outside narrow aerodynamic
-    regimes, computational cost versus accuracy, and whether better benchmark scores
-    imply better physics remain unresolved.'
+  - 'Mainstream direction: The 2026 evidence centers on neural-surrogate systems for
+    aerodynamic prediction and shape optimization, often as end-to-end workflows linking
+    geometry, learned flow/drag surrogates, and CFD or solver feedback.'
+  - 'Shared research pattern: Most work trains geometry- or flow-conditioned neural
+    operators on CFD/RANS datasets, evaluates error metrics and speedups against baseline
+    surrogates, and increasingly adds distribution-shift, solver-coupling, or physics-grounded
+    checks.'
+  - 'Key differences: Some papers optimize raw surrogate accuracy with specialized
+    encoders or attention (e.g., Airfoil2Vec, FSAN), while others couple surrogates
+    to Newton-Krylov CFD or uncertainty-triggered feedback, build benchmark datasets
+    (e.g., SHIFT-Truck), or automate analysis via LLM agents (e.g., PhysMiner).'
+  - 'Trend evolution: Within the 2026 frontier, the emphasis is shifting from standalone
+    model scores toward system-level reliability, reproducibility, and robustness
+    under operational shifts.'
+  - 'Open questions: External deployment across vehicle classes and infrastructure,
+    independent reproducibility, causal links between benchmark error and physical
+    quality, and speed-fidelity-control trade-offs remain unresolved.'
   related_work_outline_zh:
-  - 主流方向：2026年工作集中于神经气动代理模型及其支撑数据集/基准，而非通用系统平台；系统围绕CFD替代、形状优化与基于物理的评估组织。
-  - 研究共性：论文将昂贵CFD转化为学习模型或自动化流程，并以仿真或风洞数据验证准确性，常用误差指标和泛化测试。
-  - 关键差异：方法分为独立快速预测器、求解器耦合校正回路与LLM智能体分析；评测目标涵盖流场误差、减阻、基准鲁棒性与物理诊断一致性。
-  - 趋势演进：可用年份跨度窄，因此趋势位于当前2026年前沿：从点精度走向分布外鲁棒性、求解器反馈和自动化知识生成流水线。
-  - 开放问题：独立复现、超出狭窄气动工况的泛化、计算成本与准确性的权衡、以及更好基准分数是否意味着更好物理仍未解决。
+  - 主流方向：2026年证据集中于面向气动预测与形状优化的神经代理系统，多以端到端工作流连接几何、学习流场/阻力代理和 CFD 或求解器反馈。
+  - 研究共性：多数工作在 CFD/RANS 数据集上训练几何或流动条件化神经算子，以误差和加速比对比基线，并逐渐加入分布偏移、求解器耦合或基于物理的检查。
+  - 关键差异：部分工作用专门编码器或注意力追求代理精度（如 Airfoil2Vec、FSAN）；其他工作将代理耦合到 Newton-Krylov CFD 或不确定性触发反馈，构建基准数据集（如
+    SHIFT-Truck），或通过 LLM 智能体自动化分析（如 PhysMiner）。
+  - 趋势演进：在 2026 年当前前沿内，重点正从单模型分数转向系统级可靠性、可复现性和运行条件偏移下的鲁棒性。
+  - 开放问题：跨车型与基础设施的外部部署、独立可复现性、基准误差与物理质量之间的因果联系，以及速度-保真度-可控性权衡仍未解决。
   literature_review:
     line_of_work_matrix:
-    - line: Learned aerodynamic surrogate models for fast field prediction
-      what_it_solves: replaces expensive CFD with neural surrogates that predict flow
-        fields or surface quantities from geometry and operating conditions
-      what_remains_open: generalization beyond narrow regimes such as specific airfoils,
-        vehicles, or Reynolds numbers; accuracy versus computational cost boundaries
-    - line: Solver-coupled correction and optimization systems
-      what_it_solves: embeds surrogate predictions into CFD or optimization loops
-        to improve reliability, consistency, and design speed
-      what_remains_open: external validation outside in-house datasets, broader geometry
-        and flow conditions, and coupling overhead
-    - line: Benchmarks, datasets, and reproducibility artifacts
-      what_it_solves: provides public high-fidelity simulation data and evaluation
-        protocols for comparing surrogate architectures and exposing distribution
-        shifts
-      what_remains_open: independent cross-team reuse and coverage beyond steady,
-        vehicle, or airfoil flow regimes
-    - line: Agentic and automated analysis frameworks
-      what_it_solves: automates flow decomposition, physics discovery, and knowledge
-        accumulation around simulation data
-      what_remains_open: reproducibility and breadth of validation across engineering
-        tasks beyond selected flow benchmarks
-    - line: Physics-grounded evaluation diagnostics
-      what_it_solves: checks whether learned operator errors align with physically
-        meaningful flow statistics
-      what_remains_open: causal link between benchmark scores and physical correctness;
-        evidence remains limited to a single benchmark
+    - line: Solver-coupled neural-surrogate workflows
+      what_it_solves: Converts learned flow predictions into reliable engineering
+        loops by coupling surrogate outputs to numerical solvers or uncertainty-triggered
+        CFD correction.
+      what_remains_open: External validation beyond in-house or narrow geometry datasets
+        and behavior under hardware/user-specific deployment settings.
+    - line: Real-time and interactive surrogate serving
+      what_it_solves: Supplies fast geometry- or flow-conditioned inference for aerodynamic
+        fields and drag, enabling design or optimization loops with lower latency
+        than conventional CFD.
+      what_remains_open: Trade-offs among inference speed, field fidelity, controllability,
+        and computational cost are only partially quantified.
+    - line: Benchmark artifacts and reproducible evaluation
+      what_it_solves: Produces reusable CFD/experimental datasets, benchmark splits,
+        and physics-grounded diagnostics to expose model generalization and scoring
+        limits.
+      what_remains_open: Independent reproduction and robustness under operating-point,
+        tessellation, and cross-vehicle distribution shifts are inconsistent.
+    - line: Agentic and automated physics-analysis frameworks
+      what_it_solves: Automates flow decomposition, interpretation, knowledge accumulation,
+        and modeling recommendations through multi-agent reasoning.
+      what_remains_open: Generalization beyond reported benchmark flows, reproducibility,
+        and human oversight for agent-generated conclusions remain unresolved.
     consensus:
-    - Neural surrogates can provide substantial speedups over CFD while approximating
-      aerodynamic quantities.
-    - Public datasets and benchmarks are necessary for training and for revealing
-      generalization failures under distribution shifts.
-    - Combining learned surrogates with physics or solver feedback improves reliability
-      and design outcomes.
-    - Evaluation should include more than aggregate prediction error; generalization
-      and physical diagnostics matter.
-    - Strong in-distribution performance is treated as insufficient for deployment.
+    - Learned surrogates can substantially accelerate aerodynamic field or drag prediction
+      compared with conventional CFD while preserving useful accuracy.
+    - Engineered datasets and standardized benchmark splits are treated as necessary
+      for comparing surrogate architectures and exposing failure modes.
+    - Strong in-distribution accuracy alone is not treated as sufficient for deployment;
+      distribution shift, physical consistency, or solver coupling is needed.
+    - Coupling learned surrogates to numerical solvers or uncertainty-triggered feedback
+      can improve reliability in optimization-loop settings.
     disagreements:
-    - Some systems use pure learned prediction as the final output, while others use
-      it only as an initial guess or trigger for CFD correction.
-    - 'Representations differ: point-cloud attention, spectral geometry encoding,
-      mixture-of-experts, neural fields/Neural ODEs, and graph models.'
-    - 'Evaluation targets differ: field error reduction, drag reduction, distribution-shift
-      robustness, or physics-diagnostic consistency.'
-    - 'Interaction mode differs: closed-loop optimization with CFD feedback, LLM-agent
-      analysis, or static benchmark comparison.'
-    - 'Deployment setting differs: 2D/3D airfoils, vehicles, pickup trucks, in-house
-      automotive data, and experimental PIV.'
+    - 'Representation choices differ: spectral geometry encoders, point-cloud flow-state
+      attention, graph/operator models, and mixture-of-experts neural operators are
+      used across the evidence.'
+    - 'Evaluation targets differ: surface pressure or drag coefficients versus full
+      velocity/pressure fields, turbulence components, or physically meaningful fluctuation
+      statistics.'
+    - 'Deployment scope differs: 2D steady subsonic airfoils, transonic airfoils,
+      automotive pickup/SUV shapes, and industrial aircraft configurations.'
+    - 'Interaction mode differs: standalone surrogate prediction, solver-coupled Newton-Krylov
+      correction, uncertainty-triggered CFD feedback, and LLM-agent-driven analysis.'
+    - 'Reproducibility evidence is uneven: some papers provide datasets or benchmarks,
+      while others report limited artifact or code signals.'
     open_questions:
-    - Do stronger in-distribution benchmark scores transfer to physically meaningful
-      predictions under distribution shift?
-    - Can surrogate-to-solver correction frameworks remain reliable across external
-      geometries, meshes, and operating conditions?
-    - At what computational cost boundary do state-specific attention or mixture-of-experts
-      surrogates remain preferable to simpler predictors?
-    - Can agentic analysis frameworks be independently reproduced and validated outside
-      selected flow benchmarks?
-    - What datasets and protocols are missing for unsteady, compressible, or turbulent
-      regimes beyond reported steady/subsonic/vehicle cases?
+    - Can the reported speedups and error reductions replicate across independent
+      teams, datasets, and infrastructure rather than in-house or single-benchmark
+      settings?
+    - How should benchmark metrics be complemented with physical diagnostics to ensure
+      better scores correspond to better downstream physics?
+    - What robustness guarantees are needed for operating-condition, tessellation,
+      and cross-vehicle shifts in deployed aerodynamic surrogate systems?
+    - How can solver-coupled and agentic pipelines balance speed, fidelity, controllability,
+      and system complexity in real-time or design-loop use?
+    - What validation is still missing for uncertainty-triggered CFD feedback and
+      agent-generated turbulence-model recommendations outside reported flows?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 气动代理模型与快速流场预测
-      解决的问题: 用神经网络替代昂贵CFD，从几何和工况预测流场或表面量
-      尚未覆盖: 在特定翼型、车辆或雷诺数之外的泛化，以及精度与计算成本边界
-    - 路线: 求解器耦合校正与优化系统
-      解决的问题: 将代理预测嵌入CFD或优化回路，以提升可靠性、一致性和设计效率
-      尚未覆盖: 内部数据集之外的外部验证、更广泛几何与流动条件以及耦合开销
-    - 路线: 基准、数据集与可复现工件
-      解决的问题: 提供公开高保真仿真数据和统一评测协议，用于比较代理架构并暴露分布偏移
-      尚未覆盖: 跨团队独立复用，以及超出稳态、车辆或翼型流动工况的覆盖
-    - 路线: 智能体自动化分析框架
-      解决的问题: 自动完成流动分解、物理发现和围绕仿真数据的知识积累
-      尚未覆盖: 在所选流动基准之外更广泛工程任务上的可复现性与验证
-    - 路线: 基于物理的评测诊断
-      解决的问题: 检查学习算子误差是否与具有物理意义的流动统计一致
-      尚未覆盖: 基准分数到物理正确性的因果联系；现有证据仅来自单一基准
+    - 路线: 求解器耦合的神经代理工作流
+      解决的问题: 通过将代理输出耦合到数值求解器或不确定性触发的 CFD 校正，把学习流场预测转化为可靠工程闭环。
+      尚未覆盖: 仍缺少内部或窄几何数据集之外的外部验证，以及硬件/用户特定部署条件下的表现证据。
+    - 路线: 实时与交互式代理服务
+      解决的问题: 提供快速的几何或流动条件化推理，用于气动流场和阻力预测，使设计或优化闭环的延迟低于传统 CFD。
+      尚未覆盖: 推理速度、流场保真度、可控性和计算成本之间的权衡仅被部分量化。
+    - 路线: 基准工件与可复现评测
+      解决的问题: 生成可复用的 CFD/实验数据集、基准划分和基于物理的诊断，以揭示模型泛化能力和聚合分数的局限。
+      尚未覆盖: 运行点、网格划分和跨车型分布偏移下的鲁棒性不一致，独立复现仍不充分。
+    - 路线: 智能体式自动化物理分析框架
+      解决的问题: 通过多智能体推理自动完成流动分解、物理解释、知识积累和建模建议。
+      尚未覆盖: 在报告基准流动之外的泛化、可复现性和人工监督仍未解决。
     共识:
-    - 神经代理模型相比CFD能实现显著加速，并能近似气动量。
-    - 公开数据集和基准对训练模型、暴露分布偏移下的泛化失败至关重要。
-    - 将学习代理与物理或求解器反馈结合可以改善可靠性和设计结果。
-    - 评测不应只看聚合误差，还需关注泛化与物理诊断。
-    - 强分布内表现被视为不足以支持部署。
+    - 学习代理可显著加速气动流场或阻力预测，同时保持可用精度。
+    - 标准化数据集与评测划分被视为比较代理架构和暴露失效模式的必要基础。
+    - 仅靠分布内精度不足以支撑部署，需要分布偏移、物理一致性或求解器耦合检验。
+    - 将学习代理与数值求解器或不确定性触发的 CFD 反馈耦合，可提高优化闭环中的可靠性。
     分歧:
-    - 有的系统将纯学习预测作为最终输出，有的仅作为CFD校正的初值或触发条件。
-    - 表示方式不同：点云注意力、谱几何编码、混合专家、神经场/Neural ODE和图模型。
-    - 评测目标不同：流场误差降低、减阻、分布偏移鲁棒性或物理诊断一致性。
-    - 交互模式不同：带CFD反馈的闭环优化、LLM智能体分析或静态基准对比。
-    - 部署场景不同：二维/三维翼型、车辆、皮卡、内部汽车数据和实验PIV。
+    - 表示选择不同：谱几何编码器、点云流态注意力、图/算子模型、Mixture-of-Experts Neural Operator 等并存。
+    - 评测目标不同：有的关注表面压力或阻力系数，有的关注完整速度/压力场、湍流分量或脉动统计。
+    - 部署范围不同：二维稳态亚音速翼型、跨音速翼型、皮卡/SUV 车辆外形、工业飞机外形等。
+    - 交互模式不同：独立代理预测、Newton-Krylov 求解器校正、不确定性触发的 CFD 反馈、LLM 智能体分析。
+    - 可复现证据不均衡：部分工作提供数据集或基准，部分工作缺少可验证的代码或工件信号。
     开放问题:
-    - 更强的分布内基准分数能否迁移为分布偏移下具有物理意义的预测？
-    - 代理到求解器校正框架能否在外部几何、网格和工况下保持可靠？
-    - 在什么计算成本边界下，状态特定注意力或混合专家代理仍优于更简单预测器？
-    - 智能体分析框架能否在所选流动基准之外独立复现和验证？
-    - 已报告稳态/亚音速/车辆案例之外，非稳态、可压缩或湍流工况还缺少哪些数据集和协议？
+    - 报告的速度提升和误差下降能否在独立团队、数据集与基础设施上复现，而不限于内部或单一基准？
+    - 应如何补充物理诊断指标，使更好的基准分数能对应于更好的下游物理表现？
+    - 部署中的运行条件、网格划分和跨车型偏移需要怎样的鲁棒性保证？
+    - 求解器耦合与智能体流水线如何在实时或设计闭环中平衡速度、保真度、可控性和系统复杂度？
+    - 不确定性触发的 CFD 反馈与智能体生成的湍流模型建议在报告流动之外还缺少哪些验证？
   synthesis_status: llm
   generation_notes: []
 - id: theory
@@ -624,119 +606,105 @@ topics:
     score: 24.0
     url: https://arxiv.org/abs/2608.20582v1
   related_work_outline:
-  - 'Mainstream direction: Analytical/theoretical formulation for flow and statistical
-    estimation problems, deriving metric-dependent kinetic terms, hierarchical rank
-    regularization, vortex-sheet recurrences, and spectral sampling frameworks, with
-    numerical or LES support.'
-  - 'Shared research pattern: Establish a consistency structure first—coordinate metric
-    equilibrium/forcing, rank structure, vortex-sheet continuity and trailing-edge
-    zero loading, or turbulence spectral sampling—then derive predictions or algorithms.'
-  - 'Key differences: Mathematical targets and settings differ: PDE discretization
-    on nonuniform grids, high-dimensional covariance estimation, unsteady thin-airfoil
-    singularity analysis, and spatio-temporal spectra of wind farm arrays; validation
-    ranges from numerical experiments to LES.'
-  - 'Trend evolution: All evidence is from 2026, so the trend is within the current
-    frontier; the direction appears to move toward structure-preserving and sampling-aware
-    analytical models for complex flow and environmental estimation, without older
-    baselines available.'
-  - 'Open questions: Stability and accuracy outside tested cases, explicit error bounds,
-    field validation, generalization of vortex-sheet constraints, and reproducibility
-    remain unverified from the packet.'
+  - 'Mainstream direction: The bounded evidence centers on analytical reformulations
+    and regularizations in fluid mechanics and high-dimensional estimation, emphasizing
+    consistency, convergence, or sampling-error reduction before numerical validation.'
+  - 'Shared research pattern: Each paper derives a mathematical formulation—coordinate-transformed
+    operators, hierarchical rank structure, recurrence expansion, or spectral sampling—and
+    connects it to numerical or simulation evidence.'
+  - 'Key differences: They target different physical or statistical objects: Navier-Stokes
+    discretization, covariance matrices, unsteady thin-airfoil vortex sheets, and
+    turbulent boundary-layer wind farm spectra; validation settings and reproducibility
+    evidence also differ.'
+  - 'Trend evolution: With all evidence from 2026, the topic appears at the current
+    frontier; the visible pattern is toward physically or statistically consistent
+    analytical methods with numerical checks rather than long-horizon empirical trends.'
+  - 'Open questions: Rigorous error and convergence bounds under realistic geometry,
+    field-scale atmospheric conditions, and high-dimensional settings remain unclear;
+    code, dataset, and baseline details are largely missing and need verification.'
   related_work_outline_zh:
-  - 主流方向：围绕流动与统计估计问题的解析/理论建模，提出度量相关平衡态与强迫项、分层秩正则化、附着涡片递推、谱采样框架，并通过数值或 LES 结果支撑。
-  - 研究共性：先设定一致性结构——坐标度量平衡与强迫、秩结构、涡片连续和后缘零载荷、湍流谱采样——再推导算法或预测。
-  - 关键差异：数学对象和部署场景不同，包括非均匀网格 PDE 离散、高维协方差估计、非定常薄翼奇异性、风电场时空谱；验证从数值实验到 LES 不等。
-  - 趋势演进：证据仅来自 2026 年，趋势属于当前前沿；方向显示向结构保持和采样感知的解析模型演进，但缺少更早基线。
-  - 开放问题：超出测试场景的稳定性与精度、误差界、现场验证、涡片约束的可推广性、复现性在证据包中仍未验证。
+  - 主流方向：证据聚焦于流体力学与高维估计中的解析重构和正则化，强调一致性、收敛性或采样误差降低。
+  - 研究共性：每项工作先给出数学表述，如坐标变换算子、层次秩结构、递推展开或谱采样，再结合数值或仿真证据。
+  - 关键差异：解决对象不同，包括 Navier-Stokes 离散格式、协方差矩阵、非定常薄翼涡片和湍流边界层风电场谱；验证设置与可复现证据也不同。
+  - 趋势演进：全部证据来自 2026 年，处于当前前沿；可见趋势是发展物理或统计一致的分析方法并用数值实验校验，而非长周期经验外推。
+  - 开放问题：真实几何、现场尺度天气条件和高维设定下的严格误差或收敛边界仍不清楚；代码、数据集与基线细节大多缺失，需验证。
   literature_review:
     line_of_work_matrix:
-    - line: Coordinate-consistent kinetic discretization for Navier-Stokes
-      what_it_solves: Extends Lattice Boltzmann formulations to general orthogonal
-        coordinates, enabling nonuniform clustered grids while retaining a simple
-        collide-and-stream structure.
-      what_remains_open: Numerical stability, boundary accuracy, and computational
-        efficiency on strongly stretched or complex domains are not established in
-        the packet; code and benchmarks are not visible.
-    - line: Structured high-dimensional covariance estimation
+    - line: Coordinate-consistent flow discretization
+      what_it_solves: Represents Navier-Stokes equations in general orthogonal coordinates
+        with metric-dependent equilibrium and forcing to improve nonuniform clustered
+        grid simulations.
+      what_remains_open: No visible evidence on general three-dimensional, complex-geometry
+        stability or the availability of code and benchmark baselines.
+    - line: Hierarchical low-rank covariance estimation
       what_it_solves: Estimates high-dimensional covariance matrices from few samples
-        by hierarchical rank regularization, with theoretical development, algorithms,
-        and numerical experiments in CFD/geoscience settings.
-      what_remains_open: Theoretical error rates, rank selection, algorithmic scaling,
-        and real-data comparison are not visible in the evidence; only a short summary
-        is available.
-    - line: Unsteady thin-airfoil vortex-sheet consistency
-      what_it_solves: Derives a Wagner coefficient recurrence and uniformly convergent
-        bound vorticity expansion that enforces vortex-sheet continuity and trailing-edge
-        zero loading.
-      what_remains_open: Generalization beyond thin-airfoil or unsteady assumptions
-        and empirical validation are not provided in the evidence; limitation and
-        analysis fields are empty.
-    - line: Spectral-spatial sampling for turbulent boundary layers
+        by imposing hierarchical rank structure, with theory and algorithms.
+      what_remains_open: Assumptions for rank hierarchy, formal high-dimensional error
+        bounds, and transfer beyond CFD/geoscience examples are not shown.
+    - line: Thin-airfoil vortex-sheet consistency
+      what_it_solves: Constructs a uniformly convergent bound vorticity expansion
+        that imposes vortex-sheet continuity and trailing-edge zero loading in the
+        Wagner model.
+      what_remains_open: Limited to unsteady thin-airfoil assumptions; visible evidence
+        lacks empirical or experimental comparison and reproducible artifacts.
+    - line: Spectral sampling of turbulent boundary layers
       what_it_solves: Predicts wind farm power fluctuation spectra by combining turbulence
-        spectral theory, wind farm flow models, and 3D spatial sampling, with validation
-        against large-eddy simulations.
-      what_remains_open: Field-data validation, sensitivity to atmospheric stability,
-        turbine control, and non-ideal farm layouts remain open; only LES validation
-        is stated.
+        spectral theory, farm flow models, and 3D spatial sampling.
+      what_remains_open: Validation is against LES; field-scale wind-farm data, atmospheric
+        condition sensitivity, and model-form uncertainty remain open.
     consensus:
-    - 'The papers share a theory-first pattern: each establishes an analytical consistency
-      condition before numerical or LES validation, such as metric-dependent equilibrium/forcing,
-      hierarchical rank regularization, vortex-sheet continuity, or spectral sampling.'
-    - They all target structure preservation under discretization, sampling, or singularity,
-      rather than purely data-driven empirical fitting.
-    - 'The evidence base is narrow: provided analysis fields are empty, reproducibility
-      markers are limited, citation impact and graph prestige are unavailable, and
-      numerical claims rely on tldr-level summaries.'
+    - Each contribution states a mathematical correction or regularization to enforce
+      physical or statistical consistency before presenting numerical or simulation
+      support.
+    - The papers all operate in derivation-plus-validation mode, but the evidence
+      packet lacks detailed methodology, limitation, and artifact descriptions for
+      all four.
+    - All works are from 2026, so any consensus is limited to the current frontier
+      rather than a multi-year trajectory.
     disagreements:
-    - 'Mathematical representation differs: kinetic lattice dynamics on nonuniform
-      grids, hierarchical low-rank covariance estimation, bound vorticity recurrence,
-      and spectral-spatial sampling operate on different objects and assumptions.'
-    - 'Validation target differs: numerical Navier-Stokes flow on clustered grids,
-      covariance estimation in CFD/geoscience, unsteady thin-airfoil theory, and LES-validated
-      wind farm power fluctuations.'
-    - 'Imposed consistency constraints differ: local metric-dependent conservation,
-      global structured low-rank regularization, vortex-sheet boundary/continuity
-      conditions, and spectral coherence under 3D spatial sampling.'
+    - Representation varies from coordinate-transformed evolution operators and hierarchical
+      low-rank covariance structure to a vortex-sheet recurrence expansion and spectral
+      sampling of turbulent boundary layers.
+    - 'Evaluation targets differ: flow simulation on nonuniform grids, covariance
+      estimation under sample scarcity, unsteady thin-airfoil loading, and wind farm
+      power fluctuation spectra.'
+    - 'Validation settings differ: numerical CFD/geoscience examples and large-eddy
+      simulation are explicitly named, while some works have little visible empirical
+      or artifact evidence.'
     open_questions:
-    - Do the formulations retain accuracy and stability beyond demonstrated settings,
-      such as strongly stretched Lattice Boltzmann grids or non-ideal atmospheric/wind
-      farm conditions?
-    - What explicit error bounds, convergence rates, or sample complexity results
-      hold, especially for the hierarchical covariance estimator?
-    - Can the Wagner vortex-sheet recurrence be extended to finite-thickness, compressible,
-      or separated flows while preserving uniform convergence?
-    - How do LES-validated spectral predictions transfer to field measurements under
-      varying atmospheric stability and turbine control?
-    - How much do missing code, data, baselines, limitation statements, and artifact
-      links limit independent verification?
+    - What rigorous error or convergence guarantees hold beyond the derived idealized
+      assumptions, such as general grids, complex geometries, or finite-rank covariance
+      approximations?
+    - Do the analytical predictions transfer to field-scale wind farms and realistic
+      atmospheric conditions, or only to large-eddy simulations?
+    - What code, datasets, baselines, and limitation reports are available for reproduction,
+      and what missing evidence should be treated as verification gaps?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 面向 Navier-Stokes 的坐标一致动力学离散
-      解决的问题: 将 Lattice Boltzmann 方法推广到一般正交坐标，在非均匀聚簇网格上保持碰撞-迁移结构，用于复杂区域流动模拟。
-      尚未覆盖: 强拉伸或复杂边界下的数值稳定性、边界精度和计算效率未在证据中确认；代码和基准不可见。
-    - 路线: 结构化高维协方差估计
-      解决的问题: 通过分层秩正则化从少量样本估计高维协方差矩阵，包含理论推导、算法和 CFD/地球科学数值实验。
-      尚未覆盖: 误差收敛率、秩选择、算法扩展性和真实数据比较在证据中不可见；仅有简短摘要。
-    - 路线: 非定常薄翼涡片一致性
-      解决的问题: 推导 Wagner 系数递推和一致收敛附着涡强度展开，满足涡片连续和后缘零载荷条件。
-      尚未覆盖: 超出薄翼/非定常假设的推广及实验验证未在证据中提供；局限性与分析字段为空。
-    - 路线: 湍流边界层谱-空间采样
-      解决的问题: 耦合湍流谱理论、风电场流动模型和三维空间采样预测功率波动谱，并用大涡模拟验证。
-      尚未覆盖: 现场数据、大气稳定度、风机控制和非理想布置的敏感性仍开放；证据仅说明 LES 验证。
+    - 路线: 坐标一致的流动离散
+      解决的问题: 用一般正交坐标和度量相关平衡态或强迫项表示 Navier-Stokes 方程，以改进非均匀聚簇网格模拟。
+      尚未覆盖: 尚无可见证据说明三维复杂几何稳定性，以及代码与基准基线的可获取性。
+    - 路线: 层次低秩协方差估计
+      解决的问题: 通过层次秩结构正则化从少量样本估计高维协方差矩阵，并给出理论与算法。
+      尚未覆盖: 秩层次假设、高维误差边界，以及 CFD 或地学示例之外的迁移证据未展示。
+    - 路线: 薄翼涡片一致性
+      解决的问题: 构造一致收敛的附着涡强度展开，在 Wagner 模型中满足涡片连续与后缘零载荷。
+      尚未覆盖: 限于非定常薄翼假设；可见证据缺少经验或实验比较及可复现工件。
+    - 路线: 湍流边界层谱采样
+      解决的问题: 结合湍流谱理论、风电场流模型与三维空间采样，预测风电场功率波动谱。
+      尚未覆盖: 验证基于 LES；现场尺度数据、大气条件敏感性和模型形式不确定性仍开放。
     共识:
-    - 论文共享一种理论先行模式：先建立解析一致性条件，再进行数值或 LES 验证，例如度量相关平衡态/强迫项、分层秩正则化、涡片连续性和谱采样。
-    - 目标都是在离散、采样或奇异性下保持结构，而不是仅做数据驱动拟合。
-    - 证据基础较窄：分析字段为空、复现信号有限、引用影响和图谱声望不可用，数值声明主要来自 tldr 摘要。
+    - 各工作都提出数学修正或正则化，以在数值或仿真支持前强化物理或统计一致性。
+    - 论文均采用推导加验证模式，但证据包中四篇均缺少详细方法、局限和工件描述。
+    - 所有工作均为 2026 年，因此共识仅限于当前前沿，而非跨年趋势。
     分歧:
-    - 数学表示不同：非均匀网格上的动力学离散、高维低秩协方差估计、附着涡递推、谱-空间采样分别依赖不同对象和假设。
-    - 验证目标不同：聚簇网格上的 Navier-Stokes 流动数值解、CFD/地球科学协方差估计、非定常薄翼理论、LES 验证的风电场功率波动谱。
-    - 所施加的一致性约束不同：局部度量相关守恒、全局结构化低秩正则化、涡片边界/连续条件、三维空间采样下的谱相干性。
+    - 表示方式不同：分别为坐标变换演化算子、层次低秩协方差结构、涡片递推展开和湍流边界层谱采样。
+    - 评测目标不同：非均匀网格流动模拟、少量样本协方差估计、非定常薄翼载荷和风电场功率波动谱。
+    - 验证设置不同：有些使用 CFD 或地学数值示例或大涡模拟，另一些可见经验证据或工件证据很少。
     开放问题:
-    - 这些公式在超出已展示场景后是否仍保持精度和稳定性，例如强拉伸 Lattice Boltzmann 网格或非理想大气/风电场条件？
-    - 尤其是分层协方差估计器，有哪些明确的误差界、收敛率或样本复杂度结果？
-    - Wagner 涡片递推能否推广到有限厚度、可压缩或分离流动，同时保持一致收敛？
-    - 经过 LES 验证的谱预测如何迁移到不同大气稳定度和风机控制条件下的现场测量？
-    - 缺失代码、数据、基线、局限性说明和工件链接在多大程度上限制独立验证？
+    - 在推导的理想假设之外，如一般网格、复杂几何或有限秩协方差近似下，有哪些严格误差或收敛保证？
+    - 解析预测能否迁移到现场尺度风电场和真实大气条件，还是仅适用于大涡模拟？
+    - 可用于复现的代码、数据集、基线和局限性报告有哪些，缺失证据应如何作为验证缺口处理？
   synthesis_status: llm
   generation_notes: []
 - id: survey
@@ -763,75 +731,83 @@ topics:
     score: 25.0
     url: https://arxiv.org/abs/2607.09557v2
   related_work_outline:
-  - 'Mainstream direction: The bounded packet contains one 2026 method paper on CFD-surrogate
-    reinforcement learning for autonomous underwater vehicle control, not a survey
-    or taxonomy contribution.'
-  - 'Shared research pattern: Hydrodynamics is represented as a learnable CFD surrogate
-    to reduce physical simulation cost during reinforcement learning control training.'
-  - 'Key differences: With only one paper, content-level differences cannot be established;
-    high relevance and recency scores contrast with missing methodology and reproducibility
+  - 'Mainstream direction: The bounded evidence contains a single 2026 method paper
+    on CFD-oriented reinforcement learning for autonomous underwater vehicles, not
+    a survey; it points to hybrid physics/surrogate-assisted RL control as the only
+    visible direction.'
+  - 'Shared research pattern: Combining a CFD surrogate drag model with reinforcement
+    learning to control a 6-DOF AUV, with reported zero-shot deployment, lower energy
+    use, and faster waypoint traversal.'
+  - 'Key differences: With one paper, no cross-paper content-level differences can
+    be inferred; the main gap is between the survey topic and the single method paper
     evidence.'
-  - 'Trend evolution: The year span is only 2026, so no historical evolution is observable;
-    the evidence is a single current-frontier data point.'
-  - 'Open questions: Methodology, baselines, metrics, code, dataset, and limitation
-    details are missing, leaving energy efficiency and zero-shot deployment claims
-    as verification gaps.'
+  - 'Trend evolution: The year span is limited to 2026 and one paper, so only the
+    current frontier is visible and no temporal trend can be established.'
+  - 'Open questions: Generalization across AUV geometries and sea conditions, verification
+    of baselines, datasets, metrics, and limitations, and absence of actual survey
+    synthesis remain open.'
   related_work_outline_zh:
-  - 主流方向：证据包中只有一篇 2026 年前沿方法论文，方向是 CFD 代理模型结合强化学习控制自主水下航行器，而非综述或分类体系。
-  - 研究共性：将水动力学建模为可学习的 CFD 代理阻力模型，用于降低强化学习控制训练中的物理仿真成本。
-  - 关键差异：只有单篇论文，无法判定内容层面的差异；高相关性和新近度评分与缺失的方法、复现证据之间只是验证缺口。
-  - 趋势演进：年份跨度为 2026 年，无法观察历史演进，只能视为当前前沿中的单个证据点。
-  - 开放问题：方法、基线、指标、代码、数据集与局限性均缺失，零样本部署和能耗优势需要更多可复现证据。
+  - 主流方向：证据包中只有一篇2026年面向CFD的自主水下航行器强化学习方法论文，并非综述；它指向物理/代理模型辅助强化学习这一唯一可见方向。
+  - 研究共性：将CFD代理阻力模型与强化学习结合，控制6自由度AUV，报告零样本部署、更低能耗和更快航点遍历。
+  - 关键差异：仅一篇论文无法推断跨论文内容差异；主要缺口是survey主题与单一方法论文证据之间的错位。
+  - 趋势演进：年份跨度仅2026且只有一篇论文，只能看到当前前沿，无法建立时间趋势。
+  - 开放问题：AUV几何与海洋条件泛化、基线/数据集/指标/局限性的可核验性，以及实际综述综合证据不足。
   literature_review:
     line_of_work_matrix:
-    - line: CFD-oriented reinforcement learning for autonomous underwater vehicles
-      what_it_solves: Learns a CFD surrogate drag model to train a 6-DOF AUV controller
-        for lower energy use and faster waypoint traversal with zero-shot deployment.
-      what_remains_open: Visible methodology, baseline, metric, limitation, code,
-        dataset, and repository details are missing; energy and waypoint traversal
-        claims remain verification gaps.
-    - line: Survey and roadmap synthesis for hydrodynamics-informed robot control
-      what_it_solves: Would organize fragmented control and hydrodynamics literature
-        into directions, milestones, and research gaps.
-      what_remains_open: The bounded packet contains no actual survey paper, so this
-        line is not evidenced and cannot be assessed for systematic coverage.
+    - line: Survey synthesis and taxonomy/roadmap construction
+      what_it_solves: Organizing fragmented literature into directions, milestones,
+        and research gaps.
+      what_remains_open: Not evidenced in this packet; only one AUV method paper is
+        present, so systematic coverage cannot be assessed.
+    - line: CFD surrogate-assisted reinforcement learning control
+      what_it_solves: Approximating expensive hydrodynamic drag with a CFD surrogate
+        to train a 6-DOF AUV controller and enable zero-shot deployment.
+      what_remains_open: Generalization beyond the tested AUV geometry, speed, current,
+        and sensor conditions; baseline, dataset, metric, and limitation details are
+        not visible.
+    - line: Energy and waypoint traversal efficiency evaluation
+      what_it_solves: Assessing whether learned AUV control reduces energy and improves
+        traversal time relative to an implicit or explicit baseline.
+      what_remains_open: Quantitative metrics and comparison conditions are not provided,
+        so the claimed efficiency improvements cannot be independently checked.
     consensus:
-    - No cross-paper consensus can be established because the packet contains only
-      one paper.
-    - The single included study signals that learned surrogate models can reduce physical
-      simulation cost during control learning.
+    - The available evidence agrees on using a CFD-derived surrogate drag model inside
+      a reinforcement-learning control loop for autonomous underwater vehicles.
+    - The high-level result claims zero-shot deployment, lower energy use, and faster
+      waypoint traversal, but the analysis fields do not provide enough methodology
+      or result detail to verify these claims.
     disagreements:
-    - No content-level disagreement can be inferred from a single paper.
-    - Available high topical relevance and recency scores contrast with missing methodology
-      and artifact evidence as a verification gap.
+    - No content-level disagreement can be inferred from a single paper; the only
+      observable mismatch is between the survey topic label and the method-paper evidence,
+      which is an evidence gap rather than a representation, supervision, evaluation,
+      or deployment difference.
     open_questions:
-    - What baselines, metrics, and simulation settings support the energy and waypoint
-      traversal claims?
-    - Can the zero-shot deployment result be reproduced without code, dataset, or
-      repository details?
-    - Does the CFD-surrogate RL approach transfer across different AUV geometries,
-      speeds, or flow conditions?
-    - Is there systematic survey evidence mapping hydrodynamics-informed RL beyond
-      this single method?
+    - Does the CFD surrogate-assisted RL controller generalize to untested AUV geometries,
+      flow regimes, currents, and sensor noise?
+    - What baselines, datasets, evaluation metrics, and limitations are associated
+      with the reported zero-shot, energy, and traversal improvements?
+    - Where is the systematic literature coverage needed for a survey, taxonomy, or
+      roadmap synthesis in this packet?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 面向 AUV 的 CFD 导向强化学习
-      解决的问题: 学习 CFD 代理阻力模型，训练 6 自由度 AUV 控制器以实现更低能耗和更快航点遍历。
-      尚未覆盖: 方法、基线、指标、局限性、代码、数据集或仓库细节均未出现；能耗和零样本部署主张仍缺少可复现证据。
-    - 路线: 水动力驱动机器人控制的综述与路线图综合
-      解决的问题: 将碎片化的控制与水动力学文献整理为研究方向、里程碑和开放缺口。
-      尚未覆盖: 证据包中没有真正的综述论文，无法评估其系统性与代表性。
+    - 路线: 综述综合与分类/路线图构建
+      解决的问题: 将碎片化文献整理为研究方向、里程碑和研究缺口。
+      尚未覆盖: 证据包中未出现可核验的综述论文；只有一篇AUV方法论文，系统覆盖无法评估。
+    - 路线: CFD代理模型辅助的强化学习控制
+      解决的问题: 用CFD代理阻力模型近似昂贵水动力计算，训练6自由度AUV控制器并实现零样本部署。
+      尚未覆盖: 未测试AUV几何、速度、洋流和传感器条件下的泛化性；基线、数据集、指标和局限性在包中不可见。
+    - 路线: 能耗与航点遍历效率评估
+      解决的问题: 评估学习得到的AUV控制是否相对隐式或显式基线降低能耗并缩短遍历时间。
+      尚未覆盖: 包中未给出定量指标和比较条件，因此效率提升声明无法独立核验。
     共识:
-    - 证据包仅有一篇论文，无法建立跨论文共识。
-    - 唯一内容层面的信号是，学习代理模型可降低控制学习中物理仿真的成本。
+    - 已有证据一致集中在将CFD代理阻力模型用于自主水下航行器的强化学习控制回路。
+    - 高层结果声称零样本部署、更低能耗和更快航点遍历，但分析字段未提供足够的方法或结果细节来核验这些声明。
     分歧:
-    - 单篇论文无法推断内容层面的分歧。
-    - 可用的高主题相关性和新近度评分与缺失的方法和复现证据形成验证缺口，而非方法层面的分歧。
+    - 单篇论文无法推断内容层面的跨论文分歧；唯一可观察到的错位是survey主题与方法论文证据之间的差异，这是证据缺口，而非表示、监督、评测或部署层面的分歧。
     开放问题:
-    - 哪些基线、指标和仿真设置支持能耗与航点遍历收益？
-    - 没有代码、数据集或仓库细节时，零样本部署结果是否可复现？
-    - CFD 代理强化学习能否迁移到不同 AUV 几何、速度或流场条件？
-    - 是否有系统综述证据可超越该单篇方法，绘制水动力强化学习的研究版图？
+    - CFD代理辅助强化学习控制器能否泛化到未测试的AUV几何、流动状态、洋流和传感器噪声？
+    - 所报告零样本、能耗和遍历提升对应的基线、数据集、评测指标与局限性是什么？
+    - 支撑survey、分类体系或路线图综合的系统文献覆盖在哪里？
   synthesis_status: llm
   generation_notes: []
 - id: application
@@ -905,146 +881,146 @@ topics:
     score: 33.2
     url: https://arxiv.org/abs/2606.29628v1
   related_work_outline:
-  - 'Mainstream direction: Engineering aerodynamic surrogate modeling dominates the
-    bounded evidence, including geometry-conditioned field predictors, operator architecture
-    benchmarks, and multi-fidelity aerodynamic-coefficient surrogates aimed at accelerating
-    CFD/RANS for airfoil and aircraft scenarios.'
-  - 'Shared research pattern: Most papers replace or correct a conventional CFD, empirical,
-    or baseline model with a learned surrogate; they evaluate accuracy and speedup,
-    and increasingly use uncertainty, adaptive sampling, or benchmark comparisons.'
-  - 'Key differences: Methods differ in supervision, such as large CFD datasets, data-free
-    physics constraints, and residual corrections to low-dimensional or baseline models;
-    output targets differ among pressure/velocity fields, aerodynamic coefficients,
-    unsteady loads, and vibration amplitude; evaluation scopes range from steady 2D
-    NACA airfoils to 3D aircraft, NLR 7301 motion, FSI, and perforated plates.'
-  - 'Trend evolution: The evidence is from a narrow 2026 frontier, so no long-term
-    trend is inferable; within this window the work is moving toward industrial-scale
-    geometry, multi-fidelity bridging, uncertainty quantification, and downstream
-    FSI/control questions.'
-  - 'Open questions: Transfer beyond steady 2D NACA-like airfoils, reliability of
-    2D-to-3D corrections, high-Reynolds-number data-free solving, realistic vibration
-    mitigation, reproducibility artifacts, and absent impeller/full-vehicle evidence.'
+  - 'Mainstream direction: data-driven surrogate modeling and accelerated simulation
+    for aerodynamic and fluid-engineering applications, with CFD/RANS outputs as the
+    dominant reference or training source.'
+  - 'Shared research pattern: replacing or correcting expensive physics-based evaluation
+    with learned geometry-, flow-, or dynamics-conditioned models, then benchmarking
+    on application-specific configurations such as airfoils, aircraft, wind-turbine
+    blades, and perforated plates.'
+  - 'Key differences: supervision ranges from paired CFD/RANS data to data-free physics-informed
+    losses; targets range from full flow fields and surface pressure to scalar coefficients,
+    unsteady loads, vibration amplitude, and component pressure loss; representations
+    include neural fields, operator networks, Gaussian functional regression, LSTM
+    residual correction, Kriging, and offline RL policy extraction.'
+  - 'Trend evolution: evidence is concentrated in the 2026 frontier, with movement
+    toward public datasets, geometry encoders, operator benchmarks, uncertainty-guided
+    sampling, and low-dimensional corrections; evaluation is expanding from 2D steady
+    airfoils toward 3D aircraft and component-level fluid systems.'
+  - 'Open questions: generalization beyond limited airfoil families and steady/incompressible
+    assumptions; transfer from simulation gains to real operational outcomes; robustness
+    of 2D-to-3D corrections; meaningful vibration suppression at realistic mass ratios;
+    and independent reproducibility where code/datasets/limitations are missing.'
   related_work_outline_zh:
-  - 主流方向：工程气动代理建模最突出，包括几何条件场预测、算子架构基准和多保真气动系数代理，目标是加速翼型与飞机CFD/RANS。
-  - 研究共性：多数论文用学习到的代理、修正或加速模型替代传统CFD、经验公式或基线模型；以精度和加速为评测目标，并引入不确定性、自适应采样或基准比较。
-  - 关键差异：监督方式不同，包括CFD数据集、无数据物理约束、对低维或基线模型的残差修正；输出目标不同，涵盖压力/速度场、气动系数、非定常载荷和振动幅值；评测范围从二维NACA翼型到三维飞机、NLR
-    7301运动、FSI和穿孔板。
-  - 趋势演进：证据仅覆盖2026年窄窗口，不能推断长期趋势；当前窗口内表现为向工业级几何、多保真桥接、不确定性量化和下游FSI/控制问题延伸。
-  - 开放问题：稳态二维类NACA翼型之外的迁移、2D到3D修正可靠性、高雷诺数无数据求解、实际振动抑制、工件可复现性，以及叶轮/整车等场景证据缺口。
+  - 主流方向：面向气动与流体工程应用的数据驱动代理建模和加速仿真，CFD/RANS输出是主要参考或训练来源。
+  - 研究共性：用几何、流场或动力学条件化的学习模型替代或修正昂贵物理评估，并在翼型、飞机、风力机叶片、穿孔板等场景中验证。
+  - 关键差异：监督信号从CFD/RANS配对数据到无数据物理信息损失；目标从全流场、表面压力到气动系数、非定常载荷、振动幅值和部件压损；表示包括神经场、算子网络、高斯泛函回归、LSTM残差、Kriging和离线RL策略。
+  - 趋势演进：证据集中在2026年，显现公开数据集、几何编码器、算子评测、不确定性引导采样和低维修正的趋势；场景从二维定常翼型向三维飞机与部件级系统扩展。
+  - 开放问题：有限翼型族和定常不可压假设之外的泛化；仿真收益到真实运行结果的迁移；二维到三维修正的鲁棒性；真实质量比下的振动抑制；以及缺代码/数据/局限性时的可复现性。
   literature_review:
     line_of_work_matrix:
-    - line: Geometry-conditioned neural field surrogates
-      what_it_solves: Predicts pressure and velocity fields around aerodynamic shapes
-        from geometry, reducing CFD runtime for airfoil and aircraft scenarios.
-      what_remains_open: Generalization beyond steady, incompressible, two-dimensional
-        NACA-like airfoils and automotive/motorsport regimes; industrial 3D and off-design
-        coverage remains uncertain.
-    - line: Operator learning architecture benchmarking
-      what_it_solves: Identifies promising deep operator architectures for aerodynamic
-        surface-pressure prediction under shocks, many grid points, and data scarcity.
-      what_remains_open: Real-world deployment validity, clearer limitation reporting,
-        and broader artifact availability are not established in the packet.
-    - line: Multi-fidelity and dimension-bridging coefficient surrogates
-      what_it_solves: Uses low-dimensional corrections and uncertainty quantification
-        to predict aerodynamic coefficients with fewer high-fidelity evaluations and
-        fast kernel evaluation.
-      what_remains_open: Performance depends on choosing a suitable low-dimensional
-        model; the neural-network-accelerated kernel is approximate and artifact availability
-        is limited.
-    - line: Physics-informed and data-free PDE solving
-      what_it_solves: Solves steady Navier-Stokes benchmark problems using physics
-        constraints without external flow data.
-      what_remains_open: High-Reynolds-number and realistic engineering geometry boundaries
-        remain unresolved, and method/limitation evidence in the packet is sparse.
-    - line: Unsteady aerodynamic load residual modeling
-      what_it_solves: Learns residual corrections to baseline aerodynamic load models
-        for pitch/plunge motions on NLR 7301 CFD benchmark.
-      what_remains_open: Generalization beyond NLR 7301 and the chosen baseline is
-        not shown; method details and reproducibility signals are limited.
-    - line: Fluid-structure interaction and vibration mitigation
-      what_it_solves: Evaluates resonator-based vortex-induced vibration mitigation
-        for a wind turbine airfoil using CFD-based fluid-structure interaction.
-      what_remains_open: Realistic mass ratios produce only small amplitude reductions;
-        generalization across airfoils and vibration regimes is unresolved.
-    - line: Component loss and fluid control surrogates
-      what_it_solves: Predicts pressure losses across perforated plates and extracts
-        offline fluid control policies from observational data.
-      what_remains_open: Evidence is thin for offline reinforcement learning; broader
-        component classes and controlled deployment settings are not covered.
+    - line: Geometry-conditioned aerodynamic field surrogates
+      what_it_solves: Predicts pressure and velocity fields from airfoil geometry,
+        replacing costly CFD evaluation with fast neural surrogates for downforce-generating
+        airfoils.
+      what_remains_open: Current evidence is confined to steady, incompressible, 2D
+        subsonic flow and NACA 4-digit airfoils; extension to non-NACA, unsteady,
+        and 3D shapes remains unverified.
+    - line: Operator-learning architecture benchmarking
+      what_it_solves: Compares deep operator networks for surface pressure prediction
+        on 2D and 3D aerodynamic configurations under shock, scalability, and data-scarcity
+        requirements.
+      what_remains_open: Findings are tied to tested benchmark settings; no explicit
+        limitations or real-world operational validation are provided.
+    - line: Low-dimensional Gaussian process correction for RANS
+      what_it_solves: Learns a 2D-to-3D RANS correction for aerodynamic coefficients
+        with uncertainty-guided adaptive sampling and fast neural-accelerated kernel
+        evaluation.
+      what_remains_open: Accuracy depends on choosing a suitable low-dimensional model,
+        and the accelerated kernel remains approximate outside evaluated cases.
+    - line: Data-free physics-informed PDE solving
+      what_it_solves: Solves steady Navier-Stokes benchmark problems across low-to-high
+        Reynolds numbers without external flow data.
+      what_remains_open: Only abstract-level information is available; solution accuracy,
+        engineering configuration coverage, and generalization limits are not shown.
+    - line: Control-oriented aeroelastic and fluid policy learning
+      what_it_solves: Studies resonator-based vortex-induced vibration suppression
+        on a wind turbine airfoil and offline reinforcement-learning policy extraction
+        for fluid control.
+      what_remains_open: Realistic mass ratios yield only small vibration reductions;
+        RL evidence lacks detailed methodology and limitation reporting.
+    - line: Unsteady and component-level empirical surrogates
+      what_it_solves: Corrects analytical baselines for unsteady aerodynamic load
+        prediction and predicts perforated-plate pressure losses with Kriging/neural
+        models.
+      what_remains_open: Unsteady evidence is narrow, limited to NLR 7301 pitch/plunge
+        cases; pressure-loss validation relies on RANS CFD rather than physical experiments.
     consensus:
-    - Most work targets aerodynamic or fluid-system engineering by learning fast surrogates
-      or corrections to conventional CFD, RANS, or empirical models.
-    - Accuracy and speedup relative to conventional methods are the shared evaluation
-      objectives.
-    - Geometry conditioning, low-fidelity/dimension bridging, uncertainty, and architecture
-      benchmarking are recurring strategies to address data cost and scalability.
-    - The evidence emphasizes engineering-specific configurations rather than only
-      abstract fluid benchmarks.
+    - Learned surrogates and correctors are used to reduce the cost of CFD/RANS or
+      to improve empirical/analytical baselines for application-specific aerodynamic
+      quantities.
+    - 'Evaluation settings are engineering-oriented: airfoils, aircraft, wind-turbine
+      airfoils, and perforated plates, with accuracy, speedup, shock capture, or vibration
+      amplitude as key targets.'
+    - 'Many approaches combine data-driven learning with a prior: geometry encoding,
+      operator structure, low-dimensional RANS correction, analytic baseline residuals,
+      or empirical formula baselines.'
+    - Uncertainty and generalization receive repeated attention through geometry extrapolation,
+      data-scarcity settings, adaptive sampling, and uncertainty quantification.
     disagreements:
-    - 'Supervision differs: large CFD datasets, data-free physics constraints, and
-      residual corrections to low-dimensional or baseline models are used.'
-    - 'Output targets differ: full pressure/velocity fields, aerodynamic coefficients,
-      unsteady loads, vibration amplitude, and component pressure losses.'
-    - 'Evaluation scopes differ: steady 2D NACA airfoils, industrial 3D aircraft,
-      NLR 7301 pitch/plunge, wind turbine airfoil FSI, and perforated plates.'
-    - 'Artifact availability differs: only some papers provide public datasets or
-      clear reproducibility signals; the rest remain verification gaps.'
-    - Some methods prioritize fast scalar evaluation for design loops, while others
-      prioritize field accuracy or physical effect mitigation.
+    - 'Supervision and prior knowledge differ: paired CFD/RANS supervision, physics-informed
+      losses without data, analytic or empirical baseline residuals, and interactive
+      control objectives.'
+    - 'Target outputs differ: full flow fields, surface pressure, scalar aerodynamic
+      coefficients, unsteady load histories, vibration amplitude, and component pressure
+      loss.'
+    - 'Spatial/temporal coverage differs: steady 2D subsonic airfoils, industrial
+      3D aircraft, low-to-high Reynolds Navier-Stokes benchmark PDEs, and turbulent
+      component flow.'
+    - 'Model families differ: geometry-conditioned neural fields and operator networks,
+      Gaussian process functional regression, LSTM residual models, Kriging, and offline
+      reinforcement learning.'
+    - 'Reproducibility evidence is uneven: some papers report datasets or artifacts,
+      while others give only abstract/method signals; missing code and limitations
+      limit independent verification.'
     open_questions:
-    - Do geometry-conditioned field surrogates trained on steady 2D NACA airfoils
-      transfer to unsteady, compressible, or 3D impeller and full-vehicle flows?
-    - How much configuration-specific low-dimensional or low-fidelity modeling is
-      needed for 2D-to-3D aerodynamic corrections to remain reliable?
-    - Can physics-informed and data-free Navier-Stokes solvers move beyond steady
-      benchmarks to high-Reynolds-number engineering geometries?
-    - Can vortex-induced vibration mitigation achieve meaningful amplitude reduction
-      at realistic mass ratios, and how should it connect to learned aerodynamic load
-      surrogates?
-    - How reproducible are these methods in operational or industrial settings given
-      limited code, dataset, and artifact evidence in the packet?
-    - Where are impeller, full-vehicle, and other non-airfoil engineering scenarios
-      in the current evidence?
+    - Can field surrogates and operator rankings transfer beyond NACA 4-digit steady
+      incompressible 2D flows to non-NACA, unsteady, and industrial 3D configurations?
+    - Under what low-dimensional model choices do 2D-to-3D RANS corrections remain
+      calibrated, and can accelerated kernels preserve uncertainty quantification
+      outside tested cases?
+    - What resonator or control designs can achieve practically meaningful vortex-induced-vibration
+      suppression under realistic mass ratios?
+    - Do data-free PINN solvers and offline RL fluid policies remain effective beyond
+      the stated benchmark regimes and without external data or online interaction?
+    - How much of the reported speedup and accuracy can be independently replicated
+      when code, datasets, baselines, and limitation details are released or verified?
   literature_review_zh:
     研究路线矩阵:
-    - 路线: 几何条件神经场代理
-      解决的问题: 从翼型或飞机几何形状预测压力与速度场，减少翼型/飞机气动场景中的CFD耗时。
-      尚未覆盖: 超出稳态、不可压缩、二维类NACA翼型及汽车/赛车运动工况后的泛化；工业三维和偏离设计工况覆盖尚不确定。
-    - 路线: 算子学习架构基准
-      解决的问题: 在激波、大量网格点和数据稀缺条件下，识别适合气动表面压力预测的深度算子架构。
-      尚未覆盖: 真实部署有效性、更明确局限报告和更完整工件可用性均未在证据中确立。
-    - 路线: 多保真与维度桥接系数代理
-      解决的问题: 利用低维修正与不确定性量化，以更少高保真评估预测气动系数，并实现快速核评估。
-      尚未覆盖: 性能依赖合适的低维模型选择；神经网络加速核为近似一致；工件可用性有限。
-    - 路线: 物理信息与无数据PDE求解
-      解决的问题: 在不使用外部流场数据的情况下，以物理约束求解稳态Navier-Stokes基准问题。
-      尚未覆盖: 高雷诺数和真实工程几何边界仍未解决；证据中方法与局限信息较稀疏。
-    - 路线: 非定常气动载荷残差建模
-      解决的问题: 在NLR 7301 CFD基准上，学习对基线气动载荷模型的残差修正，处理俯仰/沉浮运动。
-      尚未覆盖: 超出NLR 7301及所选基线后的泛化未展示；方法细节与复现信号有限。
-    - 路线: 流固耦合与振动抑制
-      解决的问题: 用CFD流固耦合评估谐振器对风力机翼型涡激振动的抑制效果。
-      尚未覆盖: 实际质量比下振幅减小幅度较小；跨翼型和振动工况推广未解决。
-    - 路线: 部件损失与流体控制代理
-      解决的问题: 预测穿孔板压力损失，并从观测数据中提取离线流体控制策略。
-      尚未覆盖: 离线强化学习证据较薄；更广泛部件类型和受控部署设置未被覆盖。
+    - 路线: 几何条件气动流场代理
+      解决的问题: 根据翼型几何预测压力与速度场，以快速神经代理替代下压力翼型的昂贵CFD评估。
+      尚未覆盖: 当前证据限于稳态、不可压缩、二维亚音速和NACA 4-digit翼型；向非NACA、非定常与三维外形的扩展尚未验证。
+    - 路线: 深度算子架构评测
+      解决的问题: 在二维和三维气动配置上比较深度算子网络对表面压力的预测，考察激波、可扩展性与数据稀缺表现。
+      尚未覆盖: 结论与所选基准场景绑定；摘要未提供明确局限性，也未展示真实运行验证。
+    - 路线: 低维高斯过程RANS修正
+      解决的问题: 学习2D到3D RANS修正以预测气动系数，结合不确定性引导自适应采样和神经加速核。
+      尚未覆盖: 精度依赖合适的低维模型；加速核在评估工况外仍属近似。
+    - 路线: 无数据物理信息PDE求解
+      解决的问题: 在不使用外部流场数据的情况下求解低至高雷诺数稳态Navier-Stokes基准问题。
+      尚未覆盖: 仅有摘要级信息；求解精度、工程配置覆盖和泛化边界未显示。
+    - 路线: 控制导向的气弹与流体策略学习
+      解决的问题: 研究风力机翼型涡激振动的谐振器抑制，以及用于流体控制的离线强化学习策略提取。
+      尚未覆盖: 真实质量比下振动降幅较小；RL证据缺少详细方法与限制说明。
+    - 路线: 非定常与部件级经验代理
+      解决的问题: 用残差学习修正解析基线以预测非定常气动载荷，并用Kriging/神经网络预测穿孔板压损。
+      尚未覆盖: 非定常证据限于NLR 7301俯仰/沉浮；压损验证依赖RANS CFD而非物理实验。
     共识:
-    - 多数工作面向气动或流体系统工程，学习对CFD、RANS或经验模型的快速代理或修正。
-    - 精度和相对传统方法的加速是共同评测目标。
-    - 几何条件、低维/维度桥接、不确定性和架构基准被反复用于缓解数据成本与扩展性问题。
-    - 证据强调面向工程特定配置，而非仅解决抽象流体基准。
+    - 多个工作都把昂贵CFD/RANS评估或经验/解析基线的不足作为关键瓶颈，并用学习代理或修正项降低成本或提升预测。
+    - 评测场景偏向工程应用：翼型、飞机、风力机翼型和穿孔板，关注精度、加速比、激波捕捉或振动幅度。
+    - 不少方法将数据驱动学习与先验结合：几何编码、算子结构、低维RANS修正、解析基线残差或经验公式。
+    - 泛化与不确定性受到持续关注，体现在几何外推、数据稀缺、自适应采样和不确定性量化中。
     分歧:
-    - 监督信号不同：大型CFD数据集、无数据物理约束、对低维或基线模型的残差修正并存。
-    - 输出目标不同：压力/速度场、气动系数、非定常载荷、振动幅值和部件压力损失。
-    - 评测范围不同：稳态二维NACA翼型、工业三维飞机、NLR 7301俯仰/沉浮、风力机翼型FSI和穿孔板。
-    - 工件可用性不同：仅部分工作提供公开数据集或清晰复现信号，其余仍是验证缺口。
-    - 部分方法侧重设计循环中的快速标量评估，另一些侧重场精度或物理效应抑制。
+    - 监督信号和先验不同：CFD/RANS配对监督、无数据物理信息损失、解析或经验基线残差，以及交互控制目标。
+    - 目标输出不同：全流场、表面压力、标量气动系数、非定常载荷历史、振动幅度和部件压损。
+    - 空间/时间覆盖不同：稳态二维亚音速翼型、三维飞机、低/高雷诺数PDE基准和湍流部件流动。
+    - 模型家族不同：几何条件神经场与算子网络、高斯过程泛函回归、LSTM残差、Kriging和离线RL。
+    - 可复现证据不均衡：部分报告数据或工件，部分仅有摘要/方法信号；缺代码和局限性限制独立验证。
     开放问题:
-    - 在稳态二维NACA翼型上训练的几何条件场代理，能否迁移到非定常、可压缩或三维叶轮/整车流动？
-    - 二维到三维气动修正需要多少配置特定的低维或低保真建模才能保持可靠？
-    - 物理信息与无数据Navier-Stokes求解能否从稳态基准扩展到高雷诺数工程几何？
-    - 实际质量比下涡激振动抑制能否达到显著减幅，并如何与学习到的气动载荷代理结合？
-    - 在代码、数据集和工件证据有限时，这些方法在运营或工业环境中的可复现性如何？
-    - 叶轮、整车等非翼型工程场景在当前证据中位于何处？
+    - 流场代理和算子评测排名能否从NACA 4-digit稳态不可压二维流扩展到非NACA、非定常和工业三维配置？
+    - 在何种低维模型选择下2D到3D RANS修正保持校准，神经加速核能否在测试工况外保持不确定性质量？
+    - 什么谐振器或控制设计能在真实质量比下实现有意义的涡激振动抑制？
+    - 无数据PINN求解器和离线RL流体策略在给定基准之外、缺少外部数据或在线交互时是否仍然有效？
+    - 当代码、数据集、基线和限制细节公开或核验后，报告的速度提升和精度能否被独立复现？
   synthesis_status: llm
   generation_notes: []

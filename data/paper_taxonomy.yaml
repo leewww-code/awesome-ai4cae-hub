@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-05T14:14:29Z'
+generated_at: '2026-10-06T04:48:47Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -455,7 +455,8 @@ assignments:
   evidence: method
 - paper_id: neuroforge-self-auditing-neural-cfd-surrogates-with-calibra-2026
   primary: system
-  secondary: []
+  secondary:
+  - method
   confidence: 0.67
   evidence: system
 - paper_id: one-cylinder-a-benchmark-for-graph-based-surrogate-modeling-2026
@@ -692,3 +693,143 @@ assignments:
   - system
   confidence: 0.65
   evidence: benchmark
+- paper_id: port-hamiltonian-approach-to-neural-network-training-2019
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: beyond-finite-layer-neural-network-bridging-deep-architects-2017
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: adaptive-checkpoint-adjoint-method-for-gradient-estimation-i-2020
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: neural-operator-learning-maps-between-function-spaces-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: fourier-neural-operator-for-plasma-modelling-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: low-temperature-plasma-simulation-based-on-physics-informed-2022
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: evaluation-of-deep-neural-operator-models-toward-ocean-forec-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: fourcastnet-a-global-data-driven-hr-weather-model-using-afn-2022
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: stiff-pinn-physics-informed-neural-network-for-stiff-chemic-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: a-multi-scale-sampling-method-for-accurate-and-robust-deep-n-2022
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: machine-learning-accelerated-computational-fluid-dynamics-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: learning-data-driven-discretizations-for-partial-differentia-2019
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: evolutional-deep-neural-network-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: nas-pinn-neural-architecture-search-guided-physics-informed-2024
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: nsfnets-navier-stokes-flow-nets-physics-informed-neural-n-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: physics-informed-learning-of-governing-equations-from-scarce-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: physics-informed-neural-operator-for-learning-partial-differ-2025
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: factorized-fourier-neural-operators-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: fourier-neural-operator-for-parametric-partial-differential-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: koopman-neural-operator-as-a-mesh-free-solver-of-non-linear-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: lno-laplace-neural-operator-for-solving-differential-equati-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: geometry-informed-neural-operator-for-large-scale-3d-pdes-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: multipole-graph-neural-operator-for-parametric-pdes-2020
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: fourier-mionet-fourier-enhanced-multiple-input-neural-opera-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: graph-neural-network-accelerated-lagrangian-fluid-simulation-2022
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: towards-physics-informed-deep-learning-for-turbulent-flow-pr-2020
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: drivaernet-a-parametric-car-dataset-for-data-driven-aerodyn-2024
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: polygnn-polyhedron-based-graph-neural-network-for-3d-buildi-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method

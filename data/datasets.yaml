@@ -36,12 +36,15 @@
     category: dataset
   year: 2026
   notes: downloads=990, likes=0, license=cc-by-4.0
-  preview: /assets/placeholder.svg
+  preview: https://arxiv.org/html/2609.38213v1/Figures/airfoil2vec-three-view.png
   related_papers:
   - id: airfoil2vec-spectral-geometry-conditioned-neural-surrogate-2026
     title: 'Airfoil2Vec: Spectral Geometry-Conditioned Neural Surrogate Models for
       Airfoil Aerodynamics and a Downforce-Generating CFD Dataset'
     url: https://arxiv.org/abs/2609.38213v1
+    title_zh: Airfoil2Vec：面向翼型空气动力学与下压力生成 CFD 数据集的谱几何条件化神经代理模型
+  name_zh: Airfoil2Vec
+  description_zh: 发布万级RANS翼型数据集，提出Airfoil2Vec谱几何条件神经代理，预测流场并实现CFD数量级加速。
 - id: hf-ideallab-airfoil-v0
   name: IDEALLab/airfoil_v0
   description: 'This dataset is part of the EngiBench toolkit: https://github.com/IDEALLab/EngiBench.'
@@ -396,20 +399,55 @@
     category: dataset
   year: 2024
   notes: downloads=6, likes=0, license=mit
-  preview: /assets/placeholder.svg
+  preview: https://arxiv.org/html/2609.13560v1/diagram.png
   related_papers:
   - id: dd-rno-a-domain-decomposed-routed-neural-operator-for-airfo-2026
     title: 'DD-RNO: A Domain-Decomposed Routed Neural Operator for Airfoil Flow Prediction'
     url: https://arxiv.org/abs/2608.13490v1
+    title_zh: DD-RNO：一种用于翼型流动预测的域分解路由神经算子
   - id: gaia-geometry-adaptive-operator-learning-for-forward-and-in-2026
     title: 'GAIA: Geometry-Adaptive Operator Learning for Forward and Inverse Problems'
     url: https://arxiv.org/abs/2607.01128v1
+    title_zh: GAIA：面向正问题与反问题的几何自适应算子学习
   - id: llt-local-linear-transformer-for-pde-operator-learning-2026
     title: 'LLT: Local Linear Transformer for PDE Operator Learning'
     url: https://arxiv.org/abs/2607.07718v1
+    title_zh: LLT：面向PDE算子学习的局部线性Transformer
   - id: learnable-composition-for-neural-operators-2026
     title: Learnable composition for neural operators
     url: https://arxiv.org/abs/2609.03069v1
+    title_zh: 神经算子的可学习组合
+  - id: a-learning-based-joint-flow-and-kinematic-state-estimation-f-2026
+    title: A learning-based joint flow and kinematic state estimation for bodies in
+      highly disturbed flows
+    url: https://arxiv.org/abs/2609.13560v1
+    title_zh: 基于学习的高扰动流中物体流场与运动学状态联合估计
+  - id: cofinn-conservation-flux-informed-neural-networks-for-physi-2026
+    title: 'CoFINN: Conservation Flux Informed Neural Networks for Physics Problems
+      Governed by Conservation Laws'
+    url: https://arxiv.org/abs/2607.06587v1
+    title_zh: CoFINN：守恒通量信息神经网络用于受守恒律支配的物理问题
+  - id: low-dimensional-structure-and-online-tracking-of-pod-subspac-2026
+    title: 'Low-dimensional structure and online tracking of POD subspaces on the
+      Grassmann manifold: application to flow around an airfoil'
+    url: https://arxiv.org/abs/2608.10498v1
+    title_zh: Grassmann 流形上 POD 子空间的低维结构与在线跟踪：在翼型绕流中的应用
+  - id: mesh-adaptation-on-hybrid-unstructured-meshes-for-immersed-b-2026
+    title: Mesh Adaptation on Hybrid Unstructured Meshes for Immersed Boundary Methods
+    url: https://arxiv.org/abs/2607.27580v1
+    title_zh: 混合非结构网格上面向浸入边界方法的网格自适应
+  - id: physics-informed-neural-networks-for-shock-capturing-in-invi-2026
+    title: Physics-informed neural networks for shock capturing in inviscid flows
+      around an airfoil
+    url: https://arxiv.org/abs/2607.08130v1
+    title_zh: 用于翼型周围无粘流动中激波捕捉的物理信息神经网络
+  - id: stable-compact-and-direct-ghost-cell-reconstruction-a-non-2026
+    title: 'Stable, Compact, and Direct Ghost-Cell Reconstruction: A Non-Iterative
+      Approach for Embedded-Boundary Methods'
+    url: https://arxiv.org/abs/2609.10165v1
+    title_zh: 稳定、紧凑且直接的 Ghost-Cell 重构：一种面向嵌入边界方法的非迭代途径
+  name_zh: 基于学习的高扰动流中物体流场与运动学状态联合估计
+  description_zh: 数据驱动序贯估计器结合运动学感知自编码器与在线滤波，从稀疏测量联合重构非定常流场、载荷与翼型运动学。
 - id: hf-girasoles123-airfoil2d-prediction-design
   name: Girasoles123/Airfoil2D_Prediction_Design
   description: 'Hugging Face dataset: Girasoles123/Airfoil2D_Prediction_Design'
@@ -431,11 +469,21 @@
   - region:us
   links:
     huggingface: https://huggingface.co/datasets/joyboyjeff/Airfoil_Dataset
+    paper: https://arxiv.org/abs/2609.38213v1
   sources:
   - repo: huggingface-datasets
     category: dataset
   year: 2025
   notes: downloads=5, likes=0, license=mit
+  preview: https://arxiv.org/html/2609.38213v1/Figures/airfoil2vec-three-view.png
+  name_zh: Airfoil2Vec
+  description_zh: 发布万级RANS翼型数据集，提出Airfoil2Vec谱几何条件神经代理，预测流场并实现CFD数量级加速。
+  related_papers:
+  - id: airfoil2vec-spectral-geometry-conditioned-neural-surrogate-2026
+    title: 'Airfoil2Vec: Spectral Geometry-Conditioned Neural Surrogate Models for
+      Airfoil Aerodynamics and a Downforce-Generating CFD Dataset'
+    url: https://arxiv.org/abs/2609.38213v1
+    title_zh: Airfoil2Vec：面向翼型空气动力学与下压力生成 CFD 数据集的谱几何条件化神经代理模型
 - id: hf-happyfc-airfoil
   name: happyfc/airfoil
   description: 'Hugging Face dataset: happyfc/airfoil'
@@ -449,122 +497,265 @@
     category: dataset
   year: 2026
   notes: downloads=4, likes=0
-  preview: /assets/placeholder.svg
+  preview: https://arxiv.org/html/2609.11941v1/x1.png
   related_papers:
   - id: a-massively-parallel-hybridizable-discontinuous-galerkin-sol-2026
     title: A Massively Parallel Hybridizable Discontinuous Galerkin Solver for Direct
       Numerical Simulation of Compressible Flows on GPUs
     url: https://arxiv.org/abs/2608.27863v1
+    title_zh: 一种用于GPU上可压缩流直接数值模拟的大规模并行可杂交间断Galerkin求解器
   - id: a-physics-driven-framework-for-parametric-periodic-flow-mode-2026
     title: A Physics-Driven Framework for Parametric Periodic-Flow Modeling and Finite-Amplitude
       Aeroelastic Response Analysis
     url: https://arxiv.org/abs/2609.29280v1
+    title_zh: 一种用于参数化周期流建模与有限幅值气动弹性响应分析的物理驱动框架
   - id: a-residual-learning-approach-for-unsteady-aerodynamic-load-p-2026
     title: A Residual Learning Approach for Unsteady Aerodynamic Load Prediction
     url: https://arxiv.org/abs/2608.17894v1
+    title_zh: 一种用于非定常气动载荷预测的残差学习方法
   - id: a-learning-based-joint-flow-and-kinematic-state-estimation-f-2026
     title: A learning-based joint flow and kinematic state estimation for bodies in
       highly disturbed flows
     url: https://arxiv.org/abs/2609.13560v1
+    title_zh: 基于学习的高扰动流中物体流场与运动学状态联合估计
   - id: aerodynamic-shape-design-space-exploration-with-deep-latent-2026
     title: Aerodynamic Shape Design Space Exploration with Deep Latent Diffusion Model
     url: https://arxiv.org/abs/2609.00812v1
+    title_zh: 基于深度潜在扩散模型的气动外形设计空间探索
   - id: airfoil2vec-spectral-geometry-conditioned-neural-surrogate-2026
     title: 'Airfoil2Vec: Spectral Geometry-Conditioned Neural Surrogate Models for
       Airfoil Aerodynamics and a Downforce-Generating CFD Dataset'
     url: https://arxiv.org/abs/2609.38213v1
+    title_zh: Airfoil2Vec：面向翼型空气动力学与下压力生成 CFD 数据集的谱几何条件化神经代理模型
   - id: cluster-attention-neural-operators-for-solving-parametric-pa-2026
     title: Cluster Attention Neural Operators for Solving Parametric Partial Differential
       Equations
     url: https://arxiv.org/abs/2609.39914v1
+    title_zh: 用于求解参数化偏微分方程的聚类注意力神经算子
   - id: cofinn-conservation-flux-informed-neural-networks-for-physi-2026
     title: 'CoFINN: Conservation Flux Informed Neural Networks for Physics Problems
       Governed by Conservation Laws'
     url: https://arxiv.org/abs/2607.06587v1
+    title_zh: CoFINN：守恒通量信息神经网络用于受守恒律支配的物理问题
   - id: dd-rno-a-domain-decomposed-routed-neural-operator-for-airfo-2026
     title: 'DD-RNO: A Domain-Decomposed Routed Neural Operator for Airfoil Flow Prediction'
     url: https://arxiv.org/abs/2608.13490v1
+    title_zh: DD-RNO：一种用于翼型流动预测的域分解路由神经算子
   - id: do-better-scores-mean-better-physics-physics-grounded-expla-2026
     title: Do Better Scores Mean Better Physics? Physics-Grounded Explanations for
       Sim2Real Neural Operators
     url: https://arxiv.org/abs/2610.00415v1
+    title_zh: 更好的分数意味着更好的物理吗？面向 Sim2Real 神经算子的基于物理的解释
   - id: efficient-wall-modeled-high-order-compact-gas-kinetic-scheme-2026
     title: Efficient Wall-Modeled High-Order Compact Gas-Kinetic Scheme for Compressible
       Turbulent Flows
     url: https://arxiv.org/abs/2606.30061v1
+    title_zh: 用于可压缩湍流的高效壁面模化高阶紧致气体动理学格式
   - id: evaluation-of-state-of-the-art-deep-learning-architectures-f-2026
     title: Evaluation of State-of-the-Art Deep Learning Architectures for Aerodynamical
       Predictions
     url: https://arxiv.org/abs/2607.13866v1
+    title_zh: 用于空气动力学预测的最先进深度学习架构评估
   - id: extracting-informative-vortical-structures-of-turbulent-wake-2026
     title: Extracting informative vortical structures of turbulent wake-extreme vortex
       gust interactions with machine learning
     url: https://arxiv.org/abs/2607.26683v1
+    title_zh: 利用机器学习提取湍流尾流-极端涡阵风相互作用中的信息性涡结构
   - id: gaia-geometry-adaptive-operator-learning-for-forward-and-in-2026
     title: 'GAIA: Geometry-Adaptive Operator Learning for Forward and Inverse Problems'
     url: https://arxiv.org/abs/2607.01128v1
+    title_zh: GAIA：面向正问题与反问题的几何自适应算子学习
   - id: how-does-distribution-shift-shape-pretraining-gains-in-neura-2026
     title: How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?
     url: https://arxiv.org/abs/2609.20814v1
+    title_zh: 分布偏移如何塑造神经 PDE 代理模型的预训练收益？
   - id: identifying-parameter-couplings-and-uncertainties-of-mixed-n-2026
     title: Identifying parameter couplings and uncertainties of mixed-noise stochastic
       systems via full-covariance Gaussian mixture network
     url: https://arxiv.org/abs/2608.15198v1
+    title_zh: 基于全协方差高斯混合网络的混合噪声随机系统参数耦合与不确定性辨识
   - id: impact-of-a-resonator-on-vortex-induced-vibrations-of-a-wind-2026
     title: Impact of a resonator on vortex induced vibrations of a wind turbine airfoil
     url: https://arxiv.org/abs/2609.24331v1
+    title_zh: 共振器对风力机翼型涡激振动的影响
   - id: kolmogorov-arnold-networks-kan-for-aerodynamic-prediction-2026
     title: 'Kolmogorov Arnold networks (KAN) for aerodynamic prediction: a comparison
       with MLPs and GNNs'
     url: https://arxiv.org/abs/2606.27126v1
+    title_zh: 用于气动预测的 Kolmogorov Arnold networks (KAN)：与 MLPs 和 GNNs 的比较
   - id: llt-local-linear-transformer-for-pde-operator-learning-2026
     title: 'LLT: Local Linear Transformer for PDE Operator Learning'
     url: https://arxiv.org/abs/2607.07718v1
+    title_zh: LLT：面向PDE算子学习的局部线性Transformer
   - id: learnable-composition-for-neural-operators-2026
     title: Learnable composition for neural operators
     url: https://arxiv.org/abs/2609.03069v1
+    title_zh: 神经算子的可学习组合
   - id: low-dimensional-structure-and-online-tracking-of-pod-subspac-2026
     title: 'Low-dimensional structure and online tracking of POD subspaces on the
       Grassmann manifold: application to flow around an airfoil'
     url: https://arxiv.org/abs/2608.10498v1
+    title_zh: Grassmann 流形上 POD 子空间的低维结构与在线跟踪：在翼型绕流中的应用
   - id: mesh-adaptation-on-hybrid-unstructured-meshes-for-immersed-b-2026
     title: Mesh Adaptation on Hybrid Unstructured Meshes for Immersed Boundary Methods
     url: https://arxiv.org/abs/2607.27580v1
+    title_zh: 混合非结构网格上面向浸入边界方法的网格自适应
   - id: mollified-sharp-decomposition-a-probabilistic-regularizatio-2026
     title: 'Mollified-sharp decomposition: a probabilistic regularization of parametric
       POD for shock-bearing flows'
     url: https://arxiv.org/abs/2609.19532v1
+    title_zh: Mollified-sharp decomposition：用于含激波流动的参数化POD的一种概率正则化
   - id: neural-differential-equations-for-oscillatory-flows-in-aeroe-2026
     title: Neural Differential Equations for Oscillatory Flows in Aeroelasticity Applied
       to Transonic Buffet
     url: https://arxiv.org/abs/2607.22402v2
+    title_zh: 气动弹性中振荡流的神经微分方程及其在跨声速抖振中的应用
   - id: offline-reinforcement-learning-for-fluid-controls-data-base-2026
     title: 'Offline Reinforcement Learning for Fluid Controls: Data-based Multi-observational
       Policy Extraction'
     url: https://arxiv.org/abs/2606.31025v1
+    title_zh: 用于流体控制的离线强化学习：基于数据的多观测策略提取
   - id: physically-consistent-formulation-for-the-bound-vortex-sheet-2026
     title: Physically consistent formulation for the bound vortex sheet strength in
       the Wagner model
     url: https://arxiv.org/abs/2607.06884v1
+    title_zh: Wagner模型中附着涡片强度的物理一致表述
   - id: physics-informed-neural-networks-for-shock-capturing-in-invi-2026
     title: Physics-informed neural networks for shock capturing in inviscid flows
       around an airfoil
     url: https://arxiv.org/abs/2607.08130v1
+    title_zh: 用于翼型周围无粘流动中激波捕捉的物理信息神经网络
   - id: reliable-and-efficient-steady-cfd-from-surrogate-predictions-2026
     title: Reliable and efficient steady CFD from surrogate predictions through Newton-Krylov
       correction
     url: https://arxiv.org/abs/2608.04400v1
+    title_zh: 通过 Newton-Krylov 校正从代理预测实现可靠且高效的稳态 CFD
   - id: sa-ai-spalart-allmaras-with-autogenous-inception-technical-2026
     title: SA-AI (Spalart-Allmaras with Autogenous Inception) Technical Summary
     url: https://arxiv.org/abs/2608.10303v1
+    title_zh: SA-AI（Spalart-Allmaras with Autogenous Inception）技术摘要
   - id: spatio-temporal-prediction-of-unsteady-airfoil-aerodynamics-2026
     title: Spatio-Temporal Prediction of Unsteady Airfoil Aerodynamics Using Augmented
       Graph Neural Ordinary Differential Equations with Exogenous Controls
     url: https://arxiv.org/abs/2607.18309v1
+    title_zh: 使用带外生控制的增广 Graph Neural Ordinary Differential Equations 进行非定常翼型气动时空预测
   - id: stable-compact-and-direct-ghost-cell-reconstruction-a-non-2026
     title: 'Stable, Compact, and Direct Ghost-Cell Reconstruction: A Non-Iterative
       Approach for Embedded-Boundary Methods'
     url: https://arxiv.org/abs/2609.10165v1
+    title_zh: 稳定、紧凑且直接的 Ghost-Cell 重构：一种面向嵌入边界方法的非迭代途径
+  - id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
+    title: A Case-Bundle Operating Model for Coding Agents in OpenFOAM-Based CFD
+    url: https://arxiv.org/abs/2609.11941v1
+    title_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
+  - id: compflowlab-a-python-code-to-develop-and-prototype-new-data-2026
+    title: 'CompFlowLab: A Python code to develop and prototype new data-driven models
+      for challenging compressible flow problems with shocks and chemical reactions'
+    url: https://arxiv.org/abs/2609.32150v1
+    title_zh: CompFlowLab：一个用于开发和原型化面向含激波与化学反应的挑战性可压缩流动问题的新型数据驱动模型的 Python 代码
+  - id: dynamics-of-fluid-fluid-displacements-in-a-model-rough-fract-2026
+    title: 'Dynamics of fluid-fluid displacements in a model rough fracture beyond
+      the quasistatic limit: A spectral approach'
+    url: https://arxiv.org/abs/2607.23759v1
+    title_zh: 模型粗糙裂隙中超越准静态极限的流体-流体驱替动力学：一种谱方法
+  - id: efficient-treatment-of-non-linearity-in-quantum-computationa-2026
+    title: Efficient Treatment of Non-Linearity in Quantum Computational Fluid Dynamics
+      Using Hybrid Tensor Networks
+    url: https://arxiv.org/abs/2608.24150v1
+    title_zh: 使用混合张量网络高效处理量子计算流体动力学中的非线性
+  - id: float-drone-for-physical-interaction-lateral-airflow-reduct-2026
+    title: 'FLOAT Drone for Physical Interaction: Lateral Airflow Reduction, Wrench
+      Modeling, and Adaptive Control'
+    url: https://arxiv.org/abs/2607.04260v1
+    title_zh: 用于物理交互的FLOAT Drone：侧向气流降低、力旋量建模与自适应控制
+  - id: generalizable-turbulence-closures-across-bluff-body-shapes-b-2026
+    title: Generalizable turbulence closures across bluff-body shapes by PINN-based
+      solver-agnostic training
+    url: https://arxiv.org/abs/2607.04491v2
+    title_zh: 基于 PINN 的求解器无关训练实现跨钝体形状的可泛化湍流闭合模型
+  - id: how-do-flapping-avian-wings-exhibit-superior-aerodynamic-per-2026
+    title: How do flapping avian wings exhibit superior aerodynamic performance?
+    url: https://arxiv.org/abs/2609.03957v2
+    title_zh: 扑动中的鸟类翅膀如何表现出优越的气动性能？
+  - id: information-geometric-regularization-for-computing-sensitivi-2026
+    title: Information geometric regularization for computing sensitivities of flows
+      with shocks
+    url: https://arxiv.org/abs/2608.09759v1
+    title_zh: 用于计算含激波流动灵敏度的信息几何正则化
+  - id: knowledge-constrained-shape-optimization-with-a-mixture-of-e-2026
+    title: Knowledge-Constrained Shape Optimization with a Mixture-of-Experts Neural
+      Operator for High-Confidence Design
+    url: https://arxiv.org/abs/2607.09763v1
+    title_zh: 面向高置信度设计的基于 Mixture-of-Experts Neural Operator 的知识约束形状优化
+  - id: kriging-and-neural-network-models-for-pressure-losses-across-2026
+    title: Kriging and neural network models for pressure losses across perforated
+      plates
+    url: https://arxiv.org/abs/2606.29628v1
+    title_zh: 用于穿孔板压力损失的Kriging和神经网络模型
+  - id: label-free-finite-volume-residual-training-of-attention-grap-2026
+    title: Label-Free Finite-Volume-Residual Training of Attention Graph Neural Networks
+      for Coupled Thermo-Fluid Fields
+    url: https://arxiv.org/abs/2607.20321v2
+    title_zh: 面向耦合热流体场的注意力图神经网络无标签有限体积残差训练
+  - id: lattice-boltzmann-methods-for-navier-stokes-equations-in-gen-2026
+    title: Lattice Boltzmann Methods for Navier-Stokes Equations in General Orthogonal
+      Coordinates for Efficient Flow Simulations using Nonuniform Clustered Grids
+    url: https://arxiv.org/abs/2607.15362v2
+    title_zh: 用于非均匀聚簇网格高效流动模拟的广义正交坐标中 Navier-Stokes 方程的 Lattice Boltzmann 方法
+  - id: mean-flow-adjoint-sensitivity-analysis-of-unsteady-flow-arou-2026
+    title: Mean-Flow Adjoint Sensitivity Analysis of Unsteady Flow Around Porous Cylinders
+      Using a Homogenized Lattice Boltzmann Method
+    url: https://arxiv.org/abs/2606.31707v1
+    title_zh: 基于均匀化格子Boltzmann方法的多孔圆柱周围非定常流动的平均流伴随敏感性分析
+  - id: neural-field-ensembles-for-aerodynamic-surface-prediction-w-2026
+    title: 'Neural Field Ensembles for Aerodynamic Surface Prediction: Winning Solution
+      to the ONERA CRM Wall Distribution 2025 Challenge'
+    url: https://arxiv.org/abs/2609.17160v1
+    title_zh: 用于气动表面预测的神经场集成：ONERA CRM Wall Distribution 2025 挑战赛获胜方案
+  - id: neuroforge-self-auditing-neural-cfd-surrogates-with-calibra-2026
+    title: 'NeuroForge: Self-Auditing Neural CFD Surrogates with Calibrated Physics-Residual
+      Trust'
+    url: https://arxiv.org/abs/2607.10333v3
+    title_zh: NeuroForge：具有校准物理残差信任的自审计神经CFD代理模型
+  - id: outpainting-spatially-extending-aero-optic-phase-screens-2026
+    title: 'Outpainting: spatially extending aero-optic phase screens'
+    url: https://arxiv.org/abs/2609.22250v1
+    title_zh: 外绘：空间扩展气动光学相位屏
+  - id: quantum-frozen-oseen-homotopy-analysis-method-with-lchs-for-2026
+    title: Quantum Frozen--Oseen homotopy analysis method with LCHS for solving nonlinear
+      partial differential equations
+    url: https://arxiv.org/abs/2609.39170v1
+    title_zh: 结合 LCHS 的量子 Frozen--Oseen 同伦分析方法求解非线性偏微分方程
+  - id: quantum-inspired-computational-fluid-dynamics-for-transient-2026
+    title: Quantum-Inspired Computational Fluid Dynamics for Transient Turbulent Compressible
+      Flows
+    url: https://arxiv.org/abs/2608.26995v2
+    title_zh: 面向瞬态湍流可压缩流动的量子启发计算流体力学
+  - id: shift-truck-a-high-fidelity-aerodynamics-dataset-and-benchm-2026
+    title: 'SHIFT-Truck: A High-Fidelity Aerodynamics Dataset and Benchmark for Pickup
+      Trucks'
+    url: https://arxiv.org/abs/2609.38638v1
+    title_zh: SHIFT-Truck：面向皮卡的高保真空气动力学数据集与基准
+  - id: stco-conditional-neural-operators-for-time-dependent-pdes-2026
+    title: 'STCO: Conditional Neural Operators for Time-Dependent PDEs'
+    url: https://arxiv.org/abs/2608.20477v1
+    title_zh: STCO：用于时间依赖偏微分方程的条件神经算子
+  - id: three-dimensional-global-stability-analysis-of-turbulent-scr-2026
+    title: Three-dimensional global stability analysis of turbulent screeching jets
+    url: https://arxiv.org/abs/2607.07300v1
+    title_zh: 湍流啸叫射流的三维全局稳定性分析
+  - id: u3dwind-a-low-altitude-wind-field-dataset-and-benchmark-for-2026
+    title: 'U3DWind: A Low Altitude Wind Field Dataset and Benchmark for Urban Air
+      Mobility'
+    url: https://arxiv.org/abs/2607.04495v1
+    title_zh: U3DWind：面向城市空中交通的低空风场数据集与基准
+  - id: wind-farms-as-sensor-arrays-of-turbulent-boundary-layer-spat-2026
+    title: Wind farms as sensor arrays of turbulent boundary layer spatio-temporal
+      flow structure
+    url: https://arxiv.org/abs/2608.20582v1
+    title_zh: 风电场作为湍流边界层时空流动结构的传感器阵列
+  name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
+  description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm
   name: Practicer/airfoil_CinDM
   description: 'Hugging Face dataset: Practicer/airfoil_CinDM'
@@ -599,8 +790,12 @@
     title: 'ONE CYLinder: A Benchmark for Graph-Based Surrogate Modeling of Unsteady
       Bluff-Body Flows'
     url: https://arxiv.org/abs/2609.08947v1
+    title_zh: ONE CYLinder：面向非定常钝体流动的基于图代理建模基准
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: https://arxiv.org/html/2609.08947v1/mesh_onecyl.png
+  name_zh: ONE CYLinder
+  description_zh: 提出 ONECYL 基准，含 450 个圆柱绕流有限元模拟及 Graph Transformer 长时程图代理基线。
+  notes_zh: 派生自论文：ONE CYLinder：面向非定常钝体流动的基于图代理建模基准
 - id: paper-shift-truck-a-high-fidelity-aerodynamics-dataset-and-benchm-2026
   name: SHIFT-Truck
   description: Pickup trucks account for 14% of new light-duty vehicles produced in
@@ -623,8 +818,12 @@
     title: 'SHIFT-Truck: A High-Fidelity Aerodynamics Dataset and Benchmark for Pickup
       Trucks'
     url: https://arxiv.org/abs/2609.38638v1
+    title_zh: SHIFT-Truck：面向皮卡的高保真空气动力学数据集与基准
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: https://arxiv.org/html/2609.38638v1/f01_parameterization.png
+  name_zh: SHIFT-Truck
+  description_zh: SHIFT-Truck 发布首个皮卡高保真气动数据集与神经代理基准，含1000例SA-DDES仿真并经风洞验证。
+  notes_zh: 派生自论文：SHIFT-Truck：面向皮卡的高保真空气动力学数据集与基准
 - id: paper-u3dwind-a-low-altitude-wind-field-dataset-and-benchmark-for-2026
   name: U3DWind
   description: Urban Air Mobility (UAM) requires reliable assessment of low-altitude
@@ -646,5 +845,58 @@
     title: 'U3DWind: A Low Altitude Wind Field Dataset and Benchmark for Urban Air
       Mobility'
     url: https://arxiv.org/abs/2607.04495v1
+    title_zh: U3DWind：面向城市空中交通的低空风场数据集与基准
   year: 2026
-  preview: /assets/placeholder.svg
+  preview: https://arxiv.org/html/2607.04495v1/fig_shanghai.jpg
+  name_zh: U3DWind
+  description_zh: U3DWind是面向城市空中交通的建筑解析低空城市风场数据集与基准，基于GPU加速LBM-LES构建，覆盖中国五座特大城市。
+  notes_zh: 派生自论文：U3DWind：面向城市空中交通的低空风场数据集与基准
+- id: paper-evaluation-of-deep-neural-operator-models-toward-ocean-forec-2023
+  name: Evaluation of Deep Neural Operator models toward ocean forecasting
+  description: 'Derived from paper: Evaluation of Deep Neural Operator models toward
+    ocean forecasting'
+  tags: []
+  links:
+    paper: https://arxiv.org/pdf/2308.11814
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Evaluation of Deep Neural Operator models toward ocean
+    forecasting'
+  related_papers:
+  - id: evaluation-of-deep-neural-operator-models-toward-ocean-forec-2023
+    title: Evaluation of Deep Neural Operator models toward ocean forecasting
+    url: https://arxiv.org/pdf/2308.11814
+  year: 2023
+  preview: https://arxiv.org/html/2308.11814v1/New_Figures/awacs_gt_vel_crvvec_turbo_20060918_0900Z.png
+- id: paper-drivaernet-a-parametric-car-dataset-for-data-driven-aerodyn-2024
+  name: DrivAerNet
+  description: 'Derived from paper: DrivAerNet: A Parametric Car Dataset for Data-Driven
+    Aerodynamic Design and Graph-Based Drag Prediction'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2403.08055
+    code: https://github.com/Mohamedelrefaie/DrivAerNet
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: DrivAerNet: A Parametric Car Dataset for Data-Driven
+    Aerodynamic Design and Graph-Based Drag Prediction'
+  related_papers:
+  - id: drivaernet-a-parametric-car-dataset-for-data-driven-aerodyn-2024
+    title: 'DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design
+      and Graph-Based Drag Prediction'
+    url: https://arxiv.org/abs/2403.08055
+  - id: fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
+    title: 'FSAN: Flow State Attention Network for Aerodynamic Prediction'
+    url: https://arxiv.org/abs/2609.06660v1
+    title_zh: FSAN：用于气动预测的流态注意力网络
+  - id: hgptrans-hierarchical-graph-pooling-transolver-for-automoti-2026
+    title: 'HGPTrans: Hierarchical Graph-Pooling Transolver for Automotive Aerodynamic
+      Drag Coefficient Prediction'
+    url: https://arxiv.org/abs/2609.31765v1
+    title_zh: HGPTrans：用于汽车气动阻力系数预测的分层图池化 Transolver
+  year: 2024
+  preview: https://arxiv.org/html/2403.08055v2/figures/Figure_1.png
+  name_zh: FSAN
+  description_zh: FSAN是气动预测深度学习代理，通过流状态注意力建模局部几何-流动交互，在两个基准上提高精度。

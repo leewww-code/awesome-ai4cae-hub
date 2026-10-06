@@ -36,6 +36,7 @@ A curated hub for AI-driven CAE: airfoil aerodynamic design agents, tool-using L
 | 2026 | 40 | method | [Kolmogorov Arnold networks (KAN) for aerodynamic prediction: a comparison with MLPs and GNNs](https://arxiv.org/abs/2606.27126v1) | KANs are evaluated for airfoil surface pressure prediction, showing performance comparable but marginally inferior to MLPs, while GNNs perform best despite longer training. |
 | 2026 | 40 | method | [Periodic Neural Mapping for Unsteady Rotor-Blade Pressure and Aeroelastic Load Prediction](https://arxiv.org/abs/2609.21590v1) | Introduces periodic Fourier Neural Mapping (p-FNM), a neural operator predicting unsteady rotor-blade pressure fields and aeroelastic loads, outperforming a VAE-RNN baseline in si... |
 | 2026 | 39.6 | method | [Roles of vortices and turbulent eddies in particle preferential concentration and deposition in the human respiratory tract](https://arxiv.org/abs/2608.23278v1) | CT-based respiratory simulations compare URANS and SBES, showing turbulent eddies drive aerosol clustering while URANS over-smears deposition and misses hotspots. |
+| 2026 | 38.9 | method | [PolyGNN: Polyhedron-based Graph Neural Network for 3D Building Reconstruction from Point Clouds](https://www.sciencedirect.com/science/article/pii/S0924271624003691) |  |
 | 2026 | 38.9 | method | [Variational Parameter Calibration with Physics-Aware Latent-Space Surrogates](https://arxiv.org/abs/2608.11435v1) | Introduces a physics-aware autoencoder latent-space surrogate for differentiable reduced-order forward modeling and variational parameter calibration, evaluated on CFD benchmarks... |
 | 2026 | 38.7 | method | [NeuralFlowNet: Towards Data-Free Physics-Informed Neural Network Solutions of Navier-Stokes Equations Across Low and High Reynolds Numbers](https://arxiv.org/abs/2608.28935v3) | NeuralFlowNet is a data-free physics-informed neural network framework that solves steady Navier-Stokes benchmark problems across low to high Reynolds numbers without external flo... |
 | 2026 | 38.1 | method | [Learning Turbulence Closures with Physics-Informed Neural Networks for the Rayleigh-Taylor Transition to Turbulence](https://arxiv.org/abs/2607.07020v1) | A physics-informed neural network calibrates and corrects a k-ε-b RANS turbulence closure, improving Rayleigh-Taylor transition predictions against DNS data. |
@@ -123,7 +124,34 @@ A curated hub for AI-driven CAE: airfoil aerodynamic design agents, tool-using L
 | 2026 | 24 | method | [pyDOF: a Python library for the design of discrete forward and inverse filters](https://arxiv.org/abs/2606.26830v1) | pyDOF is a Python library for designing symmetric forward/inverse discrete filters via constrained optimization, with adaptive stencils and van Cittert inversion, primarily for CF... |
 | 2026 | 23.3 | method | [Quantum-Inspired Computational Fluid Dynamics for Transient Turbulent Compressible Flows](https://arxiv.org/abs/2608.26995v2) | Introduces a quantum-inspired tensor-train CFD solver for compressible Navier-Stokes, validated on transient turbulent Taylor-Green Vortex cases against classical HiPSTAR. |
 | 2026 | 23.3 | method | [Stable and Interpretable Multi-Mode Rheological Universal Differential Equations (mmRUDEs) for Data-Driven Constitutive Modeling](https://arxiv.org/abs/2609.38470v1) | A stability- and interpretability-focused multi-mode rheological universal differential equation framework improves data-driven constitutive modeling using neural networks, thermo... |
+| 2025 | 24 | method | [Physics-informed neural operator for learning partial differential equations](https://dl.acm.org/doi/full/10.1145/3648506) |  |
+| 2024 | 39.7 | method | [DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction](https://arxiv.org/abs/2403.08055) |  |
+| 2024 | 22.7 | method | [Nas-pinn: neural architecture search-guided physics-informed neural network for solving pdes](https://arxiv.org/pdf/2305.10127) |  |
+| 2023 | 35.1 | method | [Koopman Neural Operator as a mesh-free solver of non-linear PDEs](https://arxiv.org/abs/2301.10022) |  |
+| 2023 | 33.3 | method | [Fourier-mionet: Fourier enhanced multiple-input neural operators for multiphase modeling of geological carbon sequestration](https://arxiv.org/pdf/2303.04778v1.pdf) |  |
+| 2023 | 33.3 | method | [LNO: Laplace neural operator for solving differential equations](https://arxiv.org/pdf/2303.10528) |  |
+| 2023 | 32.5 | method | [Factorized fourier neural operators](https://arxiv.org/abs/2111.13802) |  |
+| 2023 | 19.9 | benchmark, application | [Evaluation of Deep Neural Operator models toward ocean forecasting](https://arxiv.org/pdf/2308.11814) |  |
+| 2023 | 19.9 | method | [Geometry-informed neural operator for large-scale 3d pdes](https://arxiv.org/abs/2309.00583) |  |
+| 2023 | 19 | method | [Fourier neural operator for plasma modelling](https://arxiv.org/pdf/2302.06542.pdf) |  |
+| 2022 | 35 | method | [A multi-scale sampling method for accurate and robust deep neural network to predict combustion chemical kinetics](https://arxiv.org/pdf/2201.03549) |  |
+| 2022 | 35 | method | [Graph neural network accelerated lagrangian fluid simulation](https://dl.acm.org/doi/abs/10.1016/j.cag.2022.02.004) |  |
+| 2022 | 20.7 | method | [Low-temperature plasma simulation based on physics-informed neural networks](https://arxiv.org/pdf/2206.15294) |  |
+| 2022 | 18.1 | method | [FourCastNet: A global data-driven HR weather model using AFNO](https://arxiv.org/pdf/2202.11214) |  |
+| 2021 | 34.2 | method | [NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations](https://arxiv.org/abs/2003.06496) |  |
+| 2021 | 34.2 | method | [Stiff-pinn: Physics-informed neural network for stiff chemical kinetics)](https://arxiv.org/pdf/2011.04520) |  |
+| 2021 | 32.4 | method | [Evolutional Deep Neural Network](https://arxiv.org/pdf/2103.09959.pdf) |  |
+| 2021 | 32.4 | method | [Physics-informed learning of governing equations from scarce data](https://arxiv.org/abs/2005.03448) |  |
+| 2021 | 31.6 | method | [Fourier neural operator for parametric partial differential equations](https://arxiv.org/abs/2010.08895) |  |
+| 2021 | 19.8 | method | [Machine learning accelerated computational fluid dynamics](https://arxiv.org/abs/2102.01010) |  |
+| 2021 | 18.1 | method | [Neural Operator: Learning Maps Between Function Spaces:](https://arxiv.org/abs/2108.08481) |  |
+| 2020 | 32.5 | method | [Towards Physics-informed Deep Learning for Turbulent Flow Prediction](https://arxiv.org/abs/1911.08655) |  |
+| 2020 | 20.9 | method | [Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural ODE:](https://arxiv.org/abs/2006.02493) |  |
+| 2020 | 17.4 | method | [Multipole graph neural operator for parametric PDEs](https://arxiv.org/abs/2006.09535) |  |
+| 2019 | 30.2 | method | [Learning data-driven discretizations for partial differential equations](https://arxiv.org/abs/1808.04930) |  |
+| 2019 | 30.2 | method, theory | [Port-Hamiltonian Approach to Neural Network Training: ,](https://arxiv.org/abs/1909.02702) |  |
+| 2017 | 15.7 | method | [Beyond Finite Layer Neural Network: Bridging Deep Architects and Numerical Differential Equations:](https://arxiv.org/abs/1710.10121) |  |
 
 ---
 
-Total papers: **114**.
+Total papers: **142**.
