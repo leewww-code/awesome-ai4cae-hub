@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-07T04:13:51Z'
+generated_at: '2026-10-07T23:52:51Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -938,3 +938,258 @@ assignments:
   secondary: []
   confidence: 0.25
   evidence: method
+- paper_id: scale-split-neural-operator-for-memory-and-data-efficient-3-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: structure-preserving-fourier-neural-operators-for-long-time-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: physics-informed-method-of-group-data-handling-adaptive-con-2026
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: beyond-simulation-retain-and-repair-neural-operators-for-re-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: mesh-free-numerical-approximation-of-the-biharmonic-equation-2026
+  primary: system
+  secondary:
+  - benchmark
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: ptno-training-neural-operators-with-noisy-monte-carlo-estim-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: optimusmesh-compact-autoregressive-mesh-generation-from-poi-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: kolmogorov-arnold-networks-for-free-boundary-partial-differe-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: a-composable-ai-accelerated-iterative-solver-for-3d-ic-therm-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: hyperparameter-selection-for-equation-learning-with-biologic-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: data-free-weak-form-staggered-neural-operators-for-magneto-m-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: spear-a-spectral-disentangled-moe-neural-operator-with-know-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: s-2-pinn-stochastic-separable-physics-informed-neural-n-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: operator-informed-initialization-for-fourier-features-physic-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: error-estimates-in-physics-informed-neural-networks-to-heat-2026
+  primary: system
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: system
+- paper_id: bat-no-a-boundary-condition-aware-transformer-neural-operat-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: temperature-dependent-multiphysics-modeling-of-additive-fric-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: stochastic-adaptive-fourier-decomposition-for-operator-learn-2026
+  primary: benchmark
+  secondary:
+  - system
+  - theory
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: checkable-ntk-positivity-and-finite-width-gradient-descent-f-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: ceens-causality-enforced-evolutional-networks-for-solving-t-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: cosmos-soft-mechanism-mixtures-with-verifiable-routing-for-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: localized-operator-learning-with-adaptive-partition-of-unity-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: label-free-physics-informed-strength-reduction-and-a-neural-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: hfs-transnet-a-hybrid-fixed-stress-transferable-neural-netw-2026
+  primary: method
+  secondary:
+  - system
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: a-graph-based-inspection-and-intervention-tool-for-assessing-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: advectra-asymmetric-latent-transport-for-non-stationary-phy-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: metro-metric-enhanced-token-routing-operator-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: component-level-evaluation-of-adaptive-pinn-training-for-cfd-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: green-routed-neural-operators-physics-determines-where-the-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: poisson-generic-neural-operators-exact-metriplectic-structu-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: inferring-physical-fields-in-coupled-systems-with-unknown-pa-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: parameter-estimation-in-machining-dynamics-with-regenerative-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: targeted-search-shows-that-random-device-testing-underestima-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: only-linear-constraints-survive-coarse-graining-evaluating-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: neural-operator-predicted-time-dependent-reduced-subspaces-f-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: rapid-fredholm-stabilization-of-the-kuramoto-sivashinsky-eq-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: warm-starting-pde-solvers-with-any-dimensional-machine-learn-2026
+  primary: method
+  secondary:
+  - theory
+  confidence: 0.65
+  evidence: method
+- paper_id: agentic-resource-allocation-for-batch-multi-objective-bayesi-2026
+  primary: system
+  secondary:
+  - benchmark
+  confidence: 0.68
+  evidence: system
+- paper_id: ftd-gno-memory-efficient-graph-neural-operators-through-fun-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: from-inverse-problems-to-adjoint-gradients-a-discrete-impl-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: deep-learning-enables-large-scale-inverse-design-of-free-for-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: multiresolution-sobolev-trained-fourier-neural-operator-for-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: learning-pde-solution-operators-with-variable-initial-condit-2026
+  primary: system
+  secondary:
+  - method
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: mimir-physics-grounded-llm-agents-for-long-horizon-irrigati-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: a-kinetic-theory-of-the-gated-self-evolving-llm-agent-2026
+  primary: theory
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: theory

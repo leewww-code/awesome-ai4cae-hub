@@ -13,7 +13,7 @@
   - privacy
   - self-hosted
   - selfhosted
-  stars: 324437
+  stars: 324651
   links:
     github: https://github.com/awesome-selfhosted/awesome-selfhosted
   sources:
@@ -45,7 +45,7 @@
   - prompts
   - prompts-chat
   - typescript
-  stars: 172210
+  stars: 172311
   links:
     github: https://github.com/f/prompts.chat
   sources:
@@ -80,7 +80,7 @@
   description: 'Recent Advances on Machine Learning for Computational Fluid Dynamics:
     A Survey'
   tags: []
-  stars: 370
+  stars: 371
   links:
     github: https://github.com/WillDreamer/Awesome-AI4CFD
   sources:

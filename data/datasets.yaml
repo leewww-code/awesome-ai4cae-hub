@@ -933,3 +933,22 @@
   notes_zh: 派生自论文：用于稳健且准确地学习偏微分方程的卷积神经算子
   year: 2023
   preview: https://arxiv.org/html/2302.01178v3/Figures/CNOP_1_new.png
+- id: hf-zjworlder-rae2822-airfoil-viscous-flow-field-database
+  name: zjworlder/RAE2822_airfoil_viscous_flow_field_database
+  description: "RAE2822 翼型黏性流场数据库\n\t\n\nSU2 v8.4.0 RANS 求解器生成的 NACA RAE2822 翼型二维黏性流场数据集。\n\
+    \n\t\n\t\t\n\t\n\t\n\t\t数据结构\n\t\n\n每个工况为一个独立目录，命名规则：\nMa_{mach}__AoA_{aoa}__Re_{re}\n\
+    \nRe 部分仅在 Ma--AoA--Re/ 子集中存在。\n每个工况固定包含 10 个文件：\n\n\t\n\t\t\n文件\n说明\n\n\n\t\t\n\
+    flow2d-0011000.dat\n1000 步流场快照\n\n\nflow2d-0012000.dat\n2000 步流场快照\n\n\nflow2d-0013000.dat\n\
+    3000 步流场快照\n\n\nCp.dat\n压力系数分布\n\n\nResidual.dat\n残差历史\n\n\nSA2d.dat\nSpalart-Allmaras\
+    \ 涡量/黏性量\n\n\ndist_wall.dat\n壁面距离\n\n\ndw.dat\n距离壁面法向坐标\n\n\nJocabian.dat\nJacobian\
+    \ 体积比（标量）\n\n\nforce.log\n积分力/力矩历史\n\n\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\t子集… See\
+    \ the full description on the dataset page: https://huggingface.co/datasets/zjworlder/RAE2822_airfoil_viscous_flow_field_database."
+  tags:
+  - region:us
+  links:
+    huggingface: https://huggingface.co/datasets/zjworlder/RAE2822_airfoil_viscous_flow_field_database
+  sources:
+  - repo: huggingface-datasets
+    category: dataset
+  year: 2026
+  notes: downloads=1, likes=0

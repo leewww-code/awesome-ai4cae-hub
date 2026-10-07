@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-07T04:13:56Z'
+generated_at: '2026-10-07T23:52:54Z'
 jobs:
 - id: method
   topic_id: method
@@ -117,6 +117,28 @@ jobs:
   - u-no-u-shaped-neural-operators-2022
   - gnot-a-general-neural-operator-transformer-for-operator-lea-2023
   - multi-grid-tensorized-fourier-neural-operator-for-high-resol-2023
+  - physics-informed-method-of-group-data-handling-adaptive-con-2026
+  - ptno-training-neural-operators-with-noisy-monte-carlo-estim-2026
+  - optimusmesh-compact-autoregressive-mesh-generation-from-poi-2026
+  - hyperparameter-selection-for-equation-learning-with-biologic-2026
+  - s-2-pinn-stochastic-separable-physics-informed-neural-n-2026
+  - operator-informed-initialization-for-fourier-features-physic-2026
+  - temperature-dependent-multiphysics-modeling-of-additive-fric-2026
+  - ceens-causality-enforced-evolutional-networks-for-solving-t-2026
+  - localized-operator-learning-with-adaptive-partition-of-unity-2026
+  - label-free-physics-informed-strength-reduction-and-a-neural-2026
+  - hfs-transnet-a-hybrid-fixed-stress-transferable-neural-netw-2026
+  - metro-metric-enhanced-token-routing-operator-2026
+  - component-level-evaluation-of-adaptive-pinn-training-for-cfd-2026
+  - poisson-generic-neural-operators-exact-metriplectic-structu-2026
+  - parameter-estimation-in-machining-dynamics-with-regenerative-2026
+  - targeted-search-shows-that-random-device-testing-underestima-2026
+  - only-linear-constraints-survive-coarse-graining-evaluating-2026
+  - neural-operator-predicted-time-dependent-reduced-subspaces-f-2026
+  - warm-starting-pde-solvers-with-any-dimensional-machine-learn-2026
+  - from-inverse-problems-to-adjoint-gradients-a-discrete-impl-2026
+  - multiresolution-sobolev-trained-fourier-neural-operator-for-2026
+  - learning-pde-solution-operators-with-variable-initial-condit-2026
   top_tags:
   - flu-dyn
   - LG
@@ -126,11 +148,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 3a4538574155782c
+  prompt_hash: 30e4a58f19d5d85d
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T04:15:04Z'
+  updated_at: '2026-10-07T23:53:44Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -184,6 +206,19 @@ jobs:
   - u-no-u-shaped-neural-operators-2022
   - transformer-for-partial-differential-equations-operator-lea-2022
   - domain-agnostic-fourier-neural-operators-2023
+  - scale-split-neural-operator-for-memory-and-data-efficient-3-2026
+  - physics-informed-method-of-group-data-handling-adaptive-con-2026
+  - mesh-free-numerical-approximation-of-the-biharmonic-equation-2026
+  - spear-a-spectral-disentangled-moe-neural-operator-with-know-2026
+  - s-2-pinn-stochastic-separable-physics-informed-neural-n-2026
+  - temperature-dependent-multiphysics-modeling-of-additive-fric-2026
+  - stochastic-adaptive-fourier-decomposition-for-operator-learn-2026
+  - cosmos-soft-mechanism-mixtures-with-verifiable-routing-for-2026
+  - localized-operator-learning-with-adaptive-partition-of-unity-2026
+  - advectra-asymmetric-latent-transport-for-non-stationary-phy-2026
+  - metro-metric-enhanced-token-routing-operator-2026
+  - component-level-evaluation-of-adaptive-pinn-training-for-cfd-2026
+  - agentic-resource-allocation-for-batch-multi-objective-bayesi-2026
   top_tags:
   - flu-dyn
   - LG
@@ -193,11 +228,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 4759c9c9dbbc2578
+  prompt_hash: cc4470cbc3c9940a
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T04:14:54Z'
+  updated_at: '2026-10-07T23:53:52Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -310,6 +345,38 @@ jobs:
   - fourier-neural-operator-with-learned-deformations-for-pdes-o-2022
   - gnot-a-general-neural-operator-transformer-for-operator-lea-2023
   - domain-agnostic-fourier-neural-operators-2023
+  - structure-preserving-fourier-neural-operators-for-long-time-2026
+  - physics-informed-method-of-group-data-handling-adaptive-con-2026
+  - beyond-simulation-retain-and-repair-neural-operators-for-re-2026
+  - mesh-free-numerical-approximation-of-the-biharmonic-equation-2026
+  - optimusmesh-compact-autoregressive-mesh-generation-from-poi-2026
+  - kolmogorov-arnold-networks-for-free-boundary-partial-differe-2026
+  - a-composable-ai-accelerated-iterative-solver-for-3d-ic-therm-2026
+  - hyperparameter-selection-for-equation-learning-with-biologic-2026
+  - data-free-weak-form-staggered-neural-operators-for-magneto-m-2026
+  - error-estimates-in-physics-informed-neural-networks-to-heat-2026
+  - bat-no-a-boundary-condition-aware-transformer-neural-operat-2026
+  - temperature-dependent-multiphysics-modeling-of-additive-fric-2026
+  - stochastic-adaptive-fourier-decomposition-for-operator-learn-2026
+  - checkable-ntk-positivity-and-finite-width-gradient-descent-f-2026
+  - cosmos-soft-mechanism-mixtures-with-verifiable-routing-for-2026
+  - localized-operator-learning-with-adaptive-partition-of-unity-2026
+  - hfs-transnet-a-hybrid-fixed-stress-transferable-neural-netw-2026
+  - a-graph-based-inspection-and-intervention-tool-for-assessing-2026
+  - advectra-asymmetric-latent-transport-for-non-stationary-phy-2026
+  - component-level-evaluation-of-adaptive-pinn-training-for-cfd-2026
+  - green-routed-neural-operators-physics-determines-where-the-2026
+  - inferring-physical-fields-in-coupled-systems-with-unknown-pa-2026
+  - parameter-estimation-in-machining-dynamics-with-regenerative-2026
+  - neural-operator-predicted-time-dependent-reduced-subspaces-f-2026
+  - rapid-fredholm-stabilization-of-the-kuramoto-sivashinsky-eq-2026
+  - agentic-resource-allocation-for-batch-multi-objective-bayesi-2026
+  - ftd-gno-memory-efficient-graph-neural-operators-through-fun-2026
+  - from-inverse-problems-to-adjoint-gradients-a-discrete-impl-2026
+  - deep-learning-enables-large-scale-inverse-design-of-free-for-2026
+  - learning-pde-solution-operators-with-variable-initial-condit-2026
+  - mimir-physics-grounded-llm-agents-for-long-horizon-irrigati-2026
+  - a-kinetic-theory-of-the-gated-self-evolving-llm-agent-2026
   top_tags:
   - flu-dyn
   - LG
@@ -319,11 +386,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 36d0744b141c80ef
+  prompt_hash: c162256925464206
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T04:16:19Z'
+  updated_at: '2026-10-07T23:54:40Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -333,6 +400,9 @@ jobs:
   - lattice-boltzmann-methods-for-navier-stokes-equations-in-gen-2026
   - physically-consistent-formulation-for-the-bound-vortex-sheet-2026
   - wind-farms-as-sensor-arrays-of-turbulent-boundary-layer-spat-2026
+  - stochastic-adaptive-fourier-decomposition-for-operator-learn-2026
+  - warm-starting-pde-solvers-with-any-dimensional-machine-learn-2026
+  - a-kinetic-theory-of-the-gated-self-evolving-llm-agent-2026
   top_tags:
   - flu-dyn
   - CO
@@ -340,11 +410,11 @@ jobs:
   - comp-ph
   - math-ph
   - ao-ph
-  prompt_hash: d5faf68929ccddef
+  prompt_hash: 21aa6cfdfa3cddd8
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-10-07T04:15:04Z'
+  updated_at: '2026-10-07T23:54:50Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -355,9 +425,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 3
+  attempts: 4
   error: ''
-  updated_at: '2026-10-07T04:15:04Z'
+  updated_at: '2026-10-07T23:54:40Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -389,6 +459,11 @@ jobs:
   - a-physics-informed-operator-regression-framework-for-extract-2020
   - learning-operators-with-coupled-attention-2022
   - gnot-a-general-neural-operator-transformer-for-operator-lea-2023
+  - physics-informed-method-of-group-data-handling-adaptive-con-2026
+  - mesh-free-numerical-approximation-of-the-biharmonic-equation-2026
+  - error-estimates-in-physics-informed-neural-networks-to-heat-2026
+  - hfs-transnet-a-hybrid-fixed-stress-transferable-neural-netw-2026
+  - learning-pde-solution-operators-with-variable-initial-condit-2026
   top_tags:
   - flu-dyn
   - LG
@@ -398,8 +473,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: 1a89648bd3574e69
+  prompt_hash: a5f336dc337231fe
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T04:16:09Z'
+  updated_at: '2026-10-07T23:55:41Z'
