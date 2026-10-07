@@ -37,7 +37,7 @@ on:
       - 'website/**'
   schedule:
     # 08:00 Asia/Shanghai
-    - cron: '0 0 * * *'
+    - cron: '30 19 * * *'
   workflow_dispatch:
     inputs:
       search_days:
