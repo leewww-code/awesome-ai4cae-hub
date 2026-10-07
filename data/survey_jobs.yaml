@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-06T04:48:50Z'
+generated_at: '2026-10-07T04:13:56Z'
 jobs:
 - id: method
   topic_id: method
@@ -106,6 +106,17 @@ jobs:
   - towards-physics-informed-deep-learning-for-turbulent-flow-pr-2020
   - drivaernet-a-parametric-car-dataset-for-data-driven-aerodyn-2024
   - polygnn-polyhedron-based-graph-neural-network-for-3d-buildi-2026
+  - training-numerical-intelligence-via-auto-diagnosis-and-skill-2026
+  - optimizing-the-optimizer-language-models-discover-faster-mo-2026
+  - solving-parametric-pde-problems-with-artificial-neural-netwo-2017
+  - teaching-the-incompressible-navier-stokes-equations-to-fast-2020
+  - seismic-wave-propagation-and-inversion-with-neural-operators-2021
+  - debosh-deep-bayesian-shape-optimization-2021
+  - learning-operators-with-coupled-attention-2022
+  - physical-design-using-differentiable-learned-simulators-2022
+  - u-no-u-shaped-neural-operators-2022
+  - gnot-a-general-neural-operator-transformer-for-operator-lea-2023
+  - multi-grid-tensorized-fourier-neural-operator-for-high-resol-2023
   top_tags:
   - flu-dyn
   - LG
@@ -115,11 +126,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 30307c9946a82eca
+  prompt_hash: 3a4538574155782c
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-06T04:50:55Z'
+  updated_at: '2026-10-07T04:15:04Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -168,6 +179,11 @@ jobs:
   - variational-parameter-calibration-with-physics-aware-latent-2026
   - verified-residual-specific-explicit-derivative-kernels-for-p-2026
   - pydof-a-python-library-for-the-design-of-discrete-forward-a-2026
+  - optimizing-the-optimizer-language-models-discover-faster-mo-2026
+  - convolutional-neural-operators-for-robust-and-accurate-learn-2023
+  - u-no-u-shaped-neural-operators-2022
+  - transformer-for-partial-differential-equations-operator-lea-2022
+  - domain-agnostic-fourier-neural-operators-2023
   top_tags:
   - flu-dyn
   - LG
@@ -177,11 +193,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 1e603ac1ebbf0eaa
+  prompt_hash: 4759c9c9dbbc2578
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-06T04:49:47Z'
+  updated_at: '2026-10-07T04:14:54Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -280,6 +296,20 @@ jobs:
   - wind-farms-as-sensor-arrays-of-turbulent-boundary-layer-spat-2026
   - wing-rotor-aerodynamic-interactions-in-small-uavs-during-hov-2026
   - pydof-a-python-library-for-the-design-of-discrete-forward-a-2026
+  - capability-driven-self-evolution-of-agent-memory-2026
+  - training-numerical-intelligence-via-auto-diagnosis-and-skill-2026
+  - optimizing-the-optimizer-language-models-discover-faster-mo-2026
+  - a-physics-informed-operator-regression-framework-for-extract-2020
+  - physics-informed-probabilistic-learning-of-linear-embeddings-2019
+  - convolutional-neural-operators-for-robust-and-accurate-learn-2023
+  - teaching-the-incompressible-navier-stokes-equations-to-fast-2020
+  - seismic-wave-propagation-and-inversion-with-neural-operators-2021
+  - learning-operators-with-coupled-attention-2022
+  - physical-design-using-differentiable-learned-simulators-2022
+  - transformer-for-partial-differential-equations-operator-lea-2022
+  - fourier-neural-operator-with-learned-deformations-for-pdes-o-2022
+  - gnot-a-general-neural-operator-transformer-for-operator-lea-2023
+  - domain-agnostic-fourier-neural-operators-2023
   top_tags:
   - flu-dyn
   - LG
@@ -289,11 +319,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 062683c0b43a47f8
+  prompt_hash: 36d0744b141c80ef
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-06T04:51:10Z'
+  updated_at: '2026-10-07T04:16:19Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -312,9 +342,9 @@ jobs:
   - ao-ph
   prompt_hash: d5faf68929ccddef
   status: done
-  attempts: 2
+  attempts: 3
   error: ''
-  updated_at: '2026-10-06T04:51:55Z'
+  updated_at: '2026-10-07T04:15:04Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -325,9 +355,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 2
+  attempts: 3
   error: ''
-  updated_at: '2026-10-06T04:52:25Z'
+  updated_at: '2026-10-07T04:15:04Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -356,6 +386,9 @@ jobs:
   - quantum-inspired-computational-fluid-dynamics-for-transient-2026
   - turbulent-microscale-flow-field-prediction-in-porous-media-u-2026
   - pydof-a-python-library-for-the-design-of-discrete-forward-a-2026
+  - a-physics-informed-operator-regression-framework-for-extract-2020
+  - learning-operators-with-coupled-attention-2022
+  - gnot-a-general-neural-operator-transformer-for-operator-lea-2023
   top_tags:
   - flu-dyn
   - LG
@@ -365,8 +398,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: f8d761b9e9a96117
+  prompt_hash: 1a89648bd3574e69
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-06T04:53:45Z'
+  updated_at: '2026-10-07T04:16:09Z'

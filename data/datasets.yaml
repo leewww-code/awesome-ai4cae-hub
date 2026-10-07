@@ -754,6 +754,14 @@
       flow structure
     url: https://arxiv.org/abs/2608.20582v1
     title_zh: 风电场作为湍流边界层时空流动结构的传感器阵列
+  - id: physical-design-using-differentiable-learned-simulators-2022
+    title: Physical Design using Differentiable Learned Simulators
+    url: https://arxiv.org/abs/2202.00728
+    title_zh: 使用可微分学习型模拟器进行物理设计
+  - id: domain-agnostic-fourier-neural-operators-2023
+    title: Domain Agnostic Fourier Neural Operators
+    url: https://arxiv.org/abs/2305.00478
+    title_zh: 域无关傅里叶神经算子
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm
@@ -900,3 +908,28 @@
   preview: https://arxiv.org/html/2403.08055v2/figures/Figure_1.png
   name_zh: FSAN
   description_zh: FSAN是气动预测深度学习代理，通过流状态注意力建模局部几何-流动交互，在两个基准上提高精度。
+- id: paper-convolutional-neural-operators-for-robust-and-accurate-learn-2023
+  name: Convolutional Neural Operators for robust and accurate learning of PDEs
+  description: Although very successfully used in conventional machine learning, convolution
+    based neural network architectures -- believed to be inconsistent in function
+    space -- have been largely ignored in the context of learning solution operators
+    of ...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2302.01178
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Convolutional Neural Operators for robust and accurate
+    learning of PDEs'
+  related_papers:
+  - id: convolutional-neural-operators-for-robust-and-accurate-learn-2023
+    title: Convolutional Neural Operators for robust and accurate learning of PDEs
+    url: https://arxiv.org/abs/2302.01178
+    title_zh: 用于稳健且准确地学习偏微分方程的卷积神经算子
+  name_zh: 用于稳健且准确地学习偏微分方程的卷积神经算子
+  description_zh: 尽管基于卷积的神经网络架构在传统机器学习中得到了非常成功的应用，但由于被认为在函数空间中不一致，它们在学习PDE解算子的背景下一直很大程度上被忽视。在此，我们为卷积神经网络提出新颖的适配方法，以证明它们确实能够将函数作为输入和输出进行处理。由此得到的架构被称为卷积神经算子（CNOs），其被专门设计用于保持其内在的连续性质，即使在计算机上以离散形式实现时也是如此。我们证明了一个普适性定理，表明CNOs能够以期望的精度逼近PDE中出现的算子。CNOs在一套新颖的基准测试集上进行了测试，该测试集涵盖一组具有可能多尺度解的多样化PDE，并被观察到显著优于基线，为稳健且准确的算子学习铺平了通往替代框架的道路。我们的代码公开于
+    https://github.com/bogdanraonic3/ConvolutionalNeuralOperator
+  notes_zh: 派生自论文：用于稳健且准确地学习偏微分方程的卷积神经算子
+  year: 2023
+  preview: https://arxiv.org/html/2302.01178v3/Figures/CNOP_1_new.png

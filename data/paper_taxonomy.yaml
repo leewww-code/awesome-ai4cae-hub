@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-06T04:48:47Z'
+generated_at: '2026-10-07T04:13:51Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -829,6 +829,111 @@ assignments:
   confidence: 0.25
   evidence: method
 - paper_id: polygnn-polyhedron-based-graph-neural-network-for-3d-buildi-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: capability-driven-self-evolution-of-agent-memory-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: training-numerical-intelligence-via-auto-diagnosis-and-skill-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: optimizing-the-optimizer-language-models-discover-faster-mo-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: solving-parametric-pde-problems-with-artificial-neural-netwo-2017
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: a-physics-informed-operator-regression-framework-for-extract-2020
+  primary: system
+  secondary:
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: physics-informed-probabilistic-learning-of-linear-embeddings-2019
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: convolutional-neural-operators-for-robust-and-accurate-learn-2023
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: teaching-the-incompressible-navier-stokes-equations-to-fast-2020
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: seismic-wave-propagation-and-inversion-with-neural-operators-2021
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: debosh-deep-bayesian-shape-optimization-2021
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: learning-operators-with-coupled-attention-2022
+  primary: method
+  secondary:
+  - system
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: physical-design-using-differentiable-learned-simulators-2022
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: u-no-u-shaped-neural-operators-2022
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: transformer-for-partial-differential-equations-operator-lea-2022
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: fourier-neural-operator-with-learned-deformations-for-pdes-o-2022
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: gnot-a-general-neural-operator-transformer-for-operator-lea-2023
+  primary: method
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: domain-agnostic-fourier-neural-operators-2023
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: multi-grid-tensorized-fourier-neural-operator-for-high-resol-2023
   primary: method
   secondary: []
   confidence: 0.25
