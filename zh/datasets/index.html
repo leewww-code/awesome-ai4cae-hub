@@ -1,0 +1,358 @@
+<!DOCTYPE html><html lang="zh"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A curated hub for AI-driven CAE: airfoil aerodynamic design agents, tool-using LLM agents, aerodynamic parameter optimization, self-evolving agents, and CFD data-driven solvers."><title>数据集 · Awesome AI4CAE Hub</title><link rel="icon" href="/awesome-ai4cae-hub/favicon.svg"><link rel="stylesheet" href="/awesome-ai4cae-hub/styles/global.css"><script type="module">const d=document.getElementById("searchInput"),m=document.getElementById("categorySelect"),f=document.getElementById("yearSelect"),s=document.getElementById("sortSelect"),w=document.getElementById("resetFilters"),g=document.getElementById("resultCount"),l=Array.from(document.querySelectorAll(".filter-item"));l.forEach((e,t)=>{e.dataset.initialIndex||(e.dataset.initialIndex=String(t))});const p=document.querySelector("[data-sort-container]")||document.querySelector(".card-grid"),S=document.querySelector("[data-progressive-grid]"),L=g?.getAttribute("data-result-template")||"{0} / {1} shown";function a(e){return String(e||"").trim().toLowerCase()}function E(e,t){g&&(g.textContent=L.replace("{0}",String(e)).replace("{1}",String(t)))}function o(e){const t=Number(e.dataset.score||0);return Number.isFinite(t)?t:0}function i(e){return a(e.dataset.title||e.dataset.search)}function h(e){const t=Number(e.dataset.year||0);return Number.isFinite(t)?t:0}function y(){if(!s||!p||S)return;const e=s.value,t=[...l].sort((n,r)=>e==="alpha"?i(n).localeCompare(i(r))||o(r)-o(n):e==="score"||e==="stars"?o(r)-o(n)||i(n).localeCompare(i(r)):e==="year"?h(r)-h(n)||o(r)-o(n)||i(n).localeCompare(i(r)):Number(n.dataset.initialIndex||0)-Number(r.dataset.initialIndex||0));for(const n of t)p.appendChild(n)}function c(){const e=a(d?.value),t=a(m?.value),n=a(f?.value);if(S){window.dispatchEvent(new CustomEvent("hub-filter-change",{detail:{query:e,category:t,year:n,sort:s?.value||""}}));return}let r=0;for(const u of l){const I=a(u.dataset.search),C=a(u.dataset.category).split("|").filter(Boolean),B=a(u.dataset.year),v=(!e||I.includes(e))&&(!t||C.includes(t))&&(!n||B===n);u.toggleAttribute("hidden",!v),v&&(r+=1)}E(r,l.length)}d?.addEventListener("input",c);m?.addEventListener("change",c);f?.addEventListener("change",c);s?.addEventListener("change",()=>{y(),c()});window.addEventListener("hub-filter-count",e=>{const t=e.detail||{};E(t.visible??0,t.total??l.length)});w?.addEventListener("click",()=>{d&&(d.value=""),m&&(m.value=""),f&&(f.value=""),s&&(s.selectedIndex=0),y(),c()});y();c();
+</script></head> <body> <div class="site-shell"> <header class="topbar"> <a href="/awesome-ai4cae-hub/zh" class="brand" aria-label="Awesome AI4CAE Hub home"> <span class="brand-mark">⌁</span> <span> <strong>Awesome AI4CAE Hub</strong> <small>论文 · 数据集 · 项目</small> </span> </a> <nav class="nav"> <a href="/awesome-ai4cae-hub/zh">首页</a><a href="/awesome-ai4cae-hub/zh/papers">论文</a><a href="/awesome-ai4cae-hub/zh/datasets">数据集</a><a href="/awesome-ai4cae-hub/zh/projects">项目</a><a href="/awesome-ai4cae-hub/zh/analysis">分析</a><a href="/awesome-ai4cae-hub/zh/trends">趋势</a> </nav> <div class="header-actions"> <a class="lang-switcher" href="/awesome-ai4cae-hub/en/datasets/">English</a> <a class="github-link" href="https://github.com/leewww-code/awesome-ai4cae-hub" target="_blank" rel="noreferrer">GitHub</a> </div> </header> <main>  <section class="page-title"> <p class="eyebrow">数据集大全</p> <h1>数据集</h1> <p>按表示方法和任务分组的数据集。</p> </section> <section class="filter-panel" aria-label="Filters"> <label class="search-box"> <span>搜索</span> <input id="searchInput" type="search" placeholder="搜索 by dataset, representation, task, source..."> </label>  <label> <span>年份</span> <select id="yearSelect"> <option value="">全部年份</option> <option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option> </select> </label> <label> <span>排序</span> <select id="sortSelect"> <option value="score">分数</option><option value="year">年份</option><option value="alpha">首字母</option> </select> </label> <button id="resetFilters" type="button">重置</button> <p id="resultCount" class="result-count" data-result-template="显示 {0} / {1}"></p> </section>  <div class="card-grid resource-grid" data-sort-container> <article class="paper-card resource-card media-resource-card filter-item" data-search="ratiolabs/downforce-airfoils airfoil2vec  2026  downforce airfoils
+	
+
+steady, incompressible, two-dimensional subsonic rans cfd simulations of
+downforce-generating (inverted-camber) naca 4-digit airfoils, released by
+ratio labs.
+paper: airfoil2vec: spectral geometry-conditioned neural surrogate models for
+airfoil aerodynamics and a downforce-generating cfd dataset
+(arxiv:2609.38213)
+the collection targets a regime that is comparatively underrepresented in
+existing public airfoil cfd datasets for machine learning: geometries and… see the full description on the dataset page: https://huggingface.co/datasets/ratiolabs/downforce-airfoils. 发布万级rans翼型数据集，提出airfoil2vec谱几何条件神经代理，预测流场并实现cfd数量级加速。 task_categories:other license:cc-by-4.0 size_categories:10k<n<100k format:parquet modality:tabular modality:text library:datasets library:pandas library:polars library:mlcroissant arxiv:2609.38213 region:us cfd aerodynamics airfoil rans openfoam fluid-dynamics physics-simulation surrogate-modeling huggingface-datasets" data-category="" data-year="2026" data-title="Airfoil2Vec" data-score="51.9"><a href="/awesome-ai4cae-hub/zh/datasets/hf-ratiolabs-downforce-airfoils" class="preview-wrap"><img src="https://arxiv.org/html/2609.38213v1/Figures/airfoil2vec-three-view.png" alt="Preview for Airfoil2Vec" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-ratiolabs-downforce-airfoils">Airfoil2Vec</a></h3><p class="paper-tldr">发布万级RANS翼型数据集，提出Airfoil2Vec谱几何条件神经代理，预测流场并实现CFD数量级加速。</p><div class="tag-row"><span class="tag">task_categories:other</span><span class="tag">license:cc-by-4.0</span><span class="tag">size_categories:10K&lt;n&lt;100K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">modality:text</span></div><div class="link-row"><a href="https://huggingface.co/datasets/ratiolabs/downforce-airfoils" target="_blank" rel="noreferrer">Hugging Face</a><a href="https://arxiv.org/abs/2609.38213v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="joyboyjeff/airfoil_dataset airfoil2vec  2025  hugging face dataset: joyboyjeff/airfoil_dataset 发布万级rans翼型数据集，提出airfoil2vec谱几何条件神经代理，预测流场并实现cfd数量级加速。 license:mit region:us huggingface-datasets" data-category="" data-year="2025" data-title="Airfoil2Vec" data-score="51.9"><a href="/awesome-ai4cae-hub/zh/datasets/hf-joyboyjeff-airfoil-dataset" class="preview-wrap"><img src="https://arxiv.org/html/2609.38213v1/Figures/airfoil2vec-three-view.png" alt="Preview for Airfoil2Vec" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2025</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-joyboyjeff-airfoil-dataset">Airfoil2Vec</a></h3><p class="paper-tldr">发布万级RANS翼型数据集，提出Airfoil2Vec谱几何条件神经代理，预测流场并实现CFD数量级加速。</p><div class="tag-row"><span class="tag">license:mit</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/joyboyjeff/Airfoil_Dataset" target="_blank" rel="noreferrer">Hugging Face</a><a href="https://arxiv.org/abs/2609.38213v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="sogeeking/airfoil-flow 基于学习的高扰动流中物体流场与运动学状态联合估计  2024  hugging face dataset: sogeeking/airfoil-flow 数据驱动序贯估计器结合运动学感知自编码器与在线滤波，从稀疏测量联合重构非定常流场、载荷与翼型运动学。 license:mit region:us huggingface-datasets" data-category="" data-year="2024" data-title="基于学习的高扰动流中物体流场与运动学状态联合估计" data-score="49.5"><a href="/awesome-ai4cae-hub/zh/datasets/hf-sogeeking-airfoil-flow" class="preview-wrap"><img src="https://arxiv.org/html/2609.13560v1/diagram.png" alt="Preview for 基于学习的高扰动流中物体流场与运动学状态联合估计" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2024</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-sogeeking-airfoil-flow">基于学习的高扰动流中物体流场与运动学状态联合估计</a></h3><p class="paper-tldr">数据驱动序贯估计器结合运动学感知自编码器与在线滤波，从稀疏测量联合重构非定常流场、载荷与翼型运动学。</p><div class="tag-row"><span class="tag">license:mit</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/sogeeking/airfoil-flow" target="_blank" rel="noreferrer">Hugging Face</a><a href="https://arxiv.org/abs/2608.13490v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="shift-truck shift-truck  2026  pickup trucks account for 14% of new light-duty vehicles produced in the united states, yet are among the least aerodynamic. their open cargo bed adds a flow absent from existing automotive aerodynamics datasets such as drivaerml and shift-... shift-truck 发布首个皮卡高保真气动数据集与神经代理基准，含1000例sa-ddes仿真并经风洞验证。 ce lg comp-ph papers" data-category="" data-year="2026" data-title="SHIFT-Truck" data-score="47.6"><a href="/awesome-ai4cae-hub/zh/datasets/paper-shift-truck-a-high-fidelity-aerodynamics-dataset-and-benchm-2026" class="preview-wrap"><img src="https://arxiv.org/html/2609.38638v1/f01_parameterization.png" alt="Preview for SHIFT-Truck" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-shift-truck-a-high-fidelity-aerodynamics-dataset-and-benchm-2026">SHIFT-Truck</a></h3><p class="paper-tldr">SHIFT-Truck 发布首个皮卡高保真气动数据集与神经代理基准，含1000例SA-DDES仿真并经风洞验证。</p><div class="tag-row"><span class="tag">CE</span><span class="tag">LG</span><span class="tag">comp-ph</span></div><div class="link-row"><a href="https://arxiv.org/abs/2609.38638v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="one cylinder one cylinder  2026  graph-based surrogate models offer a promising route to accelerate computational fluid dynamics (cfd) simulations on unstructured meshes. however, their development is limited by the scarcity of benchmark datasets spanning multiple flow reg... 提出 onecyl 基准，含 450 个圆柱绕流有限元模拟及 graph transformer 长时程图代理基线。 flu-dyn lg papers" data-category="" data-year="2026" data-title="ONE CYLinder" data-score="42.2"><a href="/awesome-ai4cae-hub/zh/datasets/paper-one-cylinder-a-benchmark-for-graph-based-surrogate-modeling-2026" class="preview-wrap"><img src="https://arxiv.org/html/2609.08947v1/mesh_onecyl.png" alt="Preview for ONE CYLinder" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-one-cylinder-a-benchmark-for-graph-based-surrogate-modeling-2026">ONE CYLinder</a></h3><p class="paper-tldr">提出 ONECYL 基准，含 450 个圆柱绕流有限元模拟及 Graph Transformer 长时程图代理基线。</p><div class="tag-row"><span class="tag">flu-dyn</span><span class="tag">LG</span></div><div class="link-row"><a href="https://arxiv.org/abs/2609.08947v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="u3dwind u3dwind  2026  urban air mobility (uam) requires reliable assessment of low-altitude wind hazards, because winds, gusts, and building-induced turbulence have been recognized as critical factors affecting vehicle stability, route feasibility, vertiport sit... u3dwind是面向城市空中交通的建筑解析低空城市风场数据集与基准，基于gpu加速lbm-les构建，覆盖中国五座特大城市。 flu-dyn geo-ph papers" data-category="" data-year="2026" data-title="U3DWind" data-score="41"><a href="/awesome-ai4cae-hub/zh/datasets/paper-u3dwind-a-low-altitude-wind-field-dataset-and-benchmark-for-2026" class="preview-wrap"><img src="https://arxiv.org/html/2607.04495v1/fig_shanghai.jpg" alt="Preview for U3DWind" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-u3dwind-a-low-altitude-wind-field-dataset-and-benchmark-for-2026">U3DWind</a></h3><p class="paper-tldr">U3DWind是面向城市空中交通的建筑解析低空城市风场数据集与基准，基于GPU加速LBM-LES构建，覆盖中国五座特大城市。</p><div class="tag-row"><span class="tag">flu-dyn</span><span class="tag">geo-ph</span></div><div class="link-row"><a href="https://arxiv.org/abs/2607.04495v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="drivaernet fsan  2024  derived from paper: drivaernet: a parametric car dataset for data-driven aerodynamic design and graph-based drag prediction fsan是气动预测深度学习代理，通过流状态注意力建模局部几何-流动交互，在两个基准上提高精度。 papers" data-category="" data-year="2024" data-title="FSAN" data-score="39.7"><a href="/awesome-ai4cae-hub/zh/datasets/paper-drivaernet-a-parametric-car-dataset-for-data-driven-aerodyn-2024" class="preview-wrap"><img src="https://arxiv.org/html/2403.08055v2/figures/Figure_1.png" alt="Preview for FSAN" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2024</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-drivaernet-a-parametric-car-dataset-for-data-driven-aerodyn-2024">FSAN</a></h3><p class="paper-tldr">FSAN是气动预测深度学习代理，通过流状态注意力建模局部几何-流动交互，在两个基准上提高精度。</p><div class="tag-row"></div><div class="link-row"><a href="https://arxiv.org/abs/2403.08055" target="_blank" rel="noreferrer">论文</a><a href="https://github.com/Mohamedelrefaie/DrivAerNet" target="_blank" rel="noreferrer">代码</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="rsi-forge rsi-forge  2026  environments are the foundation of recursive self-improvement: they provide the problems agents work on and the feedback used to evaluate progress. yet constructing challenging research environments with reliable evaluation still depends on... 环境是递归自我改进的基础：它们提供智能体所处理的问题，以及用于评估进展的反馈。然而，构建具有可靠评估的挑战性研究环境仍依赖领域专家，这限制了其规模和学科覆盖范围。我们提出 rsi-forge，一种多智能体流水线，可将已发表论文转化为用于自我改进的可执行环境。三个智能体协同完成构建、复现和评审，以生成带有自动评估器的任务；每篇论文的方法都会被独立重新实现，以建立基线分数。我们呈现了跨越18个领域的210个环境，其中90个由独立的人类领域专家评审。专家和智能体评审员均对改进所提供初始解决方案的潜力以及评估器区分解决方案质量的能力给予高度评价，而专家对捷径抗性、对源论文的忠实度，以及单个想法是否能穷尽一个任务更为挑剔。为验证这些环境用于重复改进的有效性，我们在120个环境上对四个模型进行了连续3次尝试的评估，每次尝试继承先前的代码和笔记，同时模型权重保持固定。在84%的环境中，至少有一个模型在第一次尝试后有所改进。在120个环境中的68个里，模型也优于复现的论文方法，表明在这些基线之外仍有提升空间。记录分析识别出，在这些成功尝试中，有95%包含超出参数调优的工作。对所得轨迹的分析表明，在这些任务上得分较低的模型探索更少，更常接受小于所报告标准误的增益，并且更重地依赖对开发集的调优。rsi-forge 提供了一种可扩展的方法，用于构建研究环境，以训练和评估自我改进的智能体。 papers" data-category="" data-year="2026" data-title="RSI-Forge" data-score="39"><a href="/awesome-ai4cae-hub/zh/datasets/paper-rsi-forge-from-research-papers-to-environments-for-recursiv-2026" class="preview-wrap"><img src="https://arxiv.org/html/2610.09426v1/fig_teaser.png" alt="Preview for RSI-Forge" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-rsi-forge-from-research-papers-to-environments-for-recursiv-2026">RSI-Forge</a></h3><p class="paper-tldr">环境是递归自我改进的基础：它们提供智能体所处理的问题，以及用于评估进展的反馈。然而，构建具有可靠评估的挑战性研究环境仍依赖领域专家，这限制了其规模和学科覆盖范围。我们提出 RSI-Forge，一种多智能体流水线，可将已发表论文转化为用于自我改进的可执行环境。三个智能体协同完成构建、复现和评审，以生成带有自动评估器的任务；每篇论文的方法都会被独立重新实现，以建立基线分数。我们呈现了跨越18个领域的210个环境，其中90个由独立的人类领域专家评审。专家和智能体评审员均对改进所提供初始解决方案的潜力以及评估器区分解决方案质量的能力给予高度评价，而专家对捷径抗性、对源论文的忠实度，以及单个想法是否能穷尽一个任务更为挑剔。为验证这些环境用于重复改进的有效性，我们在120个环境上对四个模型进行了连续3次尝试的评估，每次尝试继承先前的代码和笔记，同时模型权重保持固定。在84%的环境中，至少有一个模型在第一次尝试后有所改进。在120个环境中的68个里，模型也优于复现的论文方法，表明在这些基线之外仍有提升空间。记录分析识别出，在这些成功尝试中，有95%包含超出参数调优的工作。对所得轨迹的分析表明，在这些任务上得分较低的模型探索更少，更常接受小于所报告标准误的增益，并且更重地依赖对开发集的调优。RSI-Forge 提供了一种可扩展的方法，用于构建研究环境，以训练和评估自我改进的智能体。</p><div class="tag-row"></div><div class="link-row"><a href="https://arxiv.org/abs/2610.09426v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="convolutional neural operators for robust and accurate learning of pdes 用于稳健且准确地学习偏微分方程的卷积神经算子  2023  although very successfully used in conventional machine learning, convolution based neural network architectures -- believed to be inconsistent in function space -- have been largely ignored in the context of learning solution operators of ... 尽管基于卷积的神经网络架构在传统机器学习中得到了非常成功的应用，但由于被认为在函数空间中不一致，它们在学习pde解算子的背景下一直很大程度上被忽视。在此，我们为卷积神经网络提出新颖的适配方法，以证明它们确实能够将函数作为输入和输出进行处理。由此得到的架构被称为卷积神经算子（cnos），其被专门设计用于保持其内在的连续性质，即使在计算机上以离散形式实现时也是如此。我们证明了一个普适性定理，表明cnos能够以期望的精度逼近pde中出现的算子。cnos在一套新颖的基准测试集上进行了测试，该测试集涵盖一组具有可能多尺度解的多样化pde，并被观察到显著优于基线，为稳健且准确的算子学习铺平了通往替代框架的道路。我们的代码公开于 https://github.com/bogdanraonic3/convolutionalneuraloperator papers" data-category="" data-year="2023" data-title="用于稳健且准确地学习偏微分方程的卷积神经算子" data-score="33.7"><a href="/awesome-ai4cae-hub/zh/datasets/paper-convolutional-neural-operators-for-robust-and-accurate-learn-2023" class="preview-wrap"><img src="https://arxiv.org/html/2302.01178v3/Figures/CNOP_1_new.png" alt="Preview for 用于稳健且准确地学习偏微分方程的卷积神经算子" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2023</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-convolutional-neural-operators-for-robust-and-accurate-learn-2023">用于稳健且准确地学习偏微分方程的卷积神经算子</a></h3><p class="paper-tldr">尽管基于卷积的神经网络架构在传统机器学习中得到了非常成功的应用，但由于被认为在函数空间中不一致，它们在学习PDE解算子的背景下一直很大程度上被忽视。在此，我们为卷积神经网络提出新颖的适配方法，以证明它们确实能够将函数作为输入和输出进行处理。由此得到的架构被称为卷积神经算子（CNOs），其被专门设计用于保持其内在的连续性质，即使在计算机上以离散形式实现时也是如此。我们证明了一个普适性定理，表明CNOs能够以期望的精度逼近PDE中出现的算子。CNOs在一套新颖的基准测试集上进行了测试，该测试集涵盖一组具有可能多尺度解的多样化PDE，并被观察到显著优于基线，为稳健且准确的算子学习铺平了通往替代框架的道路。我们的代码公开于 https://github.com/bogdanraonic3/ConvolutionalNeuralOperator</p><div class="tag-row"></div><div class="link-row"><a href="https://arxiv.org/abs/2302.01178" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="happyfc/airfoil 基于 openfoam 的 cfd 中编码智能体的算例包运行模型  2026  hugging face dataset: happyfc/airfoil 提出案例包操作模型，用于openfoam cfd编码智能体，重放140个几何变体与四个llm后端验证。 region:us huggingface-datasets" data-category="" data-year="2026" data-title="基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型" data-score="31.9"><a href="/awesome-ai4cae-hub/zh/datasets/hf-happyfc-airfoil" class="preview-wrap"><img src="https://arxiv.org/html/2609.11941v1/x1.png" alt="Preview for 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-happyfc-airfoil">基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型</a></h3><p class="paper-tldr">提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。</p><div class="tag-row"><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/happyfc/airfoil" target="_blank" rel="noreferrer">Hugging Face</a><a href="https://arxiv.org/abs/2608.27863v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="cross-domain pretraining for steady-state neural cfd surrogates 稳态神经cfd代理模型的跨域预训练  2026  neural surrogates for computational fluid dynamics (cfd) have the potential to greatly enhance engineering innovation through accelerating simulation. however, the primary limitation for neural surrogates is the lack of generalization to ge... 用于计算流体力学（cfd）的神经代理模型有潜力通过加速仿真来极大地增强工程创新。然而，神经代理模型的主要局限在于缺乏对训练集之外几何构型与应用场景的泛化能力，而考虑到工程场景的多样性，这一点尤为重要。目前，解决该问题的方法是为特定应用生成新数据集；但这需要运行成本高昂的数值求解器。在本工作中，我们朝着解决这一问题迈出一步，研究了跨不同几何构型、边界条件和保真度训练的神经代理模型。我们发现，与从零开始训练以及从领域特定专家模型迁移相比，跨域预训练能够提升在留出数据集上的零样本和少样本性能。特别是，在相同样本量下，微调一个预训练的跨域模型可以使误差降至原来的1/2至1/3；并且相比从零开始训练，达到相同误差所需样本量仅为原来的1/8。这一增益与架构无关，并随模型规模和预训练数据集多样性的增加而提升。此外，我们研究了跨域预训练在cfd代理模型中如何以及为何有效，并发现简单地汇集稳态数据集既充分又有效。鉴于生成cfd数据的高昂成本，随着未来代理模型扩展以应对新问题和用例，通过跨域预训练利用现有数据集很可能将是一种有价值的策略。 papers" data-category="" data-year="2026" data-title="稳态神经CFD代理模型的跨域预训练" data-score="30.1"><a href="/awesome-ai4cae-hub/zh/datasets/paper-cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026" class="preview-wrap"><img src="https://arxiv.org/html/2610.10398v1/figures/main_fig.png" alt="Preview for 稳态神经CFD代理模型的跨域预训练" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026">稳态神经CFD代理模型的跨域预训练</a></h3><p class="paper-tldr">用于计算流体力学（CFD）的神经代理模型有潜力通过加速仿真来极大地增强工程创新。然而，神经代理模型的主要局限在于缺乏对训练集之外几何构型与应用场景的泛化能力，而考虑到工程场景的多样性，这一点尤为重要。目前，解决该问题的方法是为特定应用生成新数据集；但这需要运行成本高昂的数值求解器。在本工作中，我们朝着解决这一问题迈出一步，研究了跨不同几何构型、边界条件和保真度训练的神经代理模型。我们发现，与从零开始训练以及从领域特定专家模型迁移相比，跨域预训练能够提升在留出数据集上的零样本和少样本性能。特别是，在相同样本量下，微调一个预训练的跨域模型可以使误差降至原来的1/2至1/3；并且相比从零开始训练，达到相同误差所需样本量仅为原来的1/8。这一增益与架构无关，并随模型规模和预训练数据集多样性的增加而提升。此外，我们研究了跨域预训练在CFD代理模型中如何以及为何有效，并发现简单地汇集稳态数据集既充分又有效。鉴于生成CFD数据的高昂成本，随着未来代理模型扩展以应对新问题和用例，通过跨域预训练利用现有数据集很可能将是一种有价值的策略。</p><div class="tag-row"></div><div class="link-row"><a href="https://arxiv.org/abs/2610.10398v1" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="evaluation of deep neural operator models toward ocean forecasting   2023  derived from paper: evaluation of deep neural operator models toward ocean forecasting  papers" data-category="" data-year="2023" data-title="Evaluation of Deep Neural Operator models toward ocean forecasting" data-score="19.9"><a href="/awesome-ai4cae-hub/zh/datasets/paper-evaluation-of-deep-neural-operator-models-toward-ocean-forec-2023" class="preview-wrap"><img src="https://arxiv.org/html/2308.11814v1/New_Figures/awacs_gt_vel_crvvec_turbo_20060918_0900Z.png" alt="Preview for Evaluation of Deep Neural Operator models toward ocean forecasting" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2023</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/paper-evaluation-of-deep-neural-operator-models-toward-ocean-forec-2023">Evaluation of Deep Neural Operator models toward ocean forecasting</a></h3><p class="paper-tldr">Derived from paper: Evaluation of Deep Neural Operator models toward ocean forecasting</p><div class="tag-row"></div><div class="link-row"><a href="https://arxiv.org/pdf/2308.11814" target="_blank" rel="noreferrer">论文</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="cashen/optiwing-airfoil-2d-full-v0   2026  optiwing airfoil 2d — full
+	
+
+everything: every optimizer iteration with the complete surface-field set, the raw section coordinates at each iteration, the sectional force breakdown, and adjoint sensitivities. built with adjoint sensitivities.
+this is the 2d optiwing aerodynamic shape-optimization dataset, formatted to match the
+engibench airfoil convention (one row per
+optimization case). the three optiwing-2d datasets share case_id, so a row in one joins to the
+same case in the… see the full description on the dataset page: https://huggingface.co/datasets/cashen/optiwing-airfoil-2d-full-v0.  task_categories:tabular-regression license:cc-by-nc-sa-4.0 size_categories:1k<n<10k format:parquet modality:tabular modality:text library:datasets library:dask library:polars library:mlcroissant arxiv:2512.12867 arxiv:2508.00831 region:us engineering aerodynamics airfoil shape-optimization cfd engibench huggingface-datasets" data-category="" data-year="2026" data-title="Cashen/optiwing-airfoil-2d-full-v0" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-full-v0" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Cashen/optiwing-airfoil-2d-full-v0" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-full-v0">Cashen/optiwing-airfoil-2d-full-v0</a></h3><p class="paper-tldr">OptiWing Airfoil 2D — full
+	
+
+Everything: every optimizer iteration with the complete surface-field set, the raw section coordinates at each iteration, the sectional force breakdown, and adjoint sensitivities. Built with adjoint sensitivities.
+This is the 2D OptiWing aerodynamic shape-optimization dataset, formatted to match the
+EngiBench airfoil convention (one row per
+optimization case). The three OptiWing-2D datasets share case_id, so a row in one joins to the
+same case in the… See the full description on the dataset page: https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-full-v0.</p><div class="tag-row"><span class="tag">task_categories:tabular-regression</span><span class="tag">license:cc-by-nc-sa-4.0</span><span class="tag">size_categories:1K&lt;n&lt;10K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">modality:text</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-full-v0" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="cashen/optiwing-airfoil-2d-surface-v0   2026  optiwing airfoil 2d — surface fields
+	
+
+as the basic dataset, plus the per-node surface fields (pressure, velocity, skin friction, …) needed to reconstruct the primal flow state on the airfoil surface.
+this is the 2d optiwing aerodynamic shape-optimization dataset, formatted to match the
+engibench airfoil convention (one row per
+optimization case). the three optiwing-2d datasets share case_id, so a row in one joins to the
+same case in the others. all three are built from a single… see the full description on the dataset page: https://huggingface.co/datasets/cashen/optiwing-airfoil-2d-surface-v0.  task_categories:tabular-regression license:cc-by-nc-sa-4.0 size_categories:1k<n<10k format:parquet modality:tabular library:datasets library:pandas library:polars library:mlcroissant arxiv:2512.12867 arxiv:2508.00831 region:us engineering aerodynamics airfoil shape-optimization cfd engibench huggingface-datasets" data-category="" data-year="2026" data-title="Cashen/optiwing-airfoil-2d-surface-v0" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-surface-v0" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Cashen/optiwing-airfoil-2d-surface-v0" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-surface-v0">Cashen/optiwing-airfoil-2d-surface-v0</a></h3><p class="paper-tldr">OptiWing Airfoil 2D — surface fields
+	
+
+As the basic dataset, plus the per-node surface fields (pressure, velocity, skin friction, …) needed to reconstruct the primal flow state on the airfoil surface.
+This is the 2D OptiWing aerodynamic shape-optimization dataset, formatted to match the
+EngiBench airfoil convention (one row per
+optimization case). The three OptiWing-2D datasets share case_id, so a row in one joins to the
+same case in the others. All three are built from a single… See the full description on the dataset page: https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-surface-v0.</p><div class="tag-row"><span class="tag">task_categories:tabular-regression</span><span class="tag">license:cc-by-nc-sa-4.0</span><span class="tag">size_categories:1K&lt;n&lt;10K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">library:datasets</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-surface-v0" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="cashen/optiwing-airfoil-2d-surface-v1   2026  optiwing airfoil 2d — surface fields
+	
+
+as the basic dataset, plus the per-node surface fields (pressure, velocity, skin friction, …) needed to reconstruct the primal flow state on the airfoil surface.
+this is the 2d optiwing aerodynamic shape-optimization dataset, formatted to match the
+engibench airfoil convention (one row per
+optimization case). the three optiwing-2d datasets share case_id, so a row in one joins to the
+same case in the others. all three are built from a single… see the full description on the dataset page: https://huggingface.co/datasets/cashen/optiwing-airfoil-2d-surface-v1.  task_categories:tabular-regression license:cc-by-nc-sa-4.0 size_categories:1k<n<10k format:parquet modality:tabular library:datasets library:pandas library:polars library:mlcroissant arxiv:2512.12867 arxiv:2508.00831 region:us engineering aerodynamics airfoil shape-optimization cfd engibench huggingface-datasets" data-category="" data-year="2026" data-title="Cashen/optiwing-airfoil-2d-surface-v1" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-surface-v1" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Cashen/optiwing-airfoil-2d-surface-v1" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-surface-v1">Cashen/optiwing-airfoil-2d-surface-v1</a></h3><p class="paper-tldr">OptiWing Airfoil 2D — surface fields
+	
+
+As the basic dataset, plus the per-node surface fields (pressure, velocity, skin friction, …) needed to reconstruct the primal flow state on the airfoil surface.
+This is the 2D OptiWing aerodynamic shape-optimization dataset, formatted to match the
+EngiBench airfoil convention (one row per
+optimization case). The three OptiWing-2D datasets share case_id, so a row in one joins to the
+same case in the others. All three are built from a single… See the full description on the dataset page: https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-surface-v1.</p><div class="tag-row"><span class="tag">task_categories:tabular-regression</span><span class="tag">license:cc-by-nc-sa-4.0</span><span class="tag">size_categories:1K&lt;n&lt;10K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">library:datasets</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-surface-v1" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="cashen/optiwing-airfoil-2d-v0   2026  optiwing airfoil 2d
+	
+
+initial and optimized airfoil designs with the flow conditions, objectives, and constraint violations — engibench airfoil_v0-style.
+this is the 2d optiwing aerodynamic shape-optimization dataset, formatted to match the
+engibench airfoil convention (one row per
+optimization case). the three optiwing-2d datasets share case_id, so a row in one joins to the
+same case in the others. all three are built from a single raw resampling pass, so their geometry
+and… see the full description on the dataset page: https://huggingface.co/datasets/cashen/optiwing-airfoil-2d-v0.  task_categories:tabular-regression license:cc-by-nc-sa-4.0 size_categories:1k<n<10k format:parquet modality:tabular library:datasets library:pandas library:polars library:mlcroissant arxiv:2512.12867 arxiv:2508.00831 region:us engineering aerodynamics airfoil shape-optimization cfd engibench huggingface-datasets" data-category="" data-year="2026" data-title="Cashen/optiwing-airfoil-2d-v0" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-v0" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Cashen/optiwing-airfoil-2d-v0" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-v0">Cashen/optiwing-airfoil-2d-v0</a></h3><p class="paper-tldr">OptiWing Airfoil 2D
+	
+
+Initial and optimized airfoil designs with the flow conditions, objectives, and constraint violations — EngiBench airfoil_v0-style.
+This is the 2D OptiWing aerodynamic shape-optimization dataset, formatted to match the
+EngiBench airfoil convention (one row per
+optimization case). The three OptiWing-2D datasets share case_id, so a row in one joins to the
+same case in the others. All three are built from a single raw resampling pass, so their geometry
+and… See the full description on the dataset page: https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-v0.</p><div class="tag-row"><span class="tag">task_categories:tabular-regression</span><span class="tag">license:cc-by-nc-sa-4.0</span><span class="tag">size_categories:1K&lt;n&lt;10K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">library:datasets</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-v0" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="cashen/optiwing-airfoil-2d-v1   2026  optiwing airfoil 2d
+	
+
+initial and optimized airfoil designs with the flow conditions, objectives, and constraint violations — engibench airfoil_v0-style.
+this is the 2d optiwing aerodynamic shape-optimization dataset, formatted to match the
+engibench airfoil convention (one row per
+optimization case). the three optiwing-2d datasets share case_id, so a row in one joins to the
+same case in the others. all three are built from a single raw pass, so their geometry and fields
+are… see the full description on the dataset page: https://huggingface.co/datasets/cashen/optiwing-airfoil-2d-v1.  task_categories:tabular-regression license:cc-by-nc-sa-4.0 size_categories:1k<n<10k format:parquet modality:tabular library:datasets library:pandas library:polars library:mlcroissant arxiv:2512.12867 arxiv:2508.00831 region:us engineering aerodynamics airfoil shape-optimization cfd engibench huggingface-datasets" data-category="" data-year="2026" data-title="Cashen/optiwing-airfoil-2d-v1" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-v1" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Cashen/optiwing-airfoil-2d-v1" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-cashen-optiwing-airfoil-2d-v1">Cashen/optiwing-airfoil-2d-v1</a></h3><p class="paper-tldr">OptiWing Airfoil 2D
+	
+
+Initial and optimized airfoil designs with the flow conditions, objectives, and constraint violations — EngiBench airfoil_v0-style.
+This is the 2D OptiWing aerodynamic shape-optimization dataset, formatted to match the
+EngiBench airfoil convention (one row per
+optimization case). The three OptiWing-2D datasets share case_id, so a row in one joins to the
+same case in the others. All three are built from a single raw pass, so their geometry and fields
+are… See the full description on the dataset page: https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-v1.</p><div class="tag-row"><span class="tag">task_categories:tabular-regression</span><span class="tag">license:cc-by-nc-sa-4.0</span><span class="tag">size_categories:1K&lt;n&lt;10K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">library:datasets</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Cashen/optiwing-airfoil-2d-v1" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="girasoles123/airfoil2d_prediction_design   2026  hugging face dataset: girasoles123/airfoil2d_prediction_design  license:mit region:us huggingface-datasets" data-category="" data-year="2026" data-title="Girasoles123/Airfoil2D_Prediction_Design" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-girasoles123-airfoil2d-prediction-design" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Girasoles123/Airfoil2D_Prediction_Design" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-girasoles123-airfoil2d-prediction-design">Girasoles123/Airfoil2D_Prediction_Design</a></h3><p class="paper-tldr">Hugging Face dataset: Girasoles123/Airfoil2D_Prediction_Design</p><div class="tag-row"><span class="tag">license:mit</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Girasoles123/Airfoil2D_Prediction_Design" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="introvoyz045/rae2822_airfoil_dataset   2026  2d transonic rae2822 airfoil dataset
+	
+
+this dataset contains computational fluid dynamics (cfd) simulations of the transonic rae2822 airfoil, as presented in the paper:
+&#34;a comparative study of learning techniques for the compressible aerodynamics over a transonic rae2822 airfoil&#34;computational fluid dynamics journal, 2022doi: 10.1016/j.compfluid.2022.105759
+
+	
+		
+	
+	
+		dataset description
+	
+
+this dataset provides high-fidelity cfd simulation results for the rae2822 airfoil across… see the full description on the dataset page: https://huggingface.co/datasets/introvoyz045/rae2822_airfoil_dataset.  license:apache-2.0 region:us huggingface-datasets" data-category="" data-year="2026" data-title="introvoyz045/RAE2822_Airfoil_Dataset" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-introvoyz045-rae2822-airfoil-dataset" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for introvoyz045/RAE2822_Airfoil_Dataset" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-introvoyz045-rae2822-airfoil-dataset">introvoyz045/RAE2822_Airfoil_Dataset</a></h3><p class="paper-tldr">2D Transonic RAE2822 Airfoil Dataset
+	
+
+This dataset contains computational fluid dynamics (CFD) simulations of the transonic RAE2822 airfoil, as presented in the paper:
+&quot;A comparative study of learning techniques for the compressible aerodynamics over a transonic RAE2822 airfoil&quot;Computational Fluid Dynamics Journal, 2022DOI: 10.1016/j.compfluid.2022.105759
+
+	
+		
+	
+	
+		Dataset Description
+	
+
+This dataset provides high-fidelity CFD simulation results for the RAE2822 airfoil across… See the full description on the dataset page: https://huggingface.co/datasets/introvoyz045/RAE2822_Airfoil_Dataset.</p><div class="tag-row"><span class="tag">license:apache-2.0</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/introvoyz045/RAE2822_Airfoil_Dataset" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="psetinek/multi-fidelity-airfoil   2026  multi-fidelity airfoil dataset
+	
+
+this repository contains the airfoil dataset used in compute-optimal data scaling for neural surrogates via multi-fidelity training, to be presented at neurips 2026.
+all other datasets used in the publication are cheap to regenerate and we therefore provide the respective simulation source code in the accompanying github repository.
+here, we build on the airfrans dataset, a subsonic 2d rans dataset with varying naca 4 and 5 digit geometries as well… see the full description on the dataset page: https://huggingface.co/datasets/psetinek/multi-fidelity-airfoil.  task_categories:other language:en license:odbl size_categories:10k<n<100k format:csv modality:tabular modality:text library:datasets library:pandas library:polars library:mlcroissant arxiv:2212.07564 region:us cfd computational-fluid-dynamics aerodynamics airfoil multi-fidelity neural-surrogates openfoam scientific-machine-learning huggingface-datasets" data-category="" data-year="2026" data-title="psetinek/multi-fidelity-airfoil" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-psetinek-multi-fidelity-airfoil" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for psetinek/multi-fidelity-airfoil" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-psetinek-multi-fidelity-airfoil">psetinek/multi-fidelity-airfoil</a></h3><p class="paper-tldr">Multi-fidelity Airfoil Dataset
+	
+
+This repository contains the airfoil dataset used in Compute-optimal data scaling for neural surrogates via multi-fidelity training, to be presented at NeurIPS 2026.
+All other datasets used in the publication are cheap to regenerate and we therefore provide the respective simulation source code in the accompanying GitHub repository.
+Here, we build on the AirfRANS dataset, a subsonic 2D RANS dataset with varying NACA 4 and 5 digit geometries as well… See the full description on the dataset page: https://huggingface.co/datasets/psetinek/multi-fidelity-airfoil.</p><div class="tag-row"><span class="tag">task_categories:other</span><span class="tag">language:en</span><span class="tag">license:odbl</span><span class="tag">size_categories:10K&lt;n&lt;100K</span><span class="tag">format:csv</span><span class="tag">modality:tabular</span></div><div class="link-row"><a href="https://huggingface.co/datasets/psetinek/multi-fidelity-airfoil" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="sissamathlab/airfoil-transonic-boundary   2026  airfoil transonic flow - boundary dataset
+	
+
+
+	
+		
+		dataset description
+	
+
+this dataset contains transonic flow simulations around an airfoil, focusing on boundary (airfoil surface) quantities with varying angle of attack.
+
+	
+		
+		dataset summary
+	
+
+the airfoil transonic boundary dataset provides numerical simulations of compressible transonic flow around an airfoil profile. the dataset focuses on aerodynamic quantities at the airfoil surface (boundary), including pressure and wall… see the full description on the dataset page: https://huggingface.co/datasets/sissamathlab/airfoil-transonic-boundary.  size_categories:n<1k format:parquet format:optimized-parquet library:datasets library:pandas library:polars library:mlcroissant region:us huggingface-datasets" data-category="" data-year="2026" data-title="SISSAmathLab/airfoil-transonic-boundary" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-sissamathlab-airfoil-transonic-boundary" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for SISSAmathLab/airfoil-transonic-boundary" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-sissamathlab-airfoil-transonic-boundary">SISSAmathLab/airfoil-transonic-boundary</a></h3><p class="paper-tldr">Airfoil Transonic Flow - Boundary Dataset
+	
+
+
+	
+		
+		Dataset Description
+	
+
+This dataset contains transonic flow simulations around an airfoil, focusing on boundary (airfoil surface) quantities with varying angle of attack.
+
+	
+		
+		Dataset Summary
+	
+
+The Airfoil Transonic Boundary dataset provides numerical simulations of compressible transonic flow around an airfoil profile. The dataset focuses on aerodynamic quantities at the airfoil surface (boundary), including pressure and wall… See the full description on the dataset page: https://huggingface.co/datasets/SISSAmathLab/airfoil-transonic-boundary.</p><div class="tag-row"><span class="tag">size_categories:n&lt;1K</span><span class="tag">format:parquet</span><span class="tag">format:optimized-parquet</span><span class="tag">library:datasets</span><span class="tag">library:pandas</span><span class="tag">library:polars</span></div><div class="link-row"><a href="https://huggingface.co/datasets/SISSAmathLab/airfoil-transonic-boundary" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="sissamathlab/airfoil-transonic-internal   2026  airfoil transonic flow - internal domain dataset
+	
+
+
+	
+		
+		dataset description
+	
+
+this dataset contains transonic flow simulations around an airfoil, focusing on internal flow field quantities with varying angle of attack.
+
+	
+		
+		dataset summary
+	
+
+the airfoil transonic internal dataset provides numerical simulations of compressible transonic flow around an airfoil profile. the dataset focuses on aerodynamic quantities in the flow field surrounding the airfoil, including pressure and… see the full description on the dataset page: https://huggingface.co/datasets/sissamathlab/airfoil-transonic-internal.  size_categories:n<1k format:parquet format:optimized-parquet library:datasets library:pandas library:polars library:mlcroissant region:us huggingface-datasets" data-category="" data-year="2026" data-title="SISSAmathLab/airfoil-transonic-internal" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-sissamathlab-airfoil-transonic-internal" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for SISSAmathLab/airfoil-transonic-internal" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-sissamathlab-airfoil-transonic-internal">SISSAmathLab/airfoil-transonic-internal</a></h3><p class="paper-tldr">Airfoil Transonic Flow - Internal Domain Dataset
+	
+
+
+	
+		
+		Dataset Description
+	
+
+This dataset contains transonic flow simulations around an airfoil, focusing on internal flow field quantities with varying angle of attack.
+
+	
+		
+		Dataset Summary
+	
+
+The Airfoil Transonic Internal dataset provides numerical simulations of compressible transonic flow around an airfoil profile. The dataset focuses on aerodynamic quantities in the flow field surrounding the airfoil, including pressure and… See the full description on the dataset page: https://huggingface.co/datasets/SISSAmathLab/airfoil-transonic-internal.</p><div class="tag-row"><span class="tag">size_categories:n&lt;1K</span><span class="tag">format:parquet</span><span class="tag">format:optimized-parquet</span><span class="tag">library:datasets</span><span class="tag">library:pandas</span><span class="tag">library:polars</span></div><div class="link-row"><a href="https://huggingface.co/datasets/SISSAmathLab/airfoil-transonic-internal" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="zjworlder/rae2822_airfoil_viscous_flow_field_database   2026  rae2822 翼型黏性流场数据库
+	
+
+su2 v8.4.0 rans 求解器生成的 naca rae2822 翼型二维黏性流场数据集。
+
+	
+		
+	
+	
+		数据结构
+	
+
+每个工况为一个独立目录，命名规则：
+ma_{mach}__aoa_{aoa}__re_{re}
+
+re 部分仅在 ma--aoa--re/ 子集中存在。
+每个工况固定包含 10 个文件：
+
+	
+		
+文件
+说明
+
+
+		
+flow2d-0011000.dat
+1000 步流场快照
+
+
+flow2d-0012000.dat
+2000 步流场快照
+
+
+flow2d-0013000.dat
+3000 步流场快照
+
+
+cp.dat
+压力系数分布
+
+
+residual.dat
+残差历史
+
+
+sa2d.dat
+spalart-allmaras 涡量/黏性量
+
+
+dist_wall.dat
+壁面距离
+
+
+dw.dat
+距离壁面法向坐标
+
+
+jocabian.dat
+jacobian 体积比（标量）
+
+
+force.log
+积分力/力矩历史
+
+
+	
+
+
+	
+		
+	
+	
+		子集… see the full description on the dataset page: https://huggingface.co/datasets/zjworlder/rae2822_airfoil_viscous_flow_field_database.  region:us huggingface-datasets" data-category="" data-year="2026" data-title="zjworlder/RAE2822_airfoil_viscous_flow_field_database" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-zjworlder-rae2822-airfoil-viscous-flow-field-database" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for zjworlder/RAE2822_airfoil_viscous_flow_field_database" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2026</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-zjworlder-rae2822-airfoil-viscous-flow-field-database">zjworlder/RAE2822_airfoil_viscous_flow_field_database</a></h3><p class="paper-tldr">RAE2822 翼型黏性流场数据库
+	
+
+SU2 v8.4.0 RANS 求解器生成的 NACA RAE2822 翼型二维黏性流场数据集。
+
+	
+		
+	
+	
+		数据结构
+	
+
+每个工况为一个独立目录，命名规则：
+Ma_{mach}__AoA_{aoa}__Re_{re}
+
+Re 部分仅在 Ma--AoA--Re/ 子集中存在。
+每个工况固定包含 10 个文件：
+
+	
+		
+文件
+说明
+
+
+		
+flow2d-0011000.dat
+1000 步流场快照
+
+
+flow2d-0012000.dat
+2000 步流场快照
+
+
+flow2d-0013000.dat
+3000 步流场快照
+
+
+Cp.dat
+压力系数分布
+
+
+Residual.dat
+残差历史
+
+
+SA2d.dat
+Spalart-Allmaras 涡量/黏性量
+
+
+dist_wall.dat
+壁面距离
+
+
+dw.dat
+距离壁面法向坐标
+
+
+Jocabian.dat
+Jacobian 体积比（标量）
+
+
+force.log
+积分力/力矩历史
+
+
+	
+
+
+	
+		
+	
+	
+		子集… See the full description on the dataset page: https://huggingface.co/datasets/zjworlder/RAE2822_airfoil_viscous_flow_field_database.</p><div class="tag-row"><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/zjworlder/RAE2822_airfoil_viscous_flow_field_database" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="giovannicatalani/rae2822_airfoil_dataset   2025  2d transonic rae2822 airfoil dataset
+	
+
+this dataset contains computational fluid dynamics (cfd) simulations of the transonic rae2822 airfoil, as presented in the paper:
+&#34;a comparative study of learning techniques for the compressible aerodynamics over a transonic rae2822 airfoil&#34;computational fluid dynamics journal, 2022doi: 10.1016/j.compfluid.2022.105759
+
+	
+		
+	
+	
+		dataset description
+	
+
+this dataset provides high-fidelity cfd simulation results for the rae2822 airfoil across… see the full description on the dataset page: https://huggingface.co/datasets/giovannicatalani/rae2822_airfoil_dataset.  license:apache-2.0 region:us huggingface-datasets" data-category="" data-year="2025" data-title="giovannicatalani/RAE2822_Airfoil_Dataset" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-giovannicatalani-rae2822-airfoil-dataset" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for giovannicatalani/RAE2822_Airfoil_Dataset" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2025</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-giovannicatalani-rae2822-airfoil-dataset">giovannicatalani/RAE2822_Airfoil_Dataset</a></h3><p class="paper-tldr">2D Transonic RAE2822 Airfoil Dataset
+	
+
+This dataset contains computational fluid dynamics (CFD) simulations of the transonic RAE2822 airfoil, as presented in the paper:
+&quot;A comparative study of learning techniques for the compressible aerodynamics over a transonic RAE2822 airfoil&quot;Computational Fluid Dynamics Journal, 2022DOI: 10.1016/j.compfluid.2022.105759
+
+	
+		
+	
+	
+		Dataset Description
+	
+
+This dataset provides high-fidelity CFD simulation results for the RAE2822 airfoil across… See the full description on the dataset page: https://huggingface.co/datasets/giovannicatalani/RAE2822_Airfoil_Dataset.</p><div class="tag-row"><span class="tag">license:apache-2.0</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/giovannicatalani/RAE2822_Airfoil_Dataset" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="ideallab/airfoil_v0   2025  this dataset is part of the engibench toolkit: https://github.com/ideallab/engibench.  license:cc-by-nc-sa-4.0 size_categories:n<1k format:parquet modality:tabular library:datasets library:pandas library:mlcroissant library:polars region:us huggingface-datasets" data-category="" data-year="2025" data-title="IDEALLab/airfoil_v0" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-ideallab-airfoil-v0" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for IDEALLab/airfoil_v0" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2025</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-ideallab-airfoil-v0">IDEALLab/airfoil_v0</a></h3><p class="paper-tldr">This dataset is part of the EngiBench toolkit: https://github.com/IDEALLab/EngiBench.</p><div class="tag-row"><span class="tag">license:cc-by-nc-sa-4.0</span><span class="tag">size_categories:n&lt;1K</span><span class="tag">format:parquet</span><span class="tag">modality:tabular</span><span class="tag">library:datasets</span><span class="tag">library:pandas</span></div><div class="link-row"><a href="https://huggingface.co/datasets/IDEALLab/airfoil_v0" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="practicer/airfoil_cindm   2025  hugging face dataset: practicer/airfoil_cindm  license:mit region:us huggingface-datasets" data-category="" data-year="2025" data-title="Practicer/airfoil_CinDM" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-practicer-airfoil-cindm" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Practicer/airfoil_CinDM" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2025</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-practicer-airfoil-cindm">Practicer/airfoil_CinDM</a></h3><p class="paper-tldr">Hugging Face dataset: Practicer/airfoil_CinDM</p><div class="tag-row"><span class="tag">license:mit</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Practicer/airfoil_CinDM" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article><article class="paper-card resource-card media-resource-card filter-item" data-search="code-hugger/airfoil-2dsteady   2023  hugging face dataset: code-hugger/airfoil-2dsteady  license:apache-2.0 region:us huggingface-datasets" data-category="" data-year="2023" data-title="Code-Hugger/airfoil-2dsteady" data-score="0"><a href="/awesome-ai4cae-hub/zh/datasets/hf-code-hugger-airfoil-2dsteady" class="preview-wrap"><img src="/awesome-ai4cae-hub/assets/placeholder.svg" alt="Preview for Code-Hugger/airfoil-2dsteady" loading="lazy"></a><div class="paper-body"><div class="paper-meta"><span>2023</span></div><h3><a href="/awesome-ai4cae-hub/zh/datasets/hf-code-hugger-airfoil-2dsteady">Code-Hugger/airfoil-2dsteady</a></h3><p class="paper-tldr">Hugging Face dataset: Code-Hugger/airfoil-2dsteady</p><div class="tag-row"><span class="tag">license:apache-2.0</span><span class="tag">region:us</span></div><div class="link-row"><a href="https://huggingface.co/datasets/Code-Hugger/airfoil-2dsteady" target="_blank" rel="noreferrer">Hugging Face</a></div></div></article> </div>  </main> <footer class="footer">
+Built with <a href="https://github.com/jin-s13/awesome-hub-generator">awesome-hub-generator</a>.
+</footer> </div> </body></html>
