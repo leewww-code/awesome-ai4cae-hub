@@ -762,6 +762,11 @@
     title: Domain Agnostic Fourier Neural Operators
     url: https://arxiv.org/abs/2305.00478
     title_zh: 域无关傅里叶神经算子
+  - id: net-drag-reduction-in-turbulent-pipe-flow-by-airfoil-section-2026
+    title: Net drag reduction in turbulent pipe flow by airfoil-section grids concentrated
+      near the wall
+    url: https://arxiv.org/abs/2610.11474v1
+    title_zh: 通过集中于壁面附近的翼型截面格栅实现湍流管流净减阻
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-08T23:59:07Z'
+generated_at: '2026-10-09T23:31:47Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1266,4 +1266,92 @@ assignments:
   secondary:
   - method
   confidence: 0.67
+  evidence: system
+- paper_id: embodied-turing-machines-stateful-code-for-robot-recursive-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: exact-so-3-equivariant-isotropic-kernels-for-rotation-robus-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: gen-pinns-generative-adversarial-physics-informed-neural-ne-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: transferability-of-learned-states-in-neural-pde-solvers-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: f-3-no-frequency-decomposed-finite-time-flow-map-neural-op-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: reconstruction-of-multiscale-plasma-dynamics-across-operatin-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: cova-pinn-cross-domain-conservation-physics-informed-neural-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: numerical-neural-operator-connection-between-numerical-anal-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: uncovering-and-fixing-collider-bias-in-bayesian-pinns-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: a-neural-characteristic-mapping-method-lagrangian-pinns-bas-2026
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: exploiting-gradients-in-bayesian-inference-of-expensive-simu-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: subdguide-a-modeler-inspired-agentic-workflow-for-mesh-to-s-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: recursive-self-improvement-through-multi-agent-self-supervis-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: prior-or-feedback-what-an-llm-uses-when-adapting-neural-ope-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: net-drag-reduction-in-turbulent-pipe-flow-by-airfoil-section-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: sim-to-real-rl-for-asvs-using-sysid-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: capability-driven-self-evolution-of-agent-memory-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
   evidence: system

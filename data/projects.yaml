@@ -13,7 +13,7 @@
   - privacy
   - self-hosted
   - selfhosted
-  stars: 324708
+  stars: 324986
   links:
     github: https://github.com/awesome-selfhosted/awesome-selfhosted
   sources:
@@ -80,7 +80,7 @@
   description: 'Recent Advances on Machine Learning for Computational Fluid Dynamics:
     A Survey'
   tags: []
-  stars: 371
+  stars: 372
   links:
     github: https://github.com/WillDreamer/Awesome-AI4CFD
   sources:

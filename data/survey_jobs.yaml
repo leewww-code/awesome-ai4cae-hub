@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-08T23:59:13Z'
+generated_at: '2026-10-09T23:31:52Z'
 jobs:
 - id: method
   topic_id: method
@@ -143,6 +143,12 @@ jobs:
   - domain-informed-adaptive-sampling-for-generalizable-pinns-in-2026
   - rsi-forge-from-research-papers-to-environments-for-recursiv-2026
   - mesh-harness-self-improving-agent-harnesses-via-bandit-guid-2026
+  - exact-so-3-equivariant-isotropic-kernels-for-rotation-robus-2026
+  - gen-pinns-generative-adversarial-physics-informed-neural-ne-2026
+  - numerical-neural-operator-connection-between-numerical-anal-2026
+  - a-neural-characteristic-mapping-method-lagrangian-pinns-bas-2026
+  - exploiting-gradients-in-bayesian-inference-of-expensive-simu-2026
+  - recursive-self-improvement-through-multi-agent-self-supervis-2026
   top_tags:
   - flu-dyn
   - LG
@@ -152,11 +158,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: a3152fecaabb67bb
+  prompt_hash: 817b7e7c103011cb
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T00:00:20Z'
+  updated_at: '2026-10-09T23:33:03Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -229,6 +235,9 @@ jobs:
   - procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
   - rsigym-a-flexible-environment-for-recursive-self-improvemen-2026
   - fusion-is-the-new-mutation-bandit-guided-evolution-on-workf-2026
+  - f-3-no-frequency-decomposed-finite-time-flow-map-neural-op-2026
+  - reconstruction-of-multiscale-plasma-dynamics-across-operatin-2026
+  - recursive-self-improvement-through-multi-agent-self-supervis-2026
   top_tags:
   - flu-dyn
   - LG
@@ -238,11 +247,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 6a2f104194746bb6
+  prompt_hash: 99c3df9fdb94c704
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-08T23:59:58Z'
+  updated_at: '2026-10-09T23:32:44Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -397,6 +406,17 @@ jobs:
   - rsigym-a-flexible-environment-for-recursive-self-improvemen-2026
   - fusion-is-the-new-mutation-bandit-guided-evolution-on-workf-2026
   - mesh-harness-self-improving-agent-harnesses-via-bandit-guid-2026
+  - embodied-turing-machines-stateful-code-for-robot-recursive-2026
+  - gen-pinns-generative-adversarial-physics-informed-neural-ne-2026
+  - transferability-of-learned-states-in-neural-pde-solvers-2026
+  - cova-pinn-cross-domain-conservation-physics-informed-neural-2026
+  - uncovering-and-fixing-collider-bias-in-bayesian-pinns-2026
+  - subdguide-a-modeler-inspired-agentic-workflow-for-mesh-to-s-2026
+  - recursive-self-improvement-through-multi-agent-self-supervis-2026
+  - prior-or-feedback-what-an-llm-uses-when-adapting-neural-ope-2026
+  - net-drag-reduction-in-turbulent-pipe-flow-by-airfoil-section-2026
+  - sim-to-real-rl-for-asvs-using-sysid-2026
+  - capability-driven-self-evolution-of-agent-memory-2026
   top_tags:
   - flu-dyn
   - LG
@@ -406,11 +426,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 8bf7c012db241ad6
+  prompt_hash: 0f11f178c01ec047
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T00:01:18Z'
+  updated_at: '2026-10-09T23:33:53Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -432,9 +452,9 @@ jobs:
   - ao-ph
   prompt_hash: 21aa6cfdfa3cddd8
   status: done
-  attempts: 2
+  attempts: 3
   error: ''
-  updated_at: '2026-10-09T00:00:21Z'
+  updated_at: '2026-10-09T23:33:03Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -445,9 +465,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 5
+  attempts: 6
   error: ''
-  updated_at: '2026-10-09T00:00:21Z'
+  updated_at: '2026-10-09T23:33:04Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -495,8 +515,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: 346f57327d091fcc
+  prompt_hash: 440b8ec7ad459ba2
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T00:01:35Z'
+  updated_at: '2026-10-09T23:34:21Z'
