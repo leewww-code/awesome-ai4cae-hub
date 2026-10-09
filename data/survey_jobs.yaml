@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-07T23:52:54Z'
+generated_at: '2026-10-08T23:59:13Z'
 jobs:
 - id: method
   topic_id: method
@@ -139,6 +139,10 @@ jobs:
   - from-inverse-problems-to-adjoint-gradients-a-discrete-impl-2026
   - multiresolution-sobolev-trained-fourier-neural-operator-for-2026
   - learning-pde-solution-operators-with-variable-initial-condit-2026
+  - resail-mitigating-collapse-in-iterative-agent-self-distilla-2026
+  - domain-informed-adaptive-sampling-for-generalizable-pinns-in-2026
+  - rsi-forge-from-research-papers-to-environments-for-recursiv-2026
+  - mesh-harness-self-improving-agent-harnesses-via-bandit-guid-2026
   top_tags:
   - flu-dyn
   - LG
@@ -148,11 +152,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 30e4a58f19d5d85d
+  prompt_hash: a3152fecaabb67bb
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T23:53:44Z'
+  updated_at: '2026-10-09T00:00:20Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -219,6 +223,12 @@ jobs:
   - metro-metric-enhanced-token-routing-operator-2026
   - component-level-evaluation-of-adaptive-pinn-training-for-cfd-2026
   - agentic-resource-allocation-for-batch-multi-objective-bayesi-2026
+  - domain-informed-adaptive-sampling-for-generalizable-pinns-in-2026
+  - the-symbol-of-the-surrogate-measuring-numerical-provenance-2026
+  - cafe-fno-fourier-kernel-generation-via-multiplicative-featu-2026
+  - procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
+  - rsigym-a-flexible-environment-for-recursive-self-improvemen-2026
+  - fusion-is-the-new-mutation-bandit-guided-evolution-on-workf-2026
   top_tags:
   - flu-dyn
   - LG
@@ -228,11 +238,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: cc4470cbc3c9940a
+  prompt_hash: 6a2f104194746bb6
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T23:53:52Z'
+  updated_at: '2026-10-08T23:59:58Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -377,6 +387,16 @@ jobs:
   - learning-pde-solution-operators-with-variable-initial-condit-2026
   - mimir-physics-grounded-llm-agents-for-long-horizon-irrigati-2026
   - a-kinetic-theory-of-the-gated-self-evolving-llm-agent-2026
+  - resail-mitigating-collapse-in-iterative-agent-self-distilla-2026
+  - domain-informed-adaptive-sampling-for-generalizable-pinns-in-2026
+  - sage-pinn-a-singularity-free-axisymmetric-geometry-encoded-2026
+  - physics-based-sphere-packing-for-lagrangian-mesh-morphing-2026
+  - procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
+  - verify-less-evolve-more-training-idea-level-critics-for-ve-2026
+  - rsi-forge-from-research-papers-to-environments-for-recursiv-2026
+  - rsigym-a-flexible-environment-for-recursive-self-improvemen-2026
+  - fusion-is-the-new-mutation-bandit-guided-evolution-on-workf-2026
+  - mesh-harness-self-improving-agent-harnesses-via-bandit-guid-2026
   top_tags:
   - flu-dyn
   - LG
@@ -386,11 +406,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: c162256925464206
+  prompt_hash: 8bf7c012db241ad6
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T23:54:40Z'
+  updated_at: '2026-10-09T00:01:18Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -412,9 +432,9 @@ jobs:
   - ao-ph
   prompt_hash: 21aa6cfdfa3cddd8
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-07T23:54:50Z'
+  updated_at: '2026-10-09T00:00:21Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -425,9 +445,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 4
+  attempts: 5
   error: ''
-  updated_at: '2026-10-07T23:54:40Z'
+  updated_at: '2026-10-09T00:00:21Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -464,6 +484,8 @@ jobs:
   - error-estimates-in-physics-informed-neural-networks-to-heat-2026
   - hfs-transnet-a-hybrid-fixed-stress-transferable-neural-netw-2026
   - learning-pde-solution-operators-with-variable-initial-condit-2026
+  - procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
+  - cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026
   top_tags:
   - flu-dyn
   - LG
@@ -473,8 +495,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: a5f336dc337231fe
+  prompt_hash: 346f57327d091fcc
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-07T23:55:41Z'
+  updated_at: '2026-10-09T00:01:35Z'

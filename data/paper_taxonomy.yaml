@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-07T23:52:51Z'
+generated_at: '2026-10-08T23:59:07Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1193,3 +1193,77 @@ assignments:
   - system
   confidence: 0.65
   evidence: theory
+- paper_id: resail-mitigating-collapse-in-iterative-agent-self-distilla-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: domain-informed-adaptive-sampling-for-generalizable-pinns-in-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: the-symbol-of-the-surrogate-measuring-numerical-provenance-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: cafe-fno-fourier-kernel-generation-via-multiplicative-featu-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: sage-pinn-a-singularity-free-axisymmetric-geometry-encoded-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: physics-based-sphere-packing-for-lagrangian-mesh-morphing-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
+  primary: benchmark
+  secondary:
+  - application
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: verify-less-evolve-more-training-idea-level-critics-for-ve-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: rsi-forge-from-research-papers-to-environments-for-recursiv-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: rsigym-a-flexible-environment-for-recursive-self-improvemen-2026
+  primary: system
+  secondary:
+  - benchmark
+  confidence: 0.67
+  evidence: system
+- paper_id: cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026
+  primary: application
+  secondary: []
+  confidence: 0.65
+  evidence: application
+- paper_id: fusion-is-the-new-mutation-bandit-guided-evolution-on-workf-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: mesh-harness-self-improving-agent-harnesses-via-bandit-guid-2026
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system

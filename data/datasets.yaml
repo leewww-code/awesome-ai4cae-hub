@@ -952,3 +952,53 @@
     category: dataset
   year: 2026
   notes: downloads=1, likes=0
+- id: paper-rsi-forge-from-research-papers-to-environments-for-recursiv-2026
+  name: RSI-Forge
+  description: 'Environments are the foundation of recursive self-improvement: they
+    provide the problems agents work on and the feedback used to evaluate progress.
+    Yet constructing challenging research environments with reliable evaluation still
+    depends on...'
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2610.09426v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: RSI-Forge: From Research Papers to Environments for
+    Recursive Self-Improvement'
+  related_papers:
+  - id: rsi-forge-from-research-papers-to-environments-for-recursiv-2026
+    title: 'RSI-Forge: From Research Papers to Environments for Recursive Self-Improvement'
+    url: https://arxiv.org/abs/2610.09426v1
+    title_zh: RSI-Forge：从研究论文到面向递归自我改进的环境
+  name_zh: RSI-Forge
+  description_zh: 环境是递归自我改进的基础：它们提供智能体所处理的问题，以及用于评估进展的反馈。然而，构建具有可靠评估的挑战性研究环境仍依赖领域专家，这限制了其规模和学科覆盖范围。我们提出
+    RSI-Forge，一种多智能体流水线，可将已发表论文转化为用于自我改进的可执行环境。三个智能体协同完成构建、复现和评审，以生成带有自动评估器的任务；每篇论文的方法都会被独立重新实现，以建立基线分数。我们呈现了跨越18个领域的210个环境，其中90个由独立的人类领域专家评审。专家和智能体评审员均对改进所提供初始解决方案的潜力以及评估器区分解决方案质量的能力给予高度评价，而专家对捷径抗性、对源论文的忠实度，以及单个想法是否能穷尽一个任务更为挑剔。为验证这些环境用于重复改进的有效性，我们在120个环境上对四个模型进行了连续3次尝试的评估，每次尝试继承先前的代码和笔记，同时模型权重保持固定。在84%的环境中，至少有一个模型在第一次尝试后有所改进。在120个环境中的68个里，模型也优于复现的论文方法，表明在这些基线之外仍有提升空间。记录分析识别出，在这些成功尝试中，有95%包含超出参数调优的工作。对所得轨迹的分析表明，在这些任务上得分较低的模型探索更少，更常接受小于所报告标准误的增益，并且更重地依赖对开发集的调优。RSI-Forge
+    提供了一种可扩展的方法，用于构建研究环境，以训练和评估自我改进的智能体。
+  notes_zh: 派生自论文：RSI-Forge：从研究论文到面向递归自我改进的环境
+  year: 2026
+  preview: https://arxiv.org/html/2610.09426v1/fig_teaser.png
+- id: paper-cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026
+  name: Cross-Domain Pretraining for Steady-State Neural CFD Surrogates
+  description: Neural surrogates for computational fluid dynamics (CFD) have the potential
+    to greatly enhance engineering innovation through accelerating simulation. However,
+    the primary limitation for neural surrogates is the lack of generalization to
+    ge...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2610.10398v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Cross-Domain Pretraining for Steady-State Neural CFD
+    Surrogates'
+  related_papers:
+  - id: cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026
+    title: Cross-Domain Pretraining for Steady-State Neural CFD Surrogates
+    url: https://arxiv.org/abs/2610.10398v1
+    title_zh: 稳态神经CFD代理模型的跨域预训练
+  name_zh: 稳态神经CFD代理模型的跨域预训练
+  description_zh: 用于计算流体力学（CFD）的神经代理模型有潜力通过加速仿真来极大地增强工程创新。然而，神经代理模型的主要局限在于缺乏对训练集之外几何构型与应用场景的泛化能力，而考虑到工程场景的多样性，这一点尤为重要。目前，解决该问题的方法是为特定应用生成新数据集；但这需要运行成本高昂的数值求解器。在本工作中，我们朝着解决这一问题迈出一步，研究了跨不同几何构型、边界条件和保真度训练的神经代理模型。我们发现，与从零开始训练以及从领域特定专家模型迁移相比，跨域预训练能够提升在留出数据集上的零样本和少样本性能。特别是，在相同样本量下，微调一个预训练的跨域模型可以使误差降至原来的1/2至1/3；并且相比从零开始训练，达到相同误差所需样本量仅为原来的1/8。这一增益与架构无关，并随模型规模和预训练数据集多样性的增加而提升。此外，我们研究了跨域预训练在CFD代理模型中如何以及为何有效，并发现简单地汇集稳态数据集既充分又有效。鉴于生成CFD数据的高昂成本，随着未来代理模型扩展以应对新问题和用例，通过跨域预训练利用现有数据集很可能将是一种有价值的策略。
+  notes_zh: 派生自论文：稳态神经CFD代理模型的跨域预训练
+  year: 2026
+  preview: https://arxiv.org/html/2610.10398v1/figures/main_fig.png

@@ -13,7 +13,7 @@
   - privacy
   - self-hosted
   - selfhosted
-  stars: 324651
+  stars: 324708
   links:
     github: https://github.com/awesome-selfhosted/awesome-selfhosted
   sources:
@@ -67,7 +67,7 @@
   - ode-solver
   - ordinary-differential-equations
   - root-finding
-  stars: 1548
+  stars: 1549
   links:
     github: https://github.com/Zymrael/awesome-neural-ode
   sources:
