@@ -446,6 +446,11 @@
       Approach for Embedded-Boundary Methods'
     url: https://arxiv.org/abs/2609.10165v1
     title_zh: 稳定、紧凑且直接的 Ghost-Cell 重构：一种面向嵌入边界方法的非迭代途径
+  - id: physically-organized-latent-spaces-in-unsupervised-autoencod-2026
+    title: 'Physically Organized Latent Spaces in Unsupervised Autoencoders: Evidence
+      from Aerodynamic Databases'
+    url: https://arxiv.org/abs/2610.08451v1
+    title_zh: 无监督自编码器中物理组织化的潜空间：来自空气动力学数据库的证据
   name_zh: 基于学习的高扰动流中物体流场与运动学状态联合估计
   description_zh: 数据驱动序贯估计器结合运动学感知自编码器与在线滤波，从稀疏测量联合重构非定常流场、载荷与翼型运动学。
 - id: hf-girasoles123-airfoil2d-prediction-design
@@ -767,6 +772,16 @@
       near the wall
     url: https://arxiv.org/abs/2610.11474v1
     title_zh: 通过集中于壁面附近的翼型截面格栅实现湍流管流净减阻
+  - id: studying-oscillation-death-in-two-dimensional-cylinder-airfo-2026
+    title: Studying oscillation death in two-dimensional cylinder-airfoil interactions
+      with synchronization-theoretic autoencoder
+    url: https://arxiv.org/abs/2610.05762v1
+    title_zh: 利用同步理论自编码器研究二维圆柱-翼型相互作用中的振荡死亡
+  - id: physically-organized-latent-spaces-in-unsupervised-autoencod-2026
+    title: 'Physically Organized Latent Spaces in Unsupervised Autoencoders: Evidence
+      from Aerodynamic Databases'
+    url: https://arxiv.org/abs/2610.08451v1
+    title_zh: 无监督自编码器中物理组织化的潜空间：来自空气动力学数据库的证据
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm

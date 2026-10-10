@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-09T23:31:52Z'
+generated_at: '2026-10-10T22:54:20Z'
 jobs:
 - id: method
   topic_id: method
@@ -149,6 +149,20 @@ jobs:
   - a-neural-characteristic-mapping-method-lagrangian-pinns-bas-2026
   - exploiting-gradients-in-bayesian-inference-of-expensive-simu-2026
   - recursive-self-improvement-through-multi-agent-self-supervis-2026
+  - matrix-free-moment-matching-method-for-reduced-order-modelin-2026
+  - gpu-accelerated-wind-farm-layout-search-with-a-distilled-end-2026
+  - finite-basis-physics-informed-neural-networks-fbpinns-a-s-2021
+  - multi-objective-aerodynamic-optimization-of-the-streamlined-2017
+  - automatic-differentiation-based-discrete-adjoint-method-for-2017
+  - gaussian-process-for-aerodynamic-pressures-prediction-in-fas-2017
+  - deepmesh-differentiable-iso-surface-extraction-2021
+  - dafoam-an-open-source-adjoint-framework-for-multidisciplina-2020
+  - efficient-aerodynamic-shape-optimization-with-deep-learning-2020
+  - efficient-mesh-generation-and-deformation-for-aerodynamic-sh-2021
+  - learned-coarse-models-for-efficient-turbulence-simulation-2021
+  - solving-seismic-wave-equations-on-variable-velocity-models-w-2022
+  - wavelet-neural-operator-for-solving-parametric-partial-diffe-2023
+  - deep-conservation-a-latent-dynamics-model-for-exact-satisfa-2019
   top_tags:
   - flu-dyn
   - LG
@@ -158,11 +172,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 817b7e7c103011cb
+  prompt_hash: 7f12b56f6979df38
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T23:33:03Z'
+  updated_at: '2026-10-10T22:55:14Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -238,6 +252,9 @@ jobs:
   - f-3-no-frequency-decomposed-finite-time-flow-map-neural-op-2026
   - reconstruction-of-multiscale-plasma-dynamics-across-operatin-2026
   - recursive-self-improvement-through-multi-agent-self-supervis-2026
+  - learning-from-revision-consequences-hindsight-meta-experien-2026
+  - do-better-scores-mean-better-physics-physics-grounded-expla-2026
+  - cluster-attention-neural-operators-for-solving-parametric-pa-2026
   top_tags:
   - flu-dyn
   - LG
@@ -247,11 +264,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 99c3df9fdb94c704
+  prompt_hash: 359019965f5d8ff8
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T23:32:44Z'
+  updated_at: '2026-10-10T22:55:03Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -417,6 +434,19 @@ jobs:
   - net-drag-reduction-in-turbulent-pipe-flow-by-airfoil-section-2026
   - sim-to-real-rl-for-asvs-using-sysid-2026
   - capability-driven-self-evolution-of-agent-memory-2026
+  - learning-from-revision-consequences-hindsight-meta-experien-2026
+  - matrix-free-moment-matching-method-for-reduced-order-modelin-2026
+  - studying-oscillation-death-in-two-dimensional-cylinder-airfo-2026
+  - solving-the-wave-equation-with-physics-informed-deep-learnin-2020
+  - automatic-differentiation-based-discrete-adjoint-method-for-2017
+  - operator-learning-for-predicting-multiscale-bubble-growth-dy-2020
+  - long-time-integration-of-parametric-evolution-equations-with-2021
+  - fast-pde-constrained-optimization-via-self-supervised-operat-2021
+  - graph-networks-as-learnable-physics-engines-for-inference-an-2018
+  - dafoam-an-open-source-adjoint-framework-for-multidisciplina-2020
+  - estimates-on-the-generalization-error-of-physics-informed-ne-2020
+  - solving-seismic-wave-equations-on-variable-velocity-models-w-2022
+  - deep-conservation-a-latent-dynamics-model-for-exact-satisfa-2019
   top_tags:
   - flu-dyn
   - LG
@@ -426,11 +456,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 0f11f178c01ec047
+  prompt_hash: b81b6db36a401a5b
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T23:33:53Z'
+  updated_at: '2026-10-10T22:55:50Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -443,6 +473,8 @@ jobs:
   - stochastic-adaptive-fourier-decomposition-for-operator-learn-2026
   - warm-starting-pde-solvers-with-any-dimensional-machine-learn-2026
   - a-kinetic-theory-of-the-gated-self-evolving-llm-agent-2026
+  - physically-organized-latent-spaces-in-unsupervised-autoencod-2026
+  - estimates-on-the-generalization-error-of-physics-informed-ne-2020
   top_tags:
   - flu-dyn
   - CO
@@ -450,11 +482,11 @@ jobs:
   - comp-ph
   - math-ph
   - ao-ph
-  prompt_hash: 21aa6cfdfa3cddd8
+  prompt_hash: 05d7db36090275c3
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-10-09T23:33:03Z'
+  updated_at: '2026-10-10T22:55:53Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -465,9 +497,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 6
+  attempts: 7
   error: ''
-  updated_at: '2026-10-09T23:33:04Z'
+  updated_at: '2026-10-10T22:55:50Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -506,6 +538,10 @@ jobs:
   - learning-pde-solution-operators-with-variable-initial-condit-2026
   - procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
   - cross-domain-pretraining-for-steady-state-neural-cfd-surroga-2026
+  - solving-the-wave-equation-with-physics-informed-deep-learnin-2020
+  - finite-basis-physics-informed-neural-networks-fbpinns-a-s-2021
+  - deepmesh-differentiable-iso-surface-extraction-2021
+  - fast-pde-constrained-optimization-via-self-supervised-operat-2021
   top_tags:
   - flu-dyn
   - LG
@@ -515,8 +551,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: 440b8ec7ad459ba2
+  prompt_hash: bb4c415829316163
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-09T23:34:21Z'
+  updated_at: '2026-10-10T22:56:48Z'

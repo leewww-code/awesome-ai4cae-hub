@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-09T23:31:47Z'
+generated_at: '2026-10-10T22:54:13Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1355,3 +1355,139 @@ assignments:
   secondary: []
   confidence: 0.37
   evidence: system
+- paper_id: learning-from-revision-consequences-hindsight-meta-experien-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: do-better-scores-mean-better-physics-physics-grounded-expla-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: cluster-attention-neural-operators-for-solving-parametric-pa-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: matrix-free-moment-matching-method-for-reduced-order-modelin-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: studying-oscillation-death-in-two-dimensional-cylinder-airfo-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: gpu-accelerated-wind-farm-layout-search-with-a-distilled-end-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: physically-organized-latent-spaces-in-unsupervised-autoencod-2026
+  primary: theory
+  secondary: []
+  confidence: 0.65
+  evidence: theory
+- paper_id: solving-the-wave-equation-with-physics-informed-deep-learnin-2020
+  primary: system
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: system
+- paper_id: finite-basis-physics-informed-neural-networks-fbpinns-a-s-2021
+  primary: method
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: multi-objective-aerodynamic-optimization-of-the-streamlined-2017
+  primary: method
+  secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: automatic-differentiation-based-discrete-adjoint-method-for-2017
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: gaussian-process-for-aerodynamic-pressures-prediction-in-fas-2017
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: deepmesh-differentiable-iso-surface-extraction-2021
+  primary: method
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: operator-learning-for-predicting-multiscale-bubble-growth-dy-2020
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: long-time-integration-of-parametric-evolution-equations-with-2021
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: fast-pde-constrained-optimization-via-self-supervised-operat-2021
+  primary: application
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: application
+- paper_id: graph-networks-as-learnable-physics-engines-for-inference-an-2018
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: dafoam-an-open-source-adjoint-framework-for-multidisciplina-2020
+  primary: system
+  secondary:
+  - method
+  confidence: 0.67
+  evidence: system
+- paper_id: efficient-aerodynamic-shape-optimization-with-deep-learning-2020
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: efficient-mesh-generation-and-deformation-for-aerodynamic-sh-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: learned-coarse-models-for-efficient-turbulence-simulation-2021
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: estimates-on-the-generalization-error-of-physics-informed-ne-2020
+  primary: theory
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: theory
+- paper_id: solving-seismic-wave-equations-on-variable-velocity-models-w-2022
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: wavelet-neural-operator-for-solving-parametric-partial-diffe-2023
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: deep-conservation-a-latent-dynamics-model-for-exact-satisfa-2019
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
