@@ -1,54 +1,74 @@
 project:
   name: Awesome AI4CAE Hub
   slug: awesome-ai4cae-hub
-  description: 'A curated hub for AI-driven CAE: airfoil aerodynamic design agents,
-    tool-using LLM agents, aerodynamic parameter optimization, self-evolving agents,
-    and CFD data-driven solvers.'
-  description_zh: 面向 AI 驱动 CAE 的精选 hub：翼型气动设计智能体、LLM 工具调用、气动参数优化、智能体自进化与 CFD 数据驱动求解。
+  description: 'A curated hub for AI-driven CAE: airfoil aerodynamic inverse design,
+    generative aerodynamic design, LLM agents, self-evolving agents, aerodynamic
+    foundation models, and CFD data-driven solvers.'
+  description_zh: 面向 AI 驱动 CAE 的精选 hub：翼型气动逆生成、生成式气动设计、LLM 智能体、智能体自进化、气动基础模型与 CFD 数据驱动求解。
   github_url: https://github.com/leewww-code/awesome-ai4cae-hub
   site_url: https://leewww-code.github.io/awesome-ai4cae-hub
   generator_repo: jin-s13/awesome-hub-generator
 research:
   keywords:
+  # --- 翼型逆生成（主线） ---
+  - inverse design
+  - inverse airfoil design
+  - aerodynamic inverse design
+  - performance-to-geometry generation
+  - airfoil generation
+  - generative airfoil design
+  # --- 生成式气动设计 ---
+  - generative aerodynamic design
+  - diffusion model
+  - flow matching
+  - conditional generative model
+  - diffusion-based shape generation
+  - compositional generative inverse design
+  - physics-aware generative model
+  - coupled physics generation
+  - 3D aerodynamic inverse design
+  # --- 气动基础模型 / 大模型 ---
+  - aerodynamic foundation model
+  - aerodynamic large model
+  - aerodynamic neural surrogate
+  - foundation model for aerodynamics
+  - aero transformer
+  - aerodynamic pretraining
+  # --- 智能体自进化 / 多智能体 ---
+  - airfoil agent
+  - aerodynamic design agent
+  - LLM multi-agent
+  - multi-agent CFD
+  - self-evolving agent
+  - skill self-evolution
+  - agentic aerodynamic optimization
+  - scientific discovery agent
+  - open-ended CFD
+  - reinforcement learning flow control
+  - fluid control
+  # --- 生成式湍流 / 流场重构 ---
+  - generative turbulence model
+  - flow super-resolution
+  - sparse flow reconstruction
+  - turbulence flow
+  # --- 数据集 / 基准 ---
+  - airfoil dataset
+  - transonic wing dataset
+  - aerodynamic benchmark
+  - RANS airfoil dataset
+  # --- 保留的强相关词 ---
   - airfoil
-  - airfoil design
   - airfoil optimization
   - aerodynamic shape optimization
-  - aerodynamic design
   - wing design
+  - aerodynamic design
   - computational fluid dynamics
   - CFD surrogate
-  - turbulence modeling
-  - Reynolds-averaged Navier-Stokes
+  - neural surrogate
+  - data-driven aerodynamic design
   - LLM agent
   - tool use
   - tool calling
-  - engineering design agent
-  - scientific agent
-  - agentic workflow
-  - multi-agent system
-  - self-evolving agent
-  - self-improving agent
-  - self-refine
-  - automated algorithm discovery
-  - automated machine learning
-  - LLM-driven optimization
-  - Bayesian optimization
-  - surrogate model
-  - design space exploration
-  - constrained optimization
-  - evolutionary optimization
-  - gradient-based shape optimization
-  - adjoint method
-  - neural operator
-  - physics-informed neural network
-  - PINN
-  - graph neural network simulation
-  - operator learning
-  - reduced order model
-  - deep learning solver
-  - differentiable simulation
-  - mesh generation
   taxonomy:
     paper_types:
     - label: method
@@ -68,17 +88,17 @@ research:
       description: 'agent capability focus: tool-invocation, planning, memory, self-evolution,
         multi-agent collaboration'
     - name: cae_task
-      description: 'CAE task: shape design, mesh generation, CFD solving, surrogate
-        modeling, optimization, uncertainty quantification'
-    - name: optimization_method
-      description: 'optimization or search method: Bayesian optimization, evolutionary
-        algorithm, gradient/adjoint, reinforcement learning, LLM-driven search'
-    - name: solver_technique
-      description: 'physical/ML solver technique: PINN, neural operator, GNN, transformer,
-        ROM/POD, differentiable solver, fine-tuning'
+      description: 'CAE task: inverse design, shape generation, surrogate prediction,
+        CFD solving, optimization, uncertainty quantification'
+    - name: generative_method
+      description: 'generative method: diffusion, flow matching, conditional generation,
+        autoregressive, GAN, energy-based optimization'
     - name: geometry_representation
-      description: 'geometry parameterization: CST, B-spline/NURBS, Bezier, free-form
-        deformation, point cloud, mesh, CAD/CSG'
+      description: 'geometry parameterization: CST, B-spline/NURBS, ARSEC, Bezier,
+        tri-plane, neural field, SDF, point cloud, mesh'
+    - name: design_target
+      description: 'design target: lift, drag, pressure distribution, flow field,
+        shape parameter'
     - name: tooling
       description: external tools, solvers or simulators invoked (OpenFOAM, SU2, ANSYS
         Fluent, XFOIL, Abaqus, custom CFD)
@@ -91,36 +111,33 @@ research:
     source_headings: []
   relevance_criteria:
     include:
-    - LLM/agent systems that design, optimize, or analyze aerodynamic or fluid-dynamic
-      geometries (airfoil, wing, blade, duct, vehicle)
-    - Agent frameworks with tool invocation, code execution, solver calling, or simulation-in-the-loop
-      for engineering/CAE tasks
-    - Self-evolving / self-improving agents, automated algorithm or workflow discovery,
-      LLM-driven optimization loops
-    - Aerodynamic shape optimization, airfoil/wing design optimization, adjoint or
-      gradient-based shape design, multi-objective aerodynamic trade studies
-    - Surrogate models and reduced-order models for aerodynamics or fluid flows (Kriging,
-      Gaussian process, deep surrogate, POD/ROM)
-    - 'Data-driven CFD: neural operators, PINNs, GNN-based flow solvers, differentiable
-      CFD, ML turbulence/closure models, learned mesh generation'
-    - Design-space exploration, Bayesian optimization, evolutionary or RL-based optimization
-      applied to fluid/thermal/structural CAE problems
-    - CAE datasets, benchmarks, and open-source toolchains supporting AI-for-simulation
-      workflows
+    - 'Inverse aerodynamic design: generating airfoil/wing geometry from target
+      aerodynamic performance (lift, drag, pressure distribution)'
+    - 'Generative aerodynamic design: diffusion, flow matching, or conditional
+      generative models for shape synthesis'
+    - 'Aerodynamic foundation models / large models / neural surrogates for prediction
+      across geometries'
+    - 'Agentic aerodynamic design: LLM agents, multi-agent systems, self-evolving
+      or skill-learning agents for CFD and shape optimization'
+    - 'Generative turbulence modeling, flow super-resolution, and sparse flow reconstruction'
+    - 'Aerodynamic datasets and benchmarks (airfoil, wing, RANS) supporting data-driven
+      design'
+    - 'Reinforcement learning for flow control and fluid dynamics'
     exclude:
     - General LLM/NLP research without engineering design, simulation, or CAE grounding
       (prompting, RAG, chat, code assistant benchmarks)
-    - 'General computer vision: detection, segmentation, image generation, video understanding'
-    - Medical imaging, bioinformatics, drug discovery, protein folding, clinical applications
-    - Finance, trading, time-series forecasting, recommendation systems
-    - Robotics manipulation, locomotion, embodied navigation, autonomous driving perception
-      (unless a CAE design loop is central)
-    - Pure mathematical or numerical analysis with no fluid/CAE or learning-for-simulation
-      contribution
-    - Structural topology optimization or materials discovery with no aerodynamic/fluid
-      or agentic angle
-    - Climate, weather forecasting, ocean or geophysical modeling at global scale
-    - Power systems, wireless networks, chip design, electronic design automation
+    - 'Medical imaging, bioinformatics, drug discovery, protein folding, clinical
+      applications'
+    - 'Finance, trading, time-series forecasting, recommendation systems'
+    - 'General 2D computer vision: detection, segmentation, classification'
+    - 'Pure mathematical or numerical analysis with no fluid/CAE or learning-for-simulation
+      contribution'
+    - 'Structural topology optimization or materials discovery with no aerodynamic/fluid
+      or agentic angle'
+    - 'Climate, weather forecasting, ocean or geophysical modeling at global scale'
+    - 'Chip design, electronic design automation'
+    - 'Robotics manipulation, locomotion, embodied navigation, autonomous driving
+      perception'
   llm:
     workers: 4
     survey_workers: 2
@@ -143,23 +160,21 @@ research:
   - machine translation
   - speech recognition
   - recommendation system
-  - image classification
   - object detection
-  - image generation
   - video generation
   domain_boost_keywords:
   - airfoil
+  - inverse design
+  - generative
+  - diffusion
+  - flow matching
   - aerodynamic
   - CFD
-  - computational fluid dynamics
-  - turbulence
-  - Reynolds
-  - surrogate model
-  - neural operator
-  - physics-informed
-  - shape optimization
-  - tool use
+  - foundation model
+  - large model
+  - multi-agent
   - self-evolving
+  - airfoil agent
   arxiv_categories:
   - cs.AI
   - cs.LG
@@ -204,26 +219,24 @@ research:
     request_timeout_seconds: 10
     max_rate_limit_sleep_seconds: 30
     query_expansion:
-    - airfoil optimization
-    - aerodynamic design
-    - CFD machine learning
-    - engineering agent
-    - self-evolving agent
-    - tool learning
+    - airfoil inverse design
+    - generative aerodynamic design
+    - aerodynamic foundation model
+    - LLM CFD agent
   seed_discovery:
     enabled: true
     api: semantic_scholar
     max_references_per_paper: 50
     max_seeds_per_run: 10
     initial_seed_arxiv_ids:
-    - '1710.10387'
-    - '2010.12973'
-    - '2108.04918'
-    - '1711.10561'
-    - '2302.04761'
-    - '2210.03629'
-    - '2303.11366'
-    - '2308.00352'
+    - '2401.13171'
+    - '2512.08987'
+    - '2512.14397'
+    - '2505.21124'
+    - '2512.12867'
+    - '2604.18062'
+    - '2509.08752'
+    - '2605.06607'
   candidate_pool:
     enabled: true
     db_path: data/candidates.db
