@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-10T22:54:20Z'
+generated_at: '2026-10-11T23:10:42Z'
 jobs:
 - id: method
   topic_id: method
@@ -163,6 +163,7 @@ jobs:
   - solving-seismic-wave-equations-on-variable-velocity-models-w-2022
   - wavelet-neural-operator-for-solving-parametric-partial-diffe-2023
   - deep-conservation-a-latent-dynamics-model-for-exact-satisfa-2019
+  - wing-design-by-numerical-optimization-2026
   top_tags:
   - flu-dyn
   - LG
@@ -172,11 +173,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 7f12b56f6979df38
+  prompt_hash: af6ef31a051d7967
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-10T22:55:14Z'
+  updated_at: '2026-10-11T23:11:47Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -225,6 +226,7 @@ jobs:
   - variational-parameter-calibration-with-physics-aware-latent-2026
   - verified-residual-specific-explicit-derivative-kernels-for-p-2026
   - pydof-a-python-library-for-the-design-of-discrete-forward-a-2026
+  - capability-driven-self-evolution-of-agent-memory-2026
   - optimizing-the-optimizer-language-models-discover-faster-mo-2026
   - convolutional-neural-operators-for-robust-and-accurate-learn-2023
   - u-no-u-shaped-neural-operators-2022
@@ -252,6 +254,7 @@ jobs:
   - f-3-no-frequency-decomposed-finite-time-flow-map-neural-op-2026
   - reconstruction-of-multiscale-plasma-dynamics-across-operatin-2026
   - recursive-self-improvement-through-multi-agent-self-supervis-2026
+  - capability-driven-self-evolution-of-agent-memory-2026
   - learning-from-revision-consequences-hindsight-meta-experien-2026
   - do-better-scores-mean-better-physics-physics-grounded-expla-2026
   - cluster-attention-neural-operators-for-solving-parametric-pa-2026
@@ -264,11 +267,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 359019965f5d8ff8
+  prompt_hash: c6a9cf12d8f05b65
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-10T22:55:03Z'
+  updated_at: '2026-10-11T23:11:40Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -447,6 +450,14 @@ jobs:
   - estimates-on-the-generalization-error-of-physics-informed-ne-2020
   - solving-seismic-wave-equations-on-variable-velocity-models-w-2022
   - deep-conservation-a-latent-dynamics-model-for-exact-satisfa-2019
+  - shaping-the-wind-nested-potentials-for-kinematically-admiss-2026
+  - online-learning-of-a-spectral-eddy-viscosity-closure-for-lar-2026
+  - ocl-pde-a-generative-framework-for-pde-inverse-problems-wit-2026
+  - comparison-of-neural-and-spline-representations-for-physics-2026
+  - stream-based-active-learning-with-cooperative-neural-network-2026
+  - conditional-flow-matching-for-generation-of-3d-multi-variabl-2026
+  - bi-fork-generative-modeling-of-high-dimensional-bifurcating-2026
+  - multi-level-convolutional-autoencoder-networks-for-parametri-2019
   top_tags:
   - flu-dyn
   - LG
@@ -456,11 +467,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: b81b6db36a401a5b
+  prompt_hash: d1c00c296acac996
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-10T22:55:50Z'
+  updated_at: '2026-10-11T23:12:34Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -482,11 +493,11 @@ jobs:
   - comp-ph
   - math-ph
   - ao-ph
-  prompt_hash: 05d7db36090275c3
+  prompt_hash: 843f3ab7baecc22a
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-10T22:55:53Z'
+  updated_at: '2026-10-11T23:12:42Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -497,9 +508,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 7
+  attempts: 8
   error: ''
-  updated_at: '2026-10-10T22:55:50Z'
+  updated_at: '2026-10-11T23:12:34Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -542,6 +553,7 @@ jobs:
   - finite-basis-physics-informed-neural-networks-fbpinns-a-s-2021
   - deepmesh-differentiable-iso-surface-extraction-2021
   - fast-pde-constrained-optimization-via-self-supervised-operat-2021
+  - conditional-flow-matching-for-generation-of-3d-multi-variabl-2026
   top_tags:
   - flu-dyn
   - LG
@@ -551,8 +563,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: bb4c415829316163
+  prompt_hash: 8a3b8a135e31cd2b
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-10T22:56:48Z'
+  updated_at: '2026-10-11T23:13:22Z'

@@ -1022,3 +1022,61 @@
   notes_zh: 派生自论文：稳态神经CFD代理模型的跨域预训练
   year: 2026
   preview: https://arxiv.org/html/2610.10398v1/figures/main_fig.png
+- id: paper-shaping-the-wind-nested-potentials-for-kinematically-admiss-2026
+  name: Shaping the Wind
+  description: Predicting transient urban winds is fundamental to understanding urban
+    microclimates and designing climate-resilient cities. Building-resolving large-eddy
+    simulation produces detailed incompressible urban wind fields at substantial computat...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2610.07033v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Shaping the Wind: Nested Potentials for Kinematically
+    Admissible Urban Wind Prediction'
+  related_papers:
+  - id: shaping-the-wind-nested-potentials-for-kinematically-admiss-2026
+    title: 'Shaping the Wind: Nested Potentials for Kinematically Admissible Urban
+      Wind Prediction'
+    url: https://arxiv.org/abs/2610.07033v1
+    title_zh: 塑造风场：面向运动学可容许城市风预测的嵌套势
+  name_zh: 塑造风场
+  description_zh: 预测瞬态城市风是理解城市微气候和设计气候韧性城市的基础。可解析建筑物的大涡模拟能够针对每种布局以高昂计算成本生成详细的城市不可压缩风场。神经代理模型通过学习预测速度场的演化，提供了一种更快的替代方案。然而，最小化速度预测误差并不能保证局部质量守恒与壁面不可穿透性，而这两者共同定义了运动学可容许性。这一局限源于无约束的输出表示：几何条件化引导预测，但不会将其限制为可容许的速度场。修正这些输出中的边界违背会改变相邻流体单元中的通量平衡，并可能因此损害局部质量守恒。为解决这一挑战，我们提出
+    Sculpt，一种嵌套势框架，将耦合的、依赖几何的约束直接构建到其参数化中。这种嵌套参数化通过在原生三维交错网格上对体积矢量势取离散旋度，生成无散度的速度更新。一个共享标量势约束矢量势的边界值，使同一算子无需每步压力投影也能施加不可穿透性。由于通过该旋度的反向传播会衰减大尺度梯度信号，我们在多个分辨率下参数化体积势，以更好地捕捉大尺度流动结构。我们引入
+    UrbanWindFlow，一个涵盖城市形态与入流条件的 LES 数据集，以联合评估精度与运动学可容许性。
+  notes_zh: 派生自论文：塑造风场：面向运动学可容许城市风预测的嵌套势
+  year: 2026
+  preview: https://arxiv.org/html/2610.07033v1/motivate.png
+- id: paper-stream-based-active-learning-with-cooperative-neural-network-2026
+  name: 'Stream-Based Active Learning with Cooperative Neural Networks for Data-Efficient
+    Partial Inverse Design: An Automotive G'
+  description: Inverse design in engineering often runs into a simple problem. Each
+    labeled training sample must be produced through expensive simulation, so building
+    a large dataset is slow and costly. This study addresses that problem for partial
+    invers...
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2610.09848v1
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Stream-Based Active Learning with Cooperative Neural
+    Networks for Data-Efficient Partial Inverse Design: An Automotive Glass Run Channel
+    Case Study'
+  related_papers:
+  - id: stream-based-active-learning-with-cooperative-neural-network-2026
+    title: 'Stream-Based Active Learning with Cooperative Neural Networks for Data-Efficient
+      Partial Inverse Design: An Automotive Glass Run Channel Case Study'
+    url: https://arxiv.org/abs/2610.09848v1
+    title_zh: 基于流式主动学习与协作神经网络的数据高效部分逆向设计：汽车玻璃导槽案例研究
+  name_zh: 基于流式主动学习与协作神经网络的数据高效部分逆向设计
+  description_zh: 工程中的逆向设计常常遇到一个简单问题。每个带标签的训练样本都必须通过昂贵的仿真生成，因此构建大型数据集既缓慢又昂贵。本研究针对部分逆向设计中的这一问题展开研究，其中只有部分设计变量被指定，其余变量必须被推断以达到目标性能值。我们提出
+    CoNN-AL，一种用于数据高效部分逆向设计的框架，它将基于流的主动学习添加到带去噪自编码器的协作神经网络（CoNN-DAE）中。该模型通过 Monte Carlo
+    dropout 估计预测不确定性，并利用它实时决定哪些传入候选样本值得标注，从而将有限的标注预算用于信息量最大的设计。我们在一个真实的汽车玻璃导槽数据集上验证了该框架，该数据集包含超过
+    900,000 个独特仿真设计。仅使用 20,000 个主动选择的标签，约占训练池的 2.3%，CoNN-AL 在所有缺失变量水平上达到 0.967 至 0.982
+    的 R-squared 值，接近用远更多数据训练的上界模型。在更困难的缺失变量水平上，它以比随机采样少 30% 至 40% 的标签达到至少 0.95 的 R-squared；而在最具挑战性的水平上，它是本研究中唯一达到
+    0.98 R-squared 的策略。与本工作一起，我们公开发布该数据集，以支持未来数据驱动设计的研究。
+  notes_zh: 派生自论文：基于流式主动学习与协作神经网络的数据高效部分逆向设计：汽车玻璃导槽案例研究
+  year: 2026
+  preview: https://arxiv.org/html/2610.09848v1/Fig1.png

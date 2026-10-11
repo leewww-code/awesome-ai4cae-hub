@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-10T22:54:13Z'
+generated_at: '2026-10-11T23:10:35Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -834,10 +834,11 @@ assignments:
   confidence: 0.25
   evidence: method
 - paper_id: capability-driven-self-evolution-of-agent-memory-2026
-  primary: system
-  secondary: []
-  confidence: 0.37
-  evidence: system
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
 - paper_id: training-numerical-intelligence-via-auto-diagnosis-and-skill-2026
   primary: method
   secondary:
@@ -1348,13 +1349,14 @@ assignments:
 - paper_id: sim-to-real-rl-for-asvs-using-sysid-2026
   primary: system
   secondary: []
-  confidence: 0.37
+  confidence: 0.67
   evidence: system
 - paper_id: capability-driven-self-evolution-of-agent-memory-2026
-  primary: system
-  secondary: []
-  confidence: 0.37
-  evidence: system
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
 - paper_id: learning-from-revision-consequences-hindsight-meta-experien-2026
   primary: benchmark
   secondary:
@@ -1491,3 +1493,49 @@ assignments:
   - system
   confidence: 0.65
   evidence: method
+- paper_id: shaping-the-wind-nested-potentials-for-kinematically-admiss-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: online-learning-of-a-spectral-eddy-viscosity-closure-for-lar-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: ocl-pde-a-generative-framework-for-pde-inverse-problems-wit-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: comparison-of-neural-and-spline-representations-for-physics-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: stream-based-active-learning-with-cooperative-neural-network-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: conditional-flow-matching-for-generation-of-3d-multi-variabl-2026
+  primary: application
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: application
+- paper_id: bi-fork-generative-modeling-of-high-dimensional-bifurcating-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: wing-design-by-numerical-optimization-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: multi-level-convolutional-autoencoder-networks-for-parametri-2019
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
