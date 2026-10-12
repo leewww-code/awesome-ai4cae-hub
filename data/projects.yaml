@@ -1,0 +1,173 @@
+- id: github-zymrael-awesome-neural-ode
+  name: awesome-neural-ode
+  type: GitHub
+  category: GitHub project
+  description: A collection of resources regarding the interplay between differential
+    equations, deep learning, dynamical systems, control and numerical methods.
+  tags:
+  - deep-learning
+  - dynamical-modeling
+  - dynamical-systems
+  - hamiltonian-dynamics
+  - implicit-models
+  - ode
+  - ode-solver
+  - ordinary-differential-equations
+  - root-finding
+  stars: 1549
+  links:
+    github: https://github.com/Zymrael/awesome-neural-ode
+  sources:
+  - repo: Zymrael/awesome-neural-ode
+    category: github_project
+- id: github-willdreamer-awesome-ai4cfd
+  name: Awesome-AI4CFD
+  type: GitHub
+  category: GitHub project
+  description: 'Recent Advances on Machine Learning for Computational Fluid Dynamics:
+    A Survey'
+  tags: []
+  stars: 372
+  links:
+    github: https://github.com/WillDreamer/Awesome-AI4CFD
+  sources:
+  - repo: WillDreamer/Awesome-AI4CFD
+    category: github_project
+- id: github-bunnysocrazy-awesome-neural-cad
+  name: Awesome-Neural-CAD
+  type: GitHub
+  category: GitHub project
+  description: A curated list of awesome Neural Computer-Aided Design (CAD) papers.
+  tags:
+  - 3d-models
+  - aigc
+  - awesome-list
+  - cad
+  - computer-graphics
+  - deep-neural-networks
+  stars: 206
+  links:
+    github: https://github.com/BunnySoCrazy/Awesome-Neural-CAD
+  sources:
+  - repo: BunnySoCrazy/Awesome-Neural-CAD
+    category: github_project
+- id: github-thw1021-code4cfd
+  name: Code4CFD
+  type: GitHub
+  category: GitHub project
+  description: A curated list of repositories related to fluid dynamics.
+  tags: []
+  stars: 206
+  links:
+    github: https://github.com/thw1021/Code4CFD
+  sources:
+  - repo: thw1021/Code4CFD
+    category: github_project
+- id: github-kimimgo-awesome-ai-cae
+  name: awesome-ai-cae
+  type: GitHub
+  category: GitHub project
+  description: 'A curated list of 100+ AI-ready tools for Computer-Aided Engineering,
+    ranked by an AI-Readiness Score (agent-callability: MCP, Python API, CLI, pip).
+    CFD, FEA, SPH, DEM, differentiable simulation, neural operators, PINNs, MCP servers.'
+  tags:
+  - ai
+  - ai-for-science
+  - artificial-intelligence
+  - awesome
+  - awesome-list
+  - cae
+  - cfd
+  - computational-engineering
+  - deep-learning
+  - differentiable-simulation
+  - fea
+  - machine-learning
+  - mcp
+  - mesh-generation
+  - neural-operator
+  - physics-informed-neural-networks
+  - simulation
+  - sph
+  - surrogate-model
+  - visualization
+  stars: 57
+  links:
+    github: https://github.com/kimimgo/awesome-ai-cae
+  sources:
+  - repo: kimimgo/awesome-ai-cae
+    category: github_project
+- id: github-internscience-intern-wingwing
+  name: Intern-WingWing
+  type: GitHub
+  category: GitHub project
+  description: '[NeurIPS 2024] AFBench: A Large-scale Benchmark for Airfoil Design'
+  tags: []
+  stars: 33
+  links:
+    github: https://github.com/InternScience/Intern-WingWing
+  sources:
+  - repo: InternScience/Intern-WingWing
+    category: github_project
+- id: github-quentinwach-awesome-inverse-design
+  name: awesome-inverse-design
+  type: GitHub
+  category: GitHub project
+  description: Curated list of inverse design projects for photonics. Including FDTD
+    and FDFD solvers, tutorials, challenges, as well as key papers and reviews. 🚀
+  tags:
+  - awesome
+  - awesome-list
+  - awesome-resources
+  - fdfd
+  - fdtd
+  - gradient-based-optimization
+  - inverse-design
+  - optimization
+  - photonics
+  - physics
+  - research
+  - simulation
+  stars: 23
+  links:
+    github: https://github.com/QuentinWach/awesome-inverse-design
+  sources:
+  - repo: QuentinWach/awesome-inverse-design
+    category: github_project
+- id: github-n0w0f-awesome-inverse-material-design
+  name: awesome-inverse-material-design
+  type: GitHub
+  category: GitHub project
+  description: Comprehensive collection of  literature, resources and tools showcasing
+    the implementation of inverse design of material
+  tags: []
+  stars: 7
+  links:
+    github: https://github.com/n0w0f/awesome-inverse-material-design
+  sources:
+  - repo: n0w0f/awesome-inverse-material-design
+    category: github_project
+- id: github-eosphoros-ai-awesome-llm-agents
+  name: Awesome-LLM-Agents
+  type: GitHub
+  category: GitHub project
+  description: GitHub project related to eosphoros-ai/Awesome-LLM-Agents.
+  tags: []
+  stars: 0
+  links:
+    github: https://github.com/eosphoros-ai/Awesome-LLM-Agents
+  sources:
+  - repo: eosphoros-ai/Awesome-LLM-Agents
+    category: github_project
+- id: github-wojzaremba-awesome-self-evolving-agents
+  name: awesome-self-evolving-agents
+  type: GitHub
+  category: GitHub project
+  description: GitHub project related to wojzaremba/awesome-self-evolving-agents.
+  tags: []
+  stars: 0
+  links:
+    github: https://github.com/wojzaremba/awesome-self-evolving-agents
+  sources:
+  - repo: wojzaremba/awesome-self-evolving-agents
+    category: github_project
