@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-12T12:50:54Z'
+generated_at: '2026-10-13T01:50:29Z'
 jobs:
 - id: method
   topic_id: method
@@ -180,6 +180,34 @@ jobs:
   - reinforcement-learning-based-filters-for-convection-dominate-2026
   - meta-pinns-meta-learning-enhanced-physics-informed-machine-2026
   - adaptive-diffusion-posterior-sampling-for-data-and-model-fus-2026
+  - reduced-order-turbulent-flow-solver-to-simulate-streamwise-p-2026
+  - neuralfvm-neural-physics-based-finite-volume-method-for-tur-2026
+  - simr-no-a-spectrally-informed-multi-resolution-neural-opera-2026
+  - multiscale-physics-informed-neural-network-for-complex-fluid-2026
+  - data-driven-oscillator-model-for-turbulent-flows-with-multip-2026
+  - stable-fine-time-step-long-horizon-turbulence-prediction-wit-2026
+  - turbulent-pair-dispersion-with-stochastic-generative-diffusi-2026
+  - flowrefiner-flow-matching-based-iterative-refinement-for-3d-2026
+  - uncertainty-quantification-in-pinns-for-turbulent-flows-bay-2026
+  - large-eddy-simulation-nets-lesnets-based-on-physics-inform-2026
+  - real-time-estimation-of-high-resolution-flow-fields-and-redu-2026
+  - policy-drift-dynamic-reward-informed-flow-trajectory-steeri-2026
+  - airfoilgen-a-valid-by-construction-and-performance-aware-la-2026
+  - explainable-deep-reinforcement-learning-reveals-energy-effic-2026
+  - a-validated-lbm-dataset-and-pipeline-for-surrogate-modeling-2026
+  - neural-network-based-parametric-model-reduction-for-predicti-2026
+  - data-driven-linear-analysis-of-turbulent-flows-2026
+  - scoret-super-resolution-compression-and-reconstruction-of-t-2026
+  - physminer-an-agentic-ai-framework-for-automated-flow-compon-2026
+  - egocentric-station-holding-of-robotic-fish-in-unknown-turbul-2026
+  - horses3d-gpu-a-high-order-discontinuous-galerkin-solver-for-2026
+  - modelisation-of-chaotic-systems-with-a-latent-stochastic-dif-2026
+  - a-hybrid-proper-orthogonal-decomposition-and-diffusion-frame-2026
+  - turbulent-microscale-flow-field-prediction-in-porous-media-u-2026
+  - data-driven-characterisation-of-wave-forced-turbulence-using-2026
+  - fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
+  - staying-on-the-attractor-supervising-neural-surrogates-of-3-2026
+  - toward-principled-generative-data-assimilation-of-turbulent-2026
   top_tags:
   - flu-dyn
   - LG
@@ -189,11 +217,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 859609c470d25fac
+  prompt_hash: b6daaefc9cd62657
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-12T12:52:21Z'
+  updated_at: '2026-10-13T01:52:08Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -251,6 +279,7 @@ jobs:
   - scale-split-neural-operator-for-memory-and-data-efficient-3-2026
   - physics-informed-method-of-group-data-handling-adaptive-con-2026
   - mesh-free-numerical-approximation-of-the-biharmonic-equation-2026
+  - kolmogorov-arnold-networks-for-free-boundary-partial-differe-2026
   - spear-a-spectral-disentangled-moe-neural-operator-with-know-2026
   - s-2-pinn-stochastic-separable-physics-informed-neural-n-2026
   - temperature-dependent-multiphysics-modeling-of-additive-fric-2026
@@ -279,6 +308,15 @@ jobs:
   - physics-informed-data-driven-inference-of-an-interpretable-e-2026
   - spectral-bias-in-physics-informed-and-operator-learning-ana-2026
   - reinforcement-learning-based-filters-for-convection-dominate-2026
+  - efficient-and-accurate-surrogate-modeling-of-turbulent-flows-2026
+  - dso-dual-scale-neural-operators-for-stable-long-term-fluid-2026
+  - multiscale-physics-informed-neural-network-for-complex-fluid-2026
+  - policy-drift-dynamic-reward-informed-flow-trajectory-steeri-2026
+  - a-validated-lbm-dataset-and-pipeline-for-surrogate-modeling-2026
+  - physminer-an-agentic-ai-framework-for-automated-flow-compon-2026
+  - horses3d-gpu-a-high-order-discontinuous-galerkin-solver-for-2026
+  - efficient-treatment-of-non-linearity-in-quantum-computationa-2026
+  - fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
   top_tags:
   - flu-dyn
   - LG
@@ -288,11 +326,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 1cc72a5f1efd211a
+  prompt_hash: 05754704df4a1081
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-12T12:52:37Z'
+  updated_at: '2026-10-13T01:52:07Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -486,6 +524,50 @@ jobs:
   - turbulence-generation-and-data-assimilation-in-wall-bounded-2026
   - meta-pinns-meta-learning-enhanced-physics-informed-machine-2026
   - adaptive-diffusion-posterior-sampling-for-data-and-model-fus-2026
+  - efficient-and-accurate-surrogate-modeling-of-turbulent-flows-2026
+  - neuralfvm-neural-physics-based-finite-volume-method-for-tur-2026
+  - apriori-a-python-package-to-process-direct-numerical-simula-2026
+  - dso-dual-scale-neural-operators-for-stable-long-term-fluid-2026
+  - simr-no-a-spectrally-informed-multi-resolution-neural-opera-2026
+  - self-scaling-tensor-basis-neural-network-for-reynolds-stress-2026
+  - latent-phase-inference-from-short-time-sequences-using-shall-2026
+  - uq-shred-uncertainty-quantification-of-shallow-recurrent-de-2026
+  - multiscale-physics-informed-neural-network-for-complex-fluid-2026
+  - optimal-transport-guided-functional-flow-matching-for-turbul-2026
+  - gaussian-field-representations-for-turbulent-flow-compressi-2026
+  - data-driven-oscillator-model-for-turbulent-flows-with-multip-2026
+  - flowrefiner-flow-matching-based-iterative-refinement-for-3d-2026
+  - uncertainty-quantification-in-pinns-for-turbulent-flows-bay-2026
+  - target-parameterization-in-diffusion-models-for-nonlinear-sp-2026
+  - large-eddy-simulation-nets-lesnets-based-on-physics-inform-2026
+  - to-stall-cell-or-not-to-stall-cell-variational-data-assimil-2026
+  - real-time-estimation-of-high-resolution-flow-fields-and-redu-2026
+  - policy-drift-dynamic-reward-informed-flow-trajectory-steeri-2026
+  - iterative-refinement-neural-operators-are-learned-fixed-poin-2026
+  - explainable-deep-reinforcement-learning-reveals-energy-effic-2026
+  - a-hybrid-generative-reduced-order-model-for-the-minimal-flow-2026
+  - spectrally-regularized-latent-flow-matching-for-turbulence-g-2026
+  - a-validated-lbm-dataset-and-pipeline-for-surrogate-modeling-2026
+  - neural-network-based-parametric-model-reduction-for-predicti-2026
+  - kriging-and-neural-network-models-for-pressure-losses-across-2026
+  - offline-reinforcement-learning-for-fluid-controls-data-base-2026
+  - scale-aware-learning-of-chaotic-dynamics-on-unstructured-mes-2026
+  - physminer-an-agentic-ai-framework-for-automated-flow-compon-2026
+  - a-shortcut-to-statistically-steady-state-turbulence-with-flo-2026
+  - a-machine-learned-probability-distribution-in-the-phase-spac-2026
+  - a-formal-log-re-cost-framework-for-the-engineering-turbulen-2026
+  - a-physics-assisted-deep-neural-network-based-closure-framewo-2026
+  - egocentric-station-holding-of-robotic-fish-in-unknown-turbul-2026
+  - data-driven-impeller-model-for-efficient-large-eddy-simulati-2026
+  - horses3d-gpu-a-high-order-discontinuous-galerkin-solver-for-2026
+  - modelisation-of-chaotic-systems-with-a-latent-stochastic-dif-2026
+  - a-hybrid-proper-orthogonal-decomposition-and-diffusion-frame-2026
+  - flux-form-spatiotemporal-neural-operators-for-coarse-grained-2026
+  - turbulent-microscale-flow-field-prediction-in-porous-media-u-2026
+  - efficient-treatment-of-non-linearity-in-quantum-computationa-2026
+  - fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
+  - score-based-stochastic-reduced-order-models-of-barotropic-qu-2026
+  - toward-principled-generative-data-assimilation-of-turbulent-2026
   top_tags:
   - flu-dyn
   - LG
@@ -495,11 +577,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 3b0c25137e88ce68
+  prompt_hash: 65646fc1d9ad4f4b
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-12T12:53:57Z'
+  updated_at: '2026-10-13T01:53:36Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -514,6 +596,7 @@ jobs:
   - a-kinetic-theory-of-the-gated-self-evolving-llm-agent-2026
   - physically-organized-latent-spaces-in-unsupervised-autoencod-2026
   - estimates-on-the-generalization-error-of-physics-informed-ne-2020
+  - optimal-transport-guided-functional-flow-matching-for-turbul-2026
   top_tags:
   - flu-dyn
   - CO
@@ -521,11 +604,11 @@ jobs:
   - comp-ph
   - math-ph
   - ao-ph
-  prompt_hash: 843f3ab7baecc22a
+  prompt_hash: 54b5adb2169c2174
   status: done
-  attempts: 3
+  attempts: 1
   error: ''
-  updated_at: '2026-10-12T12:52:37Z'
+  updated_at: '2026-10-13T01:53:31Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -536,9 +619,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 10
+  attempts: 11
   error: ''
-  updated_at: '2026-10-12T12:52:37Z'
+  updated_at: '2026-10-13T01:53:31Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -590,6 +673,18 @@ jobs:
   - mgd-moment-guided-diffusion-for-maximum-entropy-generation-2026
   - super-resolution-of-turbulent-reacting-flows-on-complex-mesh-2026
   - turbulence-generation-and-data-assimilation-in-wall-bounded-2026
+  - uq-shred-uncertainty-quantification-of-shallow-recurrent-de-2026
+  - turbulent-pair-dispersion-with-stochastic-generative-diffusi-2026
+  - conditional-diffusion-denoising-probabilistic-model-for-supe-2026
+  - real-time-estimation-of-high-resolution-flow-fields-and-redu-2026
+  - a-validated-lbm-dataset-and-pipeline-for-surrogate-modeling-2026
+  - neural-network-based-parametric-model-reduction-for-predicti-2026
+  - kriging-and-neural-network-models-for-pressure-losses-across-2026
+  - offline-reinforcement-learning-for-fluid-controls-data-base-2026
+  - scale-aware-learning-of-chaotic-dynamics-on-unstructured-mes-2026
+  - a-machine-learned-probability-distribution-in-the-phase-spac-2026
+  - a-hybrid-proper-orthogonal-decomposition-and-diffusion-frame-2026
+  - toward-principled-generative-data-assimilation-of-turbulent-2026
   top_tags:
   - flu-dyn
   - LG
@@ -599,8 +694,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: 2a555fdb5929a542
+  prompt_hash: e47cca8a020bc706
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-12T12:54:32Z'
+  updated_at: '2026-10-13T01:55:04Z'
