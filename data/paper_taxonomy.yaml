@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-13T01:50:21Z'
+generated_at: '2026-10-13T23:32:52Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1962,3 +1962,40 @@ assignments:
   - application
   confidence: 0.67
   evidence: system
+- paper_id: frontier-eng-benchmarking-self-evolving-agents-on-real-worl-2026
+  primary: benchmark
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: self-evolving-scientific-agent-designs-physically-reasoned-w-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: compositional-generative-inverse-design-2024
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
+  primary: method
+  secondary:
+  - benchmark
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: generating-physically-plausible-parachute-dynamics-with-deep-2026
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
+  evidence: method

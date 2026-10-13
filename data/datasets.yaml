@@ -811,6 +811,15 @@
       model for airfoil generation'
     url: https://arxiv.org/abs/2605.20303v2
     title_zh: AirfoilGen：一种构造即有效且性能感知的翼型生成潜在扩散模型
+  - id: structure-preserving-fourier-neural-operators-for-long-time-2026
+    title: Structure-preserving Fourier Neural Operators for Long-time Cahn-Hilliard
+      Dynamics under Coarse Temporal Supervision
+    url: https://arxiv.org/abs/2609.39053v1
+    title_zh: 粗时间监督下长时间 Cahn-Hilliard 动力学的保结构 Fourier Neural Operators
+  - id: compositional-generative-inverse-design-2024
+    title: Compositional Generative Inverse Design
+    url: https://arxiv.org/abs/2401.13171v2
+    title_zh: 组合式生成式逆向设计
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm

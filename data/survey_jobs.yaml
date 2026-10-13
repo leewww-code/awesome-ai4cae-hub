@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-13T01:50:29Z'
+generated_at: '2026-10-13T23:33:01Z'
 jobs:
 - id: method
   topic_id: method
@@ -208,6 +208,10 @@ jobs:
   - fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
   - staying-on-the-attractor-supervising-neural-surrogates-of-3-2026
   - toward-principled-generative-data-assimilation-of-turbulent-2026
+  - pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
+  - compositional-generative-inverse-design-2024
+  - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
+  - generating-physically-plausible-parachute-dynamics-with-deep-2026
   top_tags:
   - flu-dyn
   - LG
@@ -217,11 +221,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: b6daaefc9cd62657
+  prompt_hash: 4da4ba21c010ef95
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T01:52:08Z'
+  updated_at: '2026-10-13T23:34:11Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -317,6 +321,9 @@ jobs:
   - horses3d-gpu-a-high-order-discontinuous-galerkin-solver-for-2026
   - efficient-treatment-of-non-linearity-in-quantum-computationa-2026
   - fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
+  - frontier-eng-benchmarking-self-evolving-agents-on-real-worl-2026
+  - pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
+  - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
   top_tags:
   - flu-dyn
   - LG
@@ -326,11 +333,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 05754704df4a1081
+  prompt_hash: c4d9f68859f65a58
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T01:52:07Z'
+  updated_at: '2026-10-13T23:33:55Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -568,6 +575,11 @@ jobs:
   - fsan-flow-state-attention-network-for-aerodynamic-predictio-2026
   - score-based-stochastic-reduced-order-models-of-barotropic-qu-2026
   - toward-principled-generative-data-assimilation-of-turbulent-2026
+  - frontier-eng-benchmarking-self-evolving-agents-on-real-worl-2026
+  - self-evolving-scientific-agent-designs-physically-reasoned-w-2026
+  - pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
+  - compositional-generative-inverse-design-2024
+  - generating-physically-plausible-parachute-dynamics-with-deep-2026
   top_tags:
   - flu-dyn
   - LG
@@ -577,11 +589,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 65646fc1d9ad4f4b
+  prompt_hash: 6c02af8207550b08
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T01:53:36Z'
+  updated_at: '2026-10-13T23:34:44Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -606,9 +618,9 @@ jobs:
   - ao-ph
   prompt_hash: 54b5adb2169c2174
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-13T01:53:31Z'
+  updated_at: '2026-10-13T23:34:11Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -619,9 +631,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 11
+  attempts: 12
   error: ''
-  updated_at: '2026-10-13T01:53:31Z'
+  updated_at: '2026-10-13T23:34:11Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -685,6 +697,7 @@ jobs:
   - a-machine-learned-probability-distribution-in-the-phase-spac-2026
   - a-hybrid-proper-orthogonal-decomposition-and-diffusion-frame-2026
   - toward-principled-generative-data-assimilation-of-turbulent-2026
+  - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
   top_tags:
   - flu-dyn
   - LG
@@ -694,8 +707,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: e47cca8a020bc706
+  prompt_hash: 0a20272d5bf72175
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T01:55:04Z'
+  updated_at: '2026-10-13T23:35:03Z'
