@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-13T23:33:01Z'
+generated_at: '2026-10-14T22:37:22Z'
 jobs:
 - id: method
   topic_id: method
@@ -212,6 +212,8 @@ jobs:
   - compositional-generative-inverse-design-2024
   - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
   - generating-physically-plausible-parachute-dynamics-with-deep-2026
+  - comparative-study-of-canvas-and-coordinate-based-geometry-c-2026
+  - compute-optimal-data-scaling-for-neural-surrogates-via-multi-2026
   top_tags:
   - flu-dyn
   - LG
@@ -221,11 +223,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 4da4ba21c010ef95
+  prompt_hash: 1b7ac56a5b4b1a84
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T23:34:11Z'
+  updated_at: '2026-10-14T22:38:16Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -324,6 +326,7 @@ jobs:
   - frontier-eng-benchmarking-self-evolving-agents-on-real-worl-2026
   - pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
   - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
+  - comparative-study-of-canvas-and-coordinate-based-geometry-c-2026
   top_tags:
   - flu-dyn
   - LG
@@ -333,11 +336,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: c4d9f68859f65a58
+  prompt_hash: c901f89319f02405
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T23:33:55Z'
+  updated_at: '2026-10-14T22:38:12Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -580,6 +583,7 @@ jobs:
   - pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
   - compositional-generative-inverse-design-2024
   - generating-physically-plausible-parachute-dynamics-with-deep-2026
+  - cfd-forge-a-physics-constrained-agentic-framework-for-auton-2026
   top_tags:
   - flu-dyn
   - LG
@@ -589,11 +593,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 6c02af8207550b08
+  prompt_hash: 9ad345781d1f37e8
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-13T23:34:44Z'
+  updated_at: '2026-10-14T22:39:02Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -618,9 +622,9 @@ jobs:
   - ao-ph
   prompt_hash: 54b5adb2169c2174
   status: done
-  attempts: 2
+  attempts: 3
   error: ''
-  updated_at: '2026-10-13T23:34:11Z'
+  updated_at: '2026-10-14T22:38:16Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -631,9 +635,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 12
+  attempts: 13
   error: ''
-  updated_at: '2026-10-13T23:34:11Z'
+  updated_at: '2026-10-14T22:38:16Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -709,6 +713,6 @@ jobs:
   - CO
   prompt_hash: 0a20272d5bf72175
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-13T23:35:03Z'
+  updated_at: '2026-10-14T22:38:16Z'

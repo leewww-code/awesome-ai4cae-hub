@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-13T23:32:52Z'
+generated_at: '2026-10-14T22:37:15Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1998,4 +1998,20 @@ assignments:
   secondary:
   - system
   confidence: 0.65
+  evidence: method
+- paper_id: cfd-forge-a-physics-constrained-agentic-framework-for-auton-2026
+  primary: system
+  secondary: []
+  confidence: 0.38
+  evidence: system
+- paper_id: comparative-study-of-canvas-and-coordinate-based-geometry-c-2026
+  primary: method
+  secondary:
+  - benchmark
+  confidence: 0.65
+  evidence: method
+- paper_id: compute-optimal-data-scaling-for-neural-surrogates-via-multi-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
   evidence: method
