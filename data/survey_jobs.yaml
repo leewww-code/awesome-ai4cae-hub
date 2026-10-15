@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-14T22:37:22Z'
+generated_at: '2026-10-15T22:44:14Z'
 jobs:
 - id: method
   topic_id: method
@@ -225,9 +225,9 @@ jobs:
   - quant-ph
   prompt_hash: 1b7ac56a5b4b1a84
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-14T22:38:16Z'
+  updated_at: '2026-10-15T22:44:18Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -327,6 +327,7 @@ jobs:
   - pace-bench-benchmarking-physics-adaptation-via-code-evoluti-2026
   - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
   - comparative-study-of-canvas-and-coordinate-based-geometry-c-2026
+  - learnable-hodge-laplacian-driven-mixture-of-experts-for-stea-2026
   top_tags:
   - flu-dyn
   - LG
@@ -336,11 +337,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: c901f89319f02405
+  prompt_hash: 4a231fde1c127962
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-14T22:38:12Z'
+  updated_at: '2026-10-15T22:45:07Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -584,6 +585,10 @@ jobs:
   - compositional-generative-inverse-design-2024
   - generating-physically-plausible-parachute-dynamics-with-deep-2026
   - cfd-forge-a-physics-constrained-agentic-framework-for-auton-2026
+  - extreme-scale-super-resolution-of-homogeneous-turbulence-fro-2026
+  - online-reduced-order-modeling-from-primal-solver-trajectorie-2026
+  - real-refine-neural-operators-via-aligning-dynamical-flow-2026
+  - high-fidelity-three-dimensional-flow-field-reconstruction-dr-2026
   top_tags:
   - flu-dyn
   - LG
@@ -593,11 +598,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 9ad345781d1f37e8
+  prompt_hash: 4d2e20e74751332c
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-14T22:39:02Z'
+  updated_at: '2026-10-15T22:45:15Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -622,9 +627,9 @@ jobs:
   - ao-ph
   prompt_hash: 54b5adb2169c2174
   status: done
-  attempts: 3
+  attempts: 4
   error: ''
-  updated_at: '2026-10-14T22:38:16Z'
+  updated_at: '2026-10-15T22:45:07Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -635,9 +640,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 13
+  attempts: 14
   error: ''
-  updated_at: '2026-10-14T22:38:16Z'
+  updated_at: '2026-10-15T22:45:07Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -682,6 +687,7 @@ jobs:
   - fast-pde-constrained-optimization-via-self-supervised-operat-2021
   - deep-conservation-a-latent-dynamics-model-for-exact-satisfa-2019
   - conditional-flow-matching-for-generation-of-3d-multi-variabl-2026
+  - dynamic-quadtree-tokenization-and-transformer-for-adaptive-m-2026
   - wakeset-a-large-scale-high-reynolds-number-flow-dataset-fo-2026
   - turbulence-teaches-equivariance-to-neural-networks-2026
   - a-few-shot-and-physically-restorable-symbolic-regression-tur-2026
@@ -711,8 +717,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: 0a20272d5bf72175
+  prompt_hash: 73e706e0b7ea0680
   status: done
-  attempts: 2
+  attempts: 1
   error: ''
-  updated_at: '2026-10-14T22:38:16Z'
+  updated_at: '2026-10-15T22:45:56Z'

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-14T22:37:15Z'
+generated_at: '2026-10-15T22:44:06Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1571,6 +1571,7 @@ assignments:
   primary: method
   secondary:
   - benchmark
+  - application
   confidence: 0.65
   evidence: method
 - paper_id: spatial-context-or-memory-sizing-the-inputs-of-neural-surro-2026
@@ -2015,3 +2016,28 @@ assignments:
   secondary: []
   confidence: 0.25
   evidence: method
+- paper_id: learnable-hodge-laplacian-driven-mixture-of-experts-for-stea-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: extreme-scale-super-resolution-of-homogeneous-turbulence-fro-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: online-reduced-order-modeling-from-primal-solver-trajectorie-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: real-refine-neural-operators-via-aligning-dynamical-flow-2026
+  primary: system
+  secondary: []
+  confidence: 0.65
+  evidence: system
+- paper_id: high-fidelity-three-dimensional-flow-field-reconstruction-dr-2026
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system

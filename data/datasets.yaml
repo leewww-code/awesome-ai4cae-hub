@@ -820,6 +820,11 @@
     title: Compositional Generative Inverse Design
     url: https://arxiv.org/abs/2401.13171v2
     title_zh: 组合式生成式逆向设计
+  - id: learnable-hodge-laplacian-driven-mixture-of-experts-for-stea-2026
+    title: Learnable Hodge-Laplacian Driven Mixture of Experts for Steady-PDE Surrogates
+      on Coarse Unstructured Meshes
+    url: https://arxiv.org/abs/2610.20585v1
+    title_zh: 面向粗非结构化网格上稳态PDE代理模型的可学习Hodge-Laplacian驱动混合专家模型
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm
@@ -1259,3 +1264,26 @@
   notes_zh: 派生自论文：用于湍流三维含障碍通道流代理建模的经校验 LBM 数据集与流水线
   year: 2026
   preview: https://arxiv.org/html/2606.16765v1/images/reference_str_int.jpeg
+- id: paper-dynamic-quadtree-tokenization-and-transformer-for-adaptive-m-2026
+  name: Dynamic Quadtree Tokenization and Transformer for Adaptive Mesh PDE Forecasting
+  description: WAMRViT tokenizes inputs as balanced quadtrees and uses a transformer
+    with 3D rotary embeddings for adaptive, long-horizon PDE forecasting on AMR data.
+  tags: []
+  links:
+    paper: https://arxiv.org/abs/2610.04044v1
+    code: https://github.com/tonyzyl/wamrvit
+  sources:
+  - repo: papers
+    category: dataset
+  notes: 'Derived from paper: Dynamic Quadtree Tokenization and Transformer for Adaptive
+    Mesh PDE Forecasting'
+  related_papers:
+  - id: dynamic-quadtree-tokenization-and-transformer-for-adaptive-m-2026
+    title: Dynamic Quadtree Tokenization and Transformer for Adaptive Mesh PDE Forecasting
+    url: https://arxiv.org/abs/2610.04044v1
+    title_zh: 用于自适应网格 PDE 预测的动态四叉树 Tokenization 与 Transformer
+  name_zh: 用于自适应网格 PDE 预测的动态四叉树 Tokenization 与 Transformer
+  description_zh: WAMRViT以平衡四叉树分词并借3D RoPE，实现AMR PDE自适应网格长期预测。
+  notes_zh: 派生自论文：用于自适应网格 PDE 预测的动态四叉树 Tokenization 与 Transformer
+  year: 2026
+  preview: /assets/papers/dynamic-quadtree-tokenization-and-transformer-for-adaptive-m-2026/teaser.png
