@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-15T22:44:06Z'
+generated_at: '2026-10-16T22:20:36Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -2040,4 +2040,26 @@ assignments:
   primary: system
   secondary: []
   confidence: 0.67
+  evidence: system
+- paper_id: the-snapping-phenomenon-and-boundary-enforcement-in-model-re-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
+  confidence: 0.65
+  evidence: method
+- paper_id: thermochemically-constrained-multiscale-laplace-neural-opera-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
+  evidence: system
+- paper_id: latent-annealed-posterior-sampling-with-a-variance-preservin-2026
+  primary: benchmark
+  secondary: []
+  confidence: 0.65
+  evidence: benchmark
+- paper_id: learn-only-where-you-can-t-compute-structured-corrections-t-2026
+  primary: system
+  secondary: []
+  confidence: 0.37
   evidence: system

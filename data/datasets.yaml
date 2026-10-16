@@ -825,6 +825,11 @@
       on Coarse Unstructured Meshes
     url: https://arxiv.org/abs/2610.20585v1
     title_zh: 面向粗非结构化网格上稳态PDE代理模型的可学习Hodge-Laplacian驱动混合专家模型
+  - id: the-snapping-phenomenon-and-boundary-enforcement-in-model-re-2026
+    title: 'The Snapping Phenomenon and Boundary Enforcement in Model Reduction: Mechanisms
+      and Mitigation'
+    url: https://arxiv.org/abs/2610.22103v1
+    title_zh: 模型降阶中的突跳现象与边界施加：机理与缓解
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm
