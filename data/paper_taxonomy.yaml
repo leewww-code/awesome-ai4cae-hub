@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-16T22:20:36Z'
+generated_at: '2026-10-17T21:41:45Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -1283,6 +1283,7 @@ assignments:
   primary: system
   secondary:
   - method
+  - benchmark
   confidence: 0.67
   evidence: system
 - paper_id: transferability-of-learned-states-in-neural-pde-solvers-2026
@@ -2063,3 +2064,32 @@ assignments:
   secondary: []
   confidence: 0.37
   evidence: system
+- paper_id: probabilistic-simulation-of-gas-liquid-interfaces-with-coupl-2026
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: a-novel-deep-learning-method-for-the-predictions-of-current-2018
+  primary: method
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: data-driven-computing-with-convolutional-neural-networks-for-2018
+  primary: method
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
+  primary: system
+  secondary:
+  - method
+  - application
+  confidence: 0.67
+  evidence: system
+- paper_id: aerodynamic-data-reconstruction-and-inverse-design-using-pro-2004
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method

@@ -830,6 +830,10 @@
       and Mitigation'
     url: https://arxiv.org/abs/2610.22103v1
     title_zh: 模型降阶中的突跳现象与边界施加：机理与缓解
+  - id: unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
+    title: Unsteady Flow Sensing and Estimation via the Gappy Proper Orthogonal Decomposition
+    url: ''
+    title_zh: 基于Gappy Proper Orthogonal Decomposition的非定常流动感知与估计
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm

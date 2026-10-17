@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-16T22:20:44Z'
+generated_at: '2026-10-17T21:41:55Z'
 jobs:
 - id: method
   topic_id: method
@@ -215,6 +215,11 @@ jobs:
   - comparative-study-of-canvas-and-coordinate-based-geometry-c-2026
   - compute-optimal-data-scaling-for-neural-surrogates-via-multi-2026
   - the-snapping-phenomenon-and-boundary-enforcement-in-model-re-2026
+  - probabilistic-simulation-of-gas-liquid-interfaces-with-coupl-2026
+  - a-novel-deep-learning-method-for-the-predictions-of-current-2018
+  - data-driven-computing-with-convolutional-neural-networks-for-2018
+  - unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
+  - aerodynamic-data-reconstruction-and-inverse-design-using-pro-2004
   top_tags:
   - flu-dyn
   - LG
@@ -224,11 +229,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: b5ff76dbebcdeb01
+  prompt_hash: dc61a16059455318
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-16T22:22:05Z'
+  updated_at: '2026-10-17T21:42:51Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -303,6 +308,7 @@ jobs:
   - procedural-generation-of-conceptual-3d-ship-internal-arrange-2026
   - rsigym-a-flexible-environment-for-recursive-self-improvemen-2026
   - fusion-is-the-new-mutation-bandit-guided-evolution-on-workf-2026
+  - gen-pinns-generative-adversarial-physics-informed-neural-ne-2026
   - f-3-no-frequency-decomposed-finite-time-flow-map-neural-op-2026
   - reconstruction-of-multiscale-plasma-dynamics-across-operatin-2026
   - recursive-self-improvement-through-multi-agent-self-supervis-2026
@@ -340,11 +346,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 8054fdddc637e5fe
+  prompt_hash: ff33937978525173
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-16T22:21:46Z'
+  updated_at: '2026-10-17T21:42:51Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -595,6 +601,7 @@ jobs:
   - the-snapping-phenomenon-and-boundary-enforcement-in-model-re-2026
   - thermochemically-constrained-multiscale-laplace-neural-opera-2026
   - learn-only-where-you-can-t-compute-structured-corrections-t-2026
+  - unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
   top_tags:
   - flu-dyn
   - LG
@@ -604,11 +611,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 3f19d9c48387d201
+  prompt_hash: eb21590d84325262
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-16T22:22:34Z'
+  updated_at: '2026-10-17T21:43:41Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -633,9 +640,9 @@ jobs:
   - ao-ph
   prompt_hash: 54b5adb2169c2174
   status: done
-  attempts: 5
+  attempts: 6
   error: ''
-  updated_at: '2026-10-16T22:22:05Z'
+  updated_at: '2026-10-17T21:42:51Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -646,9 +653,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 15
+  attempts: 16
   error: ''
-  updated_at: '2026-10-16T22:22:05Z'
+  updated_at: '2026-10-17T21:42:52Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -714,6 +721,9 @@ jobs:
   - a-hybrid-proper-orthogonal-decomposition-and-diffusion-frame-2026
   - toward-principled-generative-data-assimilation-of-turbulent-2026
   - physics-aware-generative-models-for-turbulent-fluid-flows-th-2025
+  - a-novel-deep-learning-method-for-the-predictions-of-current-2018
+  - data-driven-computing-with-convolutional-neural-networks-for-2018
+  - unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
   top_tags:
   - flu-dyn
   - LG
@@ -723,8 +733,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: a18f9c0915de2cbe
+  prompt_hash: 47a2e4ce5bcb2230
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-16T22:23:11Z'
+  updated_at: '2026-10-17T21:43:42Z'
