@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-17T21:41:45Z'
+generated_at: '2026-10-18T21:44:13Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -2092,4 +2092,40 @@ assignments:
   primary: method
   secondary: []
   confidence: 0.25
+  evidence: method
+- paper_id: projection-based-model-reduction-formulations-for-physics-b-2019
+  primary: method
+  secondary:
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: uncertainty-quantification-in-computational-fluid-dynamics-2013
+  primary: method
+  secondary: []
+  confidence: 0.25
+  evidence: method
+- paper_id: an-efficient-deep-learning-technique-for-the-navier-stokes-e-2017
+  primary: method
+  secondary:
+  - system
+  - application
+  confidence: 0.65
+  evidence: method
+- paper_id: deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
+  primary: method
+  secondary:
+  - system
+  - theory
+  confidence: 0.65
+  evidence: method
+- paper_id: deep-learning-for-reduced-order-modelling-and-efficient-temp-2021
+  primary: system
+  secondary: []
+  confidence: 0.67
+  evidence: system
+- paper_id: predicting-physics-in-mesh-reduced-space-with-temporal-atten-2022
+  primary: method
+  secondary:
+  - system
+  confidence: 0.65
   evidence: method

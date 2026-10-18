@@ -834,6 +834,11 @@
     title: Unsteady Flow Sensing and Estimation via the Gappy Proper Orthogonal Decomposition
     url: ''
     title_zh: 基于Gappy Proper Orthogonal Decomposition的非定常流动感知与估计
+  - id: projection-based-model-reduction-formulations-for-physics-b-2019
+    title: 'Projection-based model reduction: Formulations for physics-based machine
+      learning'
+    url: ''
+    title_zh: 基于投影的模型降阶：面向基于物理的机器学习的公式化表述
   name_zh: 基于 OpenFOAM 的 CFD 中编码智能体的算例包运行模型
   description_zh: 提出案例包操作模型，用于OpenFOAM CFD编码智能体，重放140个几何变体与四个LLM后端验证。
 - id: hf-practicer-airfoil-cindm

@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-17T21:41:55Z'
+generated_at: '2026-10-18T21:44:23Z'
 jobs:
 - id: method
   topic_id: method
@@ -220,6 +220,11 @@ jobs:
   - data-driven-computing-with-convolutional-neural-networks-for-2018
   - unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
   - aerodynamic-data-reconstruction-and-inverse-design-using-pro-2004
+  - projection-based-model-reduction-formulations-for-physics-b-2019
+  - uncertainty-quantification-in-computational-fluid-dynamics-2013
+  - an-efficient-deep-learning-technique-for-the-navier-stokes-e-2017
+  - deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
+  - predicting-physics-in-mesh-reduced-space-with-temporal-atten-2022
   top_tags:
   - flu-dyn
   - LG
@@ -229,11 +234,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: dc61a16059455318
+  prompt_hash: 9c70757f3ff45fd2
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-17T21:42:51Z'
+  updated_at: '2026-10-18T21:45:15Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -348,9 +353,9 @@ jobs:
   - math-ph
   prompt_hash: ff33937978525173
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-17T21:42:51Z'
+  updated_at: '2026-10-18T21:44:29Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -602,6 +607,10 @@ jobs:
   - thermochemically-constrained-multiscale-laplace-neural-opera-2026
   - learn-only-where-you-can-t-compute-structured-corrections-t-2026
   - unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
+  - an-efficient-deep-learning-technique-for-the-navier-stokes-e-2017
+  - deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
+  - deep-learning-for-reduced-order-modelling-and-efficient-temp-2021
+  - predicting-physics-in-mesh-reduced-space-with-temporal-atten-2022
   top_tags:
   - flu-dyn
   - LG
@@ -611,11 +620,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: eb21590d84325262
+  prompt_hash: 5dadff96ea292c01
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-17T21:43:41Z'
+  updated_at: '2026-10-18T21:45:25Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -631,6 +640,7 @@ jobs:
   - physically-organized-latent-spaces-in-unsupervised-autoencod-2026
   - estimates-on-the-generalization-error-of-physics-informed-ne-2020
   - optimal-transport-guided-functional-flow-matching-for-turbul-2026
+  - deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
   top_tags:
   - flu-dyn
   - CO
@@ -638,11 +648,11 @@ jobs:
   - comp-ph
   - math-ph
   - ao-ph
-  prompt_hash: 54b5adb2169c2174
+  prompt_hash: c66c6bae91feaa11
   status: done
-  attempts: 6
+  attempts: 1
   error: ''
-  updated_at: '2026-10-17T21:42:51Z'
+  updated_at: '2026-10-18T21:46:00Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -653,9 +663,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 16
+  attempts: 17
   error: ''
-  updated_at: '2026-10-17T21:42:52Z'
+  updated_at: '2026-10-18T21:45:25Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -724,6 +734,8 @@ jobs:
   - a-novel-deep-learning-method-for-the-predictions-of-current-2018
   - data-driven-computing-with-convolutional-neural-networks-for-2018
   - unsteady-flow-sensing-and-estimation-via-the-gappy-proper-or-2004
+  - projection-based-model-reduction-formulations-for-physics-b-2019
+  - an-efficient-deep-learning-technique-for-the-navier-stokes-e-2017
   top_tags:
   - flu-dyn
   - LG
@@ -733,8 +745,8 @@ jobs:
   - SR
   - CE
   - CO
-  prompt_hash: 47a2e4ce5bcb2230
+  prompt_hash: 061aee30a0aeaf12
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-17T21:43:42Z'
+  updated_at: '2026-10-18T21:46:21Z'
