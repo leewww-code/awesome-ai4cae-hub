@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-18T21:44:23Z'
+generated_at: '2026-10-19T23:05:54Z'
 jobs:
 - id: method
   topic_id: method
@@ -225,6 +225,7 @@ jobs:
   - an-efficient-deep-learning-technique-for-the-navier-stokes-e-2017
   - deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
   - predicting-physics-in-mesh-reduced-space-with-temporal-atten-2022
+  - structural-affinity-an-algorithm-for-coherent-cage-based-sh-2026
   top_tags:
   - flu-dyn
   - LG
@@ -234,11 +235,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 9c70757f3ff45fd2
+  prompt_hash: 7442a852e23decad
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-18T21:45:15Z'
+  updated_at: '2026-10-19T23:06:49Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -342,6 +343,7 @@ jobs:
   - learnable-hodge-laplacian-driven-mixture-of-experts-for-stea-2026
   - the-snapping-phenomenon-and-boundary-enforcement-in-model-re-2026
   - latent-annealed-posterior-sampling-with-a-variance-preservin-2026
+  - learnable-hodge-laplacian-driven-mixture-of-experts-for-stea-2026
   top_tags:
   - flu-dyn
   - LG
@@ -351,11 +353,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: ff33937978525173
+  prompt_hash: 3bb7d5243dae8628
   status: done
-  attempts: 2
+  attempts: 1
   error: ''
-  updated_at: '2026-10-18T21:44:29Z'
+  updated_at: '2026-10-19T23:07:01Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -622,9 +624,9 @@ jobs:
   - CV
   prompt_hash: 5dadff96ea292c01
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-18T21:45:25Z'
+  updated_at: '2026-10-19T23:06:49Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -650,9 +652,9 @@ jobs:
   - ao-ph
   prompt_hash: c66c6bae91feaa11
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-18T21:46:00Z'
+  updated_at: '2026-10-19T23:06:49Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -663,9 +665,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 17
+  attempts: 18
   error: ''
-  updated_at: '2026-10-18T21:45:25Z'
+  updated_at: '2026-10-19T23:06:49Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -747,6 +749,6 @@ jobs:
   - CO
   prompt_hash: 061aee30a0aeaf12
   status: done
-  attempts: 1
+  attempts: 2
   error: ''
-  updated_at: '2026-10-18T21:46:21Z'
+  updated_at: '2026-10-19T23:06:49Z'

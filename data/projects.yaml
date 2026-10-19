@@ -57,7 +57,7 @@
   category: GitHub project
   description: A curated list of repositories related to fluid dynamics.
   tags: []
-  stars: 206
+  stars: 207
   links:
     github: https://github.com/thw1021/Code4CFD
   sources:
@@ -91,7 +91,7 @@
   - sph
   - surrogate-model
   - visualization
-  stars: 60
+  stars: 62
   links:
     github: https://github.com/kimimgo/awesome-ai-cae
   sources:
