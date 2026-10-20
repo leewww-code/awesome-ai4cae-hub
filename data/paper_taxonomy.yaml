@@ -1,5 +1,5 @@
 schema_version: awesome-hub.paperTaxonomy.v1
-generated_at: '2026-10-19T23:05:44Z'
+generated_at: '2026-10-20T22:36:45Z'
 assignments:
 - paper_id: a-case-bundle-operating-model-for-coding-agents-in-openfoam-2026
   primary: system
@@ -2137,5 +2137,12 @@ assignments:
 - paper_id: structural-affinity-an-algorithm-for-coherent-cage-based-sh-2026
   primary: method
   secondary: []
+  confidence: 0.65
+  evidence: method
+- paper_id: cis-transolver-a-cross-layer-incremental-state-neural-opera-2026
+  primary: method
+  secondary:
+  - benchmark
+  - system
   confidence: 0.65
   evidence: method

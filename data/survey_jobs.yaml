@@ -1,5 +1,5 @@
 schema_version: awesome-hub.survey-jobs.v1
-generated_at: '2026-10-19T23:05:54Z'
+generated_at: '2026-10-20T22:36:55Z'
 jobs:
 - id: method
   topic_id: method
@@ -226,6 +226,7 @@ jobs:
   - deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
   - predicting-physics-in-mesh-reduced-space-with-temporal-atten-2022
   - structural-affinity-an-algorithm-for-coherent-cage-based-sh-2026
+  - cis-transolver-a-cross-layer-incremental-state-neural-opera-2026
   top_tags:
   - flu-dyn
   - LG
@@ -235,11 +236,11 @@ jobs:
   - RO
   - CV
   - quant-ph
-  prompt_hash: 7442a852e23decad
+  prompt_hash: 8cd475398214ffe6
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-19T23:06:49Z'
+  updated_at: '2026-10-20T22:37:58Z'
 - id: benchmark
   topic_id: benchmark
   topic_path: benchmark
@@ -344,6 +345,7 @@ jobs:
   - the-snapping-phenomenon-and-boundary-enforcement-in-model-re-2026
   - latent-annealed-posterior-sampling-with-a-variance-preservin-2026
   - learnable-hodge-laplacian-driven-mixture-of-experts-for-stea-2026
+  - cis-transolver-a-cross-layer-incremental-state-neural-opera-2026
   top_tags:
   - flu-dyn
   - LG
@@ -353,11 +355,11 @@ jobs:
   - AI
   - quant-ph
   - math-ph
-  prompt_hash: 3bb7d5243dae8628
+  prompt_hash: e411143e36cd9609
   status: done
   attempts: 1
   error: ''
-  updated_at: '2026-10-19T23:07:01Z'
+  updated_at: '2026-10-20T22:38:10Z'
 - id: system
   topic_id: system
   topic_path: system
@@ -613,6 +615,7 @@ jobs:
   - deep-dynamical-modeling-and-control-of-unsteady-fluid-flows-2018
   - deep-learning-for-reduced-order-modelling-and-efficient-temp-2021
   - predicting-physics-in-mesh-reduced-space-with-temporal-atten-2022
+  - cis-transolver-a-cross-layer-incremental-state-neural-opera-2026
   top_tags:
   - flu-dyn
   - LG
@@ -622,11 +625,11 @@ jobs:
   - AI
   - RO
   - CV
-  prompt_hash: 5dadff96ea292c01
+  prompt_hash: aedb7cdd3b62df9d
   status: done
-  attempts: 2
+  attempts: 1
   error: ''
-  updated_at: '2026-10-19T23:06:49Z'
+  updated_at: '2026-10-20T22:39:03Z'
 - id: theory
   topic_id: theory
   topic_path: theory
@@ -652,9 +655,9 @@ jobs:
   - ao-ph
   prompt_hash: c66c6bae91feaa11
   status: done
-  attempts: 2
+  attempts: 3
   error: ''
-  updated_at: '2026-10-19T23:06:49Z'
+  updated_at: '2026-10-20T22:38:10Z'
 - id: survey
   topic_id: survey
   topic_path: survey
@@ -665,9 +668,9 @@ jobs:
   - RO
   prompt_hash: e6eead4891fb1178
   status: done
-  attempts: 18
+  attempts: 19
   error: ''
-  updated_at: '2026-10-19T23:06:49Z'
+  updated_at: '2026-10-20T22:38:10Z'
 - id: application
   topic_id: application
   topic_path: application
@@ -749,6 +752,6 @@ jobs:
   - CO
   prompt_hash: 061aee30a0aeaf12
   status: done
-  attempts: 2
+  attempts: 3
   error: ''
-  updated_at: '2026-10-19T23:06:49Z'
+  updated_at: '2026-10-20T22:38:10Z'

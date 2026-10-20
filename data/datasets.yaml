@@ -981,6 +981,11 @@
       Drag Coefficient Prediction'
     url: https://arxiv.org/abs/2609.31765v1
     title_zh: HGPTrans：用于汽车气动阻力系数预测的分层图池化 Transolver
+  - id: cis-transolver-a-cross-layer-incremental-state-neural-opera-2026
+    title: 'CIS-Transolver: A Cross-Layer Incremental-State Neural Operator for Fine-Scale
+      Automotive Aerodynamic Flow Prediction'
+    url: https://arxiv.org/abs/2610.26337v1
+    title_zh: CIS-Transolver：一种用于细尺度汽车气动流预测的跨层增量状态神经算子
   year: 2024
   preview: https://arxiv.org/html/2403.08055v2/figures/Figure_1.png
   name_zh: FSAN
